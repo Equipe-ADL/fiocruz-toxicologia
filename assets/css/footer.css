@@ -69,11 +69,12 @@ footer .logos img {
 }
 @media (min-width: 1200px) {
 	footer .logos img {
-		height: 100px;
+		height: 80px;
 	}
 }
 @media (min-width: 1320px) {
-	:root {
-		--logo-space: 50px;
+	footer .logos img {
+		height: 100px;
 	}
+
 }
