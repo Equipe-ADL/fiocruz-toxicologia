@@ -52,30 +52,28 @@ html {
 
 .hero-title h1 {
 	display: block;
-	color: var(--fio-sys-color-primary-medium-contrast);
+	color: var(--fio-sys-color-primary-light-contrast);
 	font-size: var(--fio-sys-typography-head-lg-size);
 	margin-bottom: 0;
 	text-align: center;
-	text-shadow: 0 2px 2px var(--fio-sys-typography-head-color);
 	translate: 0 -20%;
 }
 
 .hero-title h1 .label {
-	color: var(--fio-sys-color-primary-dark-contrast);
+	color: var(--fio-sys-color-primary-light-contrast);
 	display: block;
 	font-family: var(--fio-sys-typography-label-family);
 	font-size: var(--fio-sys-typography-label-md-size);
 	font-weight: var(--fio-sys-typography-label-weight);
-	letter-spacing: var(--fio-sys-typography-label-tracking);
 	text-transform: var(--fio-sys-typography-label-transform);
 	margin-bottom: var(--fio-sys-spacing-margin-sm);
 }
 
 .hero-title h1 span {
 	display: block;
-	color: var(--fio-sys-color-primary-medium-contrast);
+	color: var(--fio-sys-color-primary-light-contrast);
 	display: block;
-	font-family: var(--fio-ref-typography-family-secondary-light);
+	font-family: var(--fio-ref-typography-family-primary);
 	font-weight: var(--fio-ref-typography-weight-normal);
 	font-size: var(--fio-sys-typography-head-md-size);
 	margin-top: var(--fio-sys-spacing-margin-sm);
@@ -159,7 +157,7 @@ html {
 
 .heading__block .heading__title {
 	font-family: var(--fio-sys-typography-head-family);
-	/* font-size: var(--fio-sys-typography-head-lg-size); */
+	font-size: var(--fio-sys-typography-head-lg-size);
 	font-weight: var(--fio-sys-typography-head-weight);
 	line-height: var(--fio-sys-typography-head-md-line-height);
 	margin-bottom: var(--fio-sys-spacing-vertical-xs);
@@ -329,7 +327,7 @@ section {
 #course-program .modulo-grupo .modulo-item span {
 	color: var(--fio-sys-color-primary-medium);
 	text-align: center;
-	font-family: "Jost Regular";
+	font-family: "Montserrat Regular";
 	font-size: 26px;
 	justify-self: start;
 	flex-grow: 1;

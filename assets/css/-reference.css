@@ -3,8 +3,8 @@
 :root {
 	/* --- KEY COLORS - HSL format --- */
 
-	--fio-ref-color-primary: 12, 77%; /* hue, saturation% */
-	--fio-ref-color-secondary: 224, 79%;
+	--fio-ref-color-primary: 28, 22%; /* hue, saturation% */
+	--fio-ref-color-secondary: 214, 65%;
 	--fio-ref-color-tertiary: 40, 32%;
 	--fio-ref-color-neutral: 0, 6%;
 	--fio-ref-color-text: var(--fio-ref-color-neutral);
@@ -209,14 +209,14 @@
 
 	/* --- TYPOGRAPHY --- */
 
-	--fio-ref-typography-family-primary: Jost;
-	--fio-ref-typography-family-secondary: Jost;
+	--fio-ref-typography-family-primary: Montserrat;
+	--fio-ref-typography-family-secondary: Montserrat;
 
 
 	--fio-ref-typography-family-secondary-light: var(--fio-ref-typography-family-primary) Light, sans-serif;
 	--fio-ref-typography-family-secondary-regular: var(--fio-ref-typography-family-secondary) Regular, serif;
 	--fio-ref-typography-family-secondary-bold: var(--fio-ref-typography-family-secondary) Bold, serif;
-	--fio-ref-typography-family-secondary-black: var(--fio-ref-typography-family-secondary) Black, serif;
+	--fio-ref-typography-family-secondary-black: var(--fio-ref-typography-family-secondary) ExtraBold, serif;
 
 	--fio-ref-typography-family-primary-light: var(--fio-ref-typography-family-primary) Light, sans-serif;
 	--fio-ref-typography-family-primary-light-italic: var(--fio-ref-typography-family-primary) Light Italic, sans-serif;
@@ -224,8 +224,8 @@
 	--fio-ref-typography-family-primary-italic: var(--fio-ref-typography-family-primary) Italic, sans-serif;
 	--fio-ref-typography-family-primary-bold: var(--fio-ref-typography-family-primary) Bold, sans-serif;
 	--fio-ref-typography-family-primary-bold-italic: var(--fio-ref-typography-family-primary) Bold Italic, sans-serif;
-	--fio-ref-typography-family-primary-black: var(--fio-ref-typography-family-primary) Black, sans-serif;
-	--fio-ref-typography-family-primary-black-italic: var(--fio-ref-typography-family-primary) Black Italic, sans-serif;
+	--fio-ref-typography-family-primary-black: var(--fio-ref-typography-family-primary) , sans-serif;
+	--fio-ref-typography-family-primary-black-italic: var(--fio-ref-typography-family-primary) Extrabold Italic, sans-serif;
 
 	--fio-ref-typography-size-base: var(--fio-ref-size-base) * 1;
 
