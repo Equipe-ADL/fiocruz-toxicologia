@@ -4,7 +4,7 @@
 	/* --- KEY COLORS - HSL format --- */
 
 	--fio-ref-color-primary: 28, 22%; /* hue, saturation% */
-	--fio-ref-color-secondary: 214, 65%;
+	--fio-ref-color-secondary: 190, 100%;
 	--fio-ref-color-tertiary: 40, 32%;
 	--fio-ref-color-neutral: 0, 6%;
 	--fio-ref-color-text: var(--fio-ref-color-neutral);

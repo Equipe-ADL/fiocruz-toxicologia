@@ -184,9 +184,8 @@ section {
 
 #page-title .title {
 	text-align: left;
-	color: var(--fio-sys-color-neutral-white);
+	color: var(--fio-sys-color-primary-dark);
 	font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.7);
-	text-shadow: var(--fio-sys-elevation-md);
 }
 
 #page-title .title .label {
@@ -216,7 +215,7 @@ section {
 
 	#page-title .title {
 		text-align: right;
-		color: var(--fio-sys-color-neutral-white);
+		
 		font-size: var(--fio-sys-typography-head-xl-size);
 		line-height: var(--fio-sys-typography-head-sm-line-height);
 	}

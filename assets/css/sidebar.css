@@ -7,22 +7,21 @@
 #sidebar {
 	--_sidebar-desktop-size: 380px;
 	--_sidebar-mobile-size: 100%;
-	--_sidebar-background-color: var(--fio-sys-color-primary-medium);
+	--_sidebar-background-color: var(--fio-ref-color-secondary-70);
 	--_sidebar-border: none;
 	--_sidebar-mobile-course-name-color: var(--fio-sys-color-neutral-white);
 
-	--_sidebar-module-btn--active: var(--fio-sys-color-accent-medium);
-	--_sidebar-module-btn--hover: #872912;
+	--_sidebar-module-btn--active: var(--fio-ref-color-secondary-40);
+	--_sidebar-module-btn--hover: var(--fio-ref-color-secondary-40);
 	--_sidebar-module-btn-color: var(--fio-sys-color-neutral-white);
-	--_sidebar-module-content-background-color: #872912;
 
-	--_sidebar-lesson-btn--active: var(--fio-sys-color-primary-medium);
-	--_sidebar-lesson-btn--hover: var(--fio-sys-color-primary-medium);
+	--_sidebar-lesson-btn--active: var(--fio-sys-color-accent-dark);
+	--_sidebar-lesson-btn--hover: var(--fio-sys-color-accent-dark);
 	--_sidebar-lesson-btn-color: var(--fio-sys-color-neutral-white);
 	--_sidebar-lesson-content-background-color: #872912;
 
-	--_sidebar-link-item--hover: var(--fio-sys-color-primary-medium);
-	--_sidebar-link-item--active: var(--fio-sys-color-primary-light-contrast);
+	--_sidebar-link-item--hover: var(--fio-sys-color-accent-dark);
+	--_sidebar-link-item--active: var(--fio-sys-color-accent-light-contrast);
 	--_sidebar-link-item-color: var(--fio-sys-color-neutral-white);
 
 	/* --_sidebar-link-item--active: rgba(255, 255, 255, 0.2); */
@@ -75,7 +74,7 @@
 /* Close button */
 
 #sidebar .mobile-toggle-close:focus {
-	background-color: var(--fio-sys-color-primary-dark);
+	background-color: var(--fio-sys-color-accent-dark);
 	border-radius: var(--fio-sys-spacing-border-radius-md);
 }
 #sidebar .mobile-toggle-close .mobile-toggle__button {
@@ -129,7 +128,7 @@
 #sidebar .accordion-item .accordion-header .accordion-button:focus {
 	gap: 16px;
 	background: transparent;
-	color: var(--fio-sys-color-neutral-white);
+	color: var(--fio-sys-color-accent-dark);
 	border-radius: 8px;
 	outline: 0;
 	box-shadow: none;
@@ -149,16 +148,19 @@
 }
 #sidebar .sidebar__section .sidebar__section-accordion .accordion-header .accordion-button:not(.collapsed)::before {
 	transform: rotate(-180deg);
+	color: var(--fio-sys-color-neutral-white);
 }
 #sidebar .accordion .accordion-item.accordion-module .accordion-header .accordion-button:hover {
 	background-color: var(--_sidebar-module-btn--hover);
+	color: var(--fio-sys-color-neutral-white);
 }
 #sidebar .accordion .accordion-item.accordion-module .accordion-header .accordion-button:not(.collapsed) {
 	background-color: var(--_sidebar-module-btn--active);
+	color: var(--fio-sys-color-neutral-white);
 }
 #sidebar .accordion .accordion-item .accordion-collapse {
 	/* background-color: transparent; */
-	background-color: var(--_sidebar-module-content-background-color);
+	background-color: var(--fio-sys-color-accent-medium);
 	margin-top: 8px;
 	border-radius: 8px;
 }
@@ -166,6 +168,7 @@
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button {
 	text-transform: none;
 	font-weight: 400;
+	color: var(--fio-sys-color-neutral-white);
 }
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:hover {
 	background-color: var(--_sidebar-lesson-btn--hover);
@@ -199,7 +202,7 @@
 	/* background-color: var(--_sidebar-link-item--active); */
 	color: var(--_sidebar-link-item-color);
 	border-radius: 8px;
-	border: 2px solid var(--fio-sys-color-primary-light);
+	border: 2px solid var(--fio-sys-color-accent-light);
 }
 #sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group .list-group-item.active::before {
 	.material-symbols-outlined {
@@ -307,7 +310,7 @@
 		position: fixed;
 		left: 380px;
 		top: 100px;
-		background-color: var(--fio-sys-color-primary-medium);
+		background-color: var(--fio-ref-color-secondary-70);
 		border-top-right-radius: 12px;
 		border-bottom-right-radius: 12px;
 		border: none;
