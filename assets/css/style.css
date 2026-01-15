@@ -184,13 +184,14 @@ section {
 
 #page-title .title {
 	text-align: left;
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-medium);
 	font-size: calc(var(--fio-sys-typography-head-lg-size) * 0.7);
 }
 
 #page-title .title .label {
 	font-family: var(--fio-sys-typography-label-family);
 	font-size: var(--fio-sys-typography-label-md-size);
+	color: var(--fio-sys-color-primary-dark);
 	line-height: var(--fio-sys-typography-label-height);
 	text-transform: var(--fio-sys-typography-label-transform);
 	letter-spacing: var(--fio-sys-typography-label-tracking);
@@ -215,7 +216,6 @@ section {
 
 	#page-title .title {
 		text-align: right;
-		
 		font-size: var(--fio-sys-typography-head-xl-size);
 		line-height: var(--fio-sys-typography-head-sm-line-height);
 	}

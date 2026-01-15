@@ -7,12 +7,12 @@
 #sidebar {
 	--_sidebar-desktop-size: 380px;
 	--_sidebar-mobile-size: 100%;
-	--_sidebar-background-color: var(--fio-ref-color-secondary-70);
+	--_sidebar-background-color: var(--fio-ref-color-secondary-40);
 	--_sidebar-border: none;
 	--_sidebar-mobile-course-name-color: var(--fio-sys-color-neutral-white);
 
-	--_sidebar-module-btn--active: var(--fio-ref-color-secondary-40);
-	--_sidebar-module-btn--hover: var(--fio-ref-color-secondary-40);
+	--_sidebar-module-btn--active: var(--fio-ref-color-secondary-30);
+	--_sidebar-module-btn--hover: var(--fio-ref-color-secondary-30);
 	--_sidebar-module-btn-color: var(--fio-sys-color-neutral-white);
 
 	--_sidebar-lesson-btn--active: var(--fio-sys-color-accent-dark);
@@ -310,7 +310,7 @@
 		position: fixed;
 		left: 380px;
 		top: 100px;
-		background-color: var(--fio-ref-color-secondary-70);
+		background-color: var(--fio-ref-color-secondary-40);
 		border-top-right-radius: 12px;
 		border-bottom-right-radius: 12px;
 		border: none;

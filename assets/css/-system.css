@@ -16,7 +16,7 @@
 	--fio-sys-color-primary-background-light: var(--fio-ref-color-primary-99);
 
 	/* Accent - 30% layout */
-	--fio-sys-color-accent-light: var(--fio-ref-color-secondary-70);
+	--fio-sys-color-accent-light: var(--fio-ref-color-secondary-60);
 	--fio-sys-color-accent-light-contrast: var(--fio-ref-color-secondary-20);
 	--fio-sys-color-accent-medium: var(--fio-ref-color-secondary-40);
 	--fio-sys-color-accent-medium-contrast: var(--fio-ref-color-secondary-95);

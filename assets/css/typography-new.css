@@ -157,7 +157,7 @@ h6,
 }
 
 p {
-  color: var(--fio-sys-color-neutral-extra-dark);
+  color: var(--fio-sys-color-primary-dark);
   font-family: var(--fio-sys-typography-family-primary-regular);
   font-size: var(--fio-sys-typography-size-0);
   font-weight: var(--fio-sys-typography-weight-medium);

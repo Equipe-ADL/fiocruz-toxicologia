@@ -231,7 +231,7 @@ section {
 #course-program .card .card-header {
 	background: none;
 	border: none;
-	color: var(--fio-sys-color-primary-dark);
+	color: var(--fio-sys-color-primary-medium);
 	display: block;
 	font-family: var(--fio-sys-typography-head-family);
 	font-size: var(--fio-sys-typography-head-lg-size);
