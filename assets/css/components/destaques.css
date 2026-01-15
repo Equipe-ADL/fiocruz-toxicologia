@@ -131,7 +131,7 @@
 
 .destaque-parallax {
 	--_destaque-divisor-background: var(--fio-sys-color-accent-contrast);
-	--destaque-background-gradient: linear-gradient(0deg, rgba(224, 70, 0, 0.9), rgba(224, 70, 0, 0.2));
+	--destaque-background-gradient: linear-gradient(0deg, rgba(209, 137, 66, 0.8), rgba(28, 139, 130, 0.8));
 	--_destaque-background-image:url('../../../sources/recursos-visuais/images/bg-destaque.jpg');
 	--_destaque-background-color: var(--fio-sys-color-primary-medium);
 	--_destaque-background-size: cover;
@@ -155,3 +155,19 @@
 	color: var(--_destaque-color);
 	font-size: var(--fio-sys-typography-size-1);
 }
+
+
+.destaque-parallax span {
+	color: var(--_destaque-color);
+}
+
+
+.destaque-parallax a {
+	color: var(--fio-sys-color-neutral-white)!important;
+	background-color: var(--fio-ref-color-primary-40);
+}
+
+.destaque-parallax a:hover {
+	background-color: var(--fio-sys-color-primary-dark)!important;
+}
+
