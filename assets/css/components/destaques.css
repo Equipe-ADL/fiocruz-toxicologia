@@ -43,8 +43,7 @@
 
 /*** Destaque Box Cor - Média ênfase ***/
 .box-cor {
-	--_destaque-box-cor-background: var(--fio-sys-color-primary-light);
-	--_destaque-box-cor-background-image: url(../../../media/templates/bg-box-m1.svg);
+  	background: linear-gradient(0deg, rgba(28, 130, 130, 0.1), rgba(210, 164, 64, 0.1)), url(../../../media/templates/bg-box-cor.png) no-repeat center;
 	--_destaque-box-cor-title-color:var(--fio-sys-color-accent-dark);
 	--_destaque-box-cor-text-color:var(--fio-sys-color-neutral-normal);
 	--_destaque-box-cor-border-color: var(--fio-sys-color-accent-dark);
