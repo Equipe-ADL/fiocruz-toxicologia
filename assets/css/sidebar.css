@@ -23,6 +23,7 @@
 	--_sidebar-link-item--hover: var(--fio-sys-color-accent-dark);
 	--_sidebar-link-item--active: var(--fio-sys-color-accent-light-contrast);
 	--_sidebar-link-item-color: var(--fio-sys-color-neutral-white);
+	--_sidebar-line-height: 1.25rem;
 
 	/* --_sidebar-link-item--active: rgba(255, 255, 255, 0.2); */
 
@@ -128,10 +129,11 @@
 #sidebar .accordion-item .accordion-header .accordion-button:focus {
 	gap: 16px;
 	background: transparent;
-	color: var(--fio-sys-color-accent-dark);
+	color: var(--fio-sys-color-neutral-white);
 	border-radius: 8px;
 	outline: 0;
 	box-shadow: none;
+	line-height: var(--_sidebar-line-height);
 }
 #sidebar .sidebar__section .sidebar__section-accordion .accordion-header .accordion-button::after {
 	content: none;
@@ -157,6 +159,7 @@
 #sidebar .accordion .accordion-item.accordion-module .accordion-header .accordion-button:not(.collapsed) {
 	background-color: var(--_sidebar-module-btn--active);
 	color: var(--fio-sys-color-neutral-white);
+	line-height: var(--_sidebar-line-height);
 }
 #sidebar .accordion .accordion-item .accordion-collapse {
 	/* background-color: transparent; */
@@ -169,6 +172,7 @@
 	text-transform: none;
 	font-weight: 400;
 	color: var(--fio-sys-color-neutral-white);
+	line-height: var(--_sidebar-line-height);
 }
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:hover {
 	background-color: var(--_sidebar-lesson-btn--hover);

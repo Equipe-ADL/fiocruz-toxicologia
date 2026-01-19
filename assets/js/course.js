@@ -71,7 +71,7 @@ const course = {
         },
         {
           type: "accordion",
-          title: "Aula 2 | Fundamentos da Toxicocinética, Toxicodinâmica da Exposição Tóxica e Epidemiologia",
+          title: "Aula 2 | Fundamentos da Toxicocinética e toxicodinâmica dos agentes tóxicos e sua relação com a epidemiologia ",
           items: [
             { type: "link", icon: "lesson", title: "Sobre esta aula", path: "/modulo2/aula2/sobre-aula.html" },
             { type: "link", icon: "lesson", title: "Tópico 1: Introdução", path: "/modulo2/aula2/topico1.html" },

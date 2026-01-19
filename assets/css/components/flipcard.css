@@ -110,7 +110,7 @@
 .flipcard .flip-card-front .card-title {
 	/* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65) !important; */
 	text-align: center;
-	color:var(--fio-sys-color-neutral-white);
+	color:var(--fio-sys-color-primary-medium);
 	line-height: var(--fio-sys-typography-head-md-line-height);
 }
 
