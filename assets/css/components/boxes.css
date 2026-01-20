@@ -70,7 +70,7 @@
 
 }
 /* Curiosidade */
-.box[data-box='curiosidade'] .card .card-header .icone::before {
+.box[data-box='Você sabia?'] .card .card-header .icone::before {
 	content: 'question_mark';
 }
 
@@ -115,6 +115,12 @@
 /* Saiba mais */
 .box[data-box='saiba mais'] .card .card-header .icone::before {
 	content: 'info';
+}
+
+.saiba-mais .saiba-mais__content {
+	background:var(--fio-sys-color-primary-medium-contrast);
+	border-radius: 0 0 var(--fio-sys-size-radius-lg)var(--fio-sys-size-radius-lg);
+	padding: var(--fio-sys-size-margin-sm);
 }
 
 .box .card .card-body {

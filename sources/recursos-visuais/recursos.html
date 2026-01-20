@@ -268,7 +268,7 @@
 										<!-- Aba 1 -->
 										<div class="tab-pane fade show active" id="pills-accordion-exemplos" role="tabpanel" aria-labelledby="pills-accordion-exemplos-tab">
 											<!-- Accordion -->
-											<div class="accordion accordion-flush" id="accordionExample2">
+											<div class="accordion accordion-flush aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="800" id="accordionExample">
 												<div class="accordion-item">
 													<h5 class="accordion-header" id="heading1-item1">
 														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Accordion ítem 1</button>
@@ -318,6 +318,39 @@
 													<div id="collapse1-item3" class="accordion-collapse collapse" aria-labelledby="heading1-item3" data-bs-parent="">
 														<div class="accordion-body">
 															<p>Conteúdo Accordion 3</p>
+														</div>
+													</div>
+												</div>
+
+												<div class="accordion-item">
+													<h5 class="accordion-header" id="heading1-item4">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Accordion ítem 4</button>
+													</h5>
+													<div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
+														<div class="accordion-body">
+															<p>Conteúdo Accordion 4</p>
+														</div>
+													</div>
+												</div>
+
+												<div class="accordion-item">
+													<h5 class="accordion-header" id="heading1-item5">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item5" aria-expanded="false" aria-controls="collapse1-item5">Accordion ítem 5</button>
+													</h5>
+													<div id="collapse1-item5" class="accordion-collapse collapse" aria-labelledby="heading1-item5" data-bs-parent="">
+														<div class="accordion-body">
+															<p>Conteúdo Accordion 5</p>
+														</div>
+													</div>
+												</div>
+
+												<div class="accordion-item">
+													<h5 class="accordion-header" id="heading1-item6">
+														<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item6" aria-expanded="false" aria-controls="collapse1-item6">Accordion ítem 6</button>
+													</h5>
+													<div id="collapse1-item6" class="accordion-collapse collapse" aria-labelledby="heading1-item6" data-bs-parent="">
+														<div class="accordion-body">
+															<p>Conteúdo Accordion 6</p>
 														</div>
 													</div>
 												</div>
@@ -823,52 +856,6 @@
 												</div>
 											</div>
 
-											<div id="box-reflexion" class="row justify-content-center mb-5">
-												<div class="col-12">
-													<h6>Box de Saiba Mais</h6>
-
-													<!-- Box de Saiba Mais -->
-													<div class="box" data-box="saiba mais">
-														<div class="card ">
-															<div class="card-header">
-																<span class="icone material-symbols-rounded" aria-hidden="true"></span>
-																<span class="label">Saiba Mais</span>
-															</div>
-															<div class="card-body">
-																<p>Mauris quis nisi ex. Vivamus et sodales ipsum,
-																	vulputate interdum nisl. Proin sit amet tellus sem.
-																	Etiam fringilla, diam et pellentesque sodales, mi
-																	est maximus ex, vitae malesuada augue tortor vitae
-																	nisi. Lorem ipsum dolor sit amet, consectetur
-																	adipiscing elit. Pellentesque ac luctus eros, quis
-																	lobortis odio. Morbi in massa quis lorem porttitor
-																	tempus.</p>
-															</div>
-														</div>
-													</div>
-													<!-- Fim do Box de Saiba Mais -->
-												</div>
-											</div>
-
-											<div id="box-know-more" class="row justify-content-center mb-5">
-												<div class="col-12">
-													<h6>Saiba Mais (versão toggle)</h6>
-
-													<!-- Saiba Mais -->
-													<div class="saiba-mais aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-														<div class="saiba-mais__header">
-															<button class="fio-button button-md fio-button-primary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true">touch_app</span> Saiba
-																mais</button>
-														</div>
-														<div class="saiba-mais__content collapse" id="saiba-mais1">
-															<p>Ferramenta adotada para registrar os primeiros casos de
-																COVID-19. Já utilizada em crises anteriores, como
-																chikungunya e microcefalia.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-
 											<div id="box-audio" class="row justify-content-center mb-5">
 												<div class="col-12">
 													<h6>Box de Para Escutar</h6>
@@ -1008,6 +995,52 @@
 														</div>
 													</div>
 													<!-- Fim do Box de Para Assistir -->
+												</div>
+											</div>
+
+											<div id="box-reflexion" class="row justify-content-center mb-5">
+												<div class="col-12">
+													<h6>Box de Saiba Mais</h6>
+
+													<!-- Box de Saiba Mais -->
+													<div class="box" data-box="saiba mais">
+														<div class="card ">
+															<div class="card-header">
+																<span class="icone material-symbols-rounded" aria-hidden="true"></span>
+																<span class="label">Saiba Mais</span>
+															</div>
+															<div class="card-body">
+																<p>Mauris quis nisi ex. Vivamus et sodales ipsum,
+																	vulputate interdum nisl. Proin sit amet tellus sem.
+																	Etiam fringilla, diam et pellentesque sodales, mi
+																	est maximus ex, vitae malesuada augue tortor vitae
+																	nisi. Lorem ipsum dolor sit amet, consectetur
+																	adipiscing elit. Pellentesque ac luctus eros, quis
+																	lobortis odio. Morbi in massa quis lorem porttitor
+																	tempus.</p>
+															</div>
+														</div>
+													</div>
+													<!-- Fim do Box de Saiba Mais -->
+												</div>
+											</div>
+
+											<div id="box-know-more" class="row justify-content-center mb-5">
+												<div class="col-12">
+													<h6>Saiba Mais (versão toggle)</h6>
+
+													<!-- Saiba Mais -->
+													<div class="saiba-mais aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
+														<div class="saiba-mais__header">
+															<button class="fio-button button-md fio-button-primary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true">touch_app</span> Saiba
+																mais</button>
+														</div>
+														<div class="saiba-mais__content collapse" id="saiba-mais1">
+															<p>Ferramenta adotada para registrar os primeiros casos de
+																COVID-19. Já utilizada em crises anteriores, como
+																chikungunya e microcefalia.</p>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -1315,7 +1348,7 @@
 								<h6>Olho de texto (Destaque de baixa ênfase)</h6>
 
 								<!-- Olho de texto -->
-								<div class="olho-de-texto my-5">
+								<div class="olho-de-texto my-5 aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="800">
 									<p>A ausência do nome da pessoa na base de dados do público-alvo não deve ser
 										impedimento
 										para ele receber
@@ -1380,9 +1413,9 @@
 						</div>
 					</div>
 
-					<div class="container-fluid px-0">
+					<div class="container-fluid px-0 mb-5">
 						<div class="destaque-parallax my-0">
-							<div class="container">
+							<div class="container aos-animate aos-init" data-aos="fade" data-aos-easing="ease-out" data-aos-duration="800">
 								<div class="row justify-content-center">
 									<div class="col-12 col-md-10 col-lg-8">
 										<p>As regulamentações contêm <a href='' target='_blank'>princípios e
@@ -1619,7 +1652,7 @@
 								<div class="row justify-content-center d-lg-block">
 									<!-- Imagem -->
 									<div class="col-md-8 col-lg-6 float-lg-start me-lg-4 px-0 order-1 order-lg-2">
-										<figure>
+										<figure class="lightbox">
 											<img class="img-fluid mx-auto d-block mb-3" src="https://placehold.co/1280x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
 											<figcaption class="figure-caption">Imagem com tamanho 1280x720</figcaption>
 											<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
@@ -1678,7 +1711,7 @@
 								<div class="row justify-content-center d-lg-block">
 									<!-- Imagem -->
 									<div class="col-md-8 col-lg-6 float-lg-end ms-lg-4 px-0 order-1 order-lg-2">
-										<figure>
+										<figure class="lightbox">
 											<img class="img-fluid mx-auto d-block mb-3" src="https://placehold.co/1280x720" alt="Imagem aleatória de exmplo" title="Fonte: unsplash.com">
 											<figcaption class="figure-caption">Imagem com tamanho 1280x720</figcaption>
 											<figcaption class="figure-caption fonte">Fonte: unsplash.com</figcaption>
@@ -3105,7 +3138,6 @@
 					</div>
 				</section>
 
-
 				<!-- Bloco - Timeline Horizontal -->
 				<section>
 
@@ -3727,54 +3759,134 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<!--Quiz Múltipla Escolha  -->
-					<div class="container-fluid exercise-backgound-fluid">
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-12 col-md-10 col-lg-8">
-									<div class="exercise" data-exercise="one">
-										<div class="card">
-											<div class="card-header">Exercício 1</div>
-											<div class="card-body">
-												<div class="exercise__question">
-													<p>1 – O Programa Nacional de Saneamento Rural – PNSR adotou, para
-														fins de classificação do território brasileiro como urbano ou
-														rural, duas características. Indique, entre as alternativas a
-														seguir, a alternativa correta:</p>
-												</div>
-												<div class="exercise__answers">
-													<ul>
-														<li class="answer__option" data-feedback="Na verdade, a alternativa correta é B. O Programa Nacional de Saneamento Rural (PNSR) realmente utiliza critérios específicos para a classificação de áreas urbanas e rurais. As demais alternativas possuem elementos que favorecem a compreensão dessa diferença, contudo não são suficientes para a identificação geral desses territórios. Entender esses aspectos é fundamental para uma análise mais precisa das políticas de saneamento no Brasil." tabindex="0">
-															<p>a) Para a definição de rural no PNSR foram analisados o
-																uso e a ocupação do solo e o tipo de atividade econômica
-																desenvolvida naquele território.</p>
-														</li>
-														<li class="answer__option" data-feedback="Isso mesmo! A resposta correta é a letra B. Você demonstrou um entendimento claro sobre as características utilizadas pelo Programa Nacional de Saneamento Rural (PNSR) para classificar o território brasileiro como urbano ou rural. A sua seleção correta da alternativa indica que você possui uma boa compreensão das diretrizes do programa e das variáveis que influenciam essa classificação. Continue assim, aprofundando seu conhecimento sobre temas relacionados ao saneamento e ao planejamento territorial!" tabindex="0" correct>
-															<p>b) Para definição de rural no PNSR foram analisadas a
-																densidade demográfica e as características de vizinhança
-																do setor censitário.</p>
-														</li>
-														<li class="answer__option" data-feedback="Na verdade, a alternativa correta é B. O Programa Nacional de Saneamento Rural (PNSR) realmente utiliza critérios específicos para a classificação de áreas urbanas e rurais. As demais alternativas possuem elementos que favorecem a compreensão dessa diferença, contudo não são suficientes para a identificação geral desses territórios. Entender esses aspectos é fundamental para uma análise mais precisa das políticas de saneamento no Brasil." tabindex="0">
-															<p>c) Para a definição de rural no PNSR foram analisadas a
-																distância a ser percorrida entre o centro da cidade e o
-																setor censitário e a ausência de uma metrópole nas
-																proximidades.</p>
-														</li>
-														<li class="answer__option" data-feedback="Na verdade, a alternativa correta é B. O Programa Nacional de Saneamento Rural (PNSR) realmente utiliza critérios específicos para a classificação de áreas urbanas e rurais. As demais alternativas possuem elementos que favorecem a compreensão dessa diferença, contudo não são suficientes para a identificação geral desses territórios. Entender esses aspectos é fundamental para uma análise mais precisa das políticas de saneamento no Brasil." tabindex="0">
-															<p>d) Para a definição de rural no PNSR importou apenas o
-																que o município definiu como urbano e rural de acordo
-																com critérios políticos e administrativos para fins de
-																realização do censo demográfico.</p>
-														</li>
-													</ul>
-												</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Quiz Dropdown -->
+								<div class="exercise" data-exercise="dropdown" data-exercise-feedback="general">
+									<div class="card">
+										<div class="card-header">Exercício 1</div>
+										<div class="card-body">
+											<div class="exercise__question">
+												<p>Leia as afirmações e selecione a opção correta:</p>
+
 											</div>
-											<div class="card-footer">
-												<div class="exercise__submit">
-													<span class="exercise__submit--feedback d-none"></span>
-													<button class="fio-button fio-button-primary" type="submit" disabled="">Conferir</button>
-												</div>
+											<div class="exercise__answers">
+												<ul>
+													<li class="answer__option" data-feedback="" tabindex="0">
+														<p>a) Garante que todos os aspectos do estudo estejam em conformidade com os padrões regulatórios, éticos e científicos aplicáveis.</p>
+														<select class="form-select" aria-label="Seletor de resposta do item">
+															<option selected disabled>Selecione uma opção</option>
+															<option value="1">Sistema de Gestão da Qualidade</option>
+															<option value="2">Controle da Qualidade</option>
+															<option value="3" correct>Garantia da Qualidade</option>
+														</select>
+													</li>
+													<li class="answer__option" data-feedback="Recapitule: <p><strong>Sistema de Gestão da Qualidade:</strong> Conjunto de políticas, procedimentos e práticas documentadas que são implementadas para garantir a qualidade e a conformidade dos processos relacionados à pesquisa clínica. </p> <p><strong>Controle da Qualidade:</strong> Atividades destinadas a monitorar e a garantir a precisão e confiabilidade dos dados coletados durante o estudo.</p> <p><strong>Garantia da Qualidade:</strong> Garante que todos os aspectos do estudo estejam em conformidade com os padrões regulatórios, éticos e científicos aplicáveis.</p>" tabindex="0">
+														<p>b) Conjunto de políticas, procedimentos e práticas documentadas que são implementadas para garantir a qualidade e a conformidade dos processos relacionados à pesquisa clínica. </p>
+														<select class="form-select" aria-label="Seletor de resposta do item">
+															<option selected disabled>Selecione uma opção</option>
+															<option value="1" correct>Sistema de Gestão da Qualidade</option>
+															<option value="2">Controle da Qualidade</option>
+															<option value="3">Garantia da Qualidade</option>
+														</select>
+													</li>
+													<li class="answer__option" data-feedback="Recapitule: <p><strong>Sistema de Gestão da Qualidade:</strong> Conjunto de políticas, procedimentos e práticas documentadas que são implementadas para garantir a qualidade e a conformidade dos processos relacionados à pesquisa clínica. </p> <p><strong>Controle da Qualidade:</strong> Atividades destinadas a monitorar e a garantir a precisão e confiabilidade dos dados coletados durante o estudo.</p> <p><strong>Garantia da Qualidade:</strong> Garante que todos os aspectos do estudo estejam em conformidade com os padrões regulatórios, éticos e científicos aplicáveis.</p>" tabindex="0">
+														<p>c) Atividades destinadas a monitorar e a garantir a precisão e a confiabilidade dos dados coletados durante o estudo.</p>
+														<select class="form-select" aria-label="Seletor de resposta do item">
+															<option selected disabled>Selecione uma opção</option>
+															<option value="1">Sistema de Gestão da Qualidade</option>
+															<option value="2" correct>Controle da Qualidade</option>
+															<option value="3">Garantia da Qualidade</option>
+														</select>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="exercise__submit">
+												<!-- Insert feedbacks for data-exercise-feedback="general" -->
+												<span class="feedback--correct d-none">Recapitule: <p><strong>Sistema de Gestão da Qualidade:</strong> Conjunto de políticas, procedimentos e práticas documentadas que são implementadas para garantir a qualidade e a conformidade dos processos relacionados à pesquisa clínica. </p> <p><strong>Controle da Qualidade:</strong> Atividades destinadas a monitorar e a garantir a precisão e confiabilidade dos dados coletados durante o estudo.</p> <p><strong>Garantia da Qualidade:</strong> Garante que todos os aspectos do estudo estejam em conformidade com os padrões regulatórios, éticos e científicos aplicáveis.</p></span>
+
+												<div class="feedback--incorrect d-none"><p>Na verdade, a associação correta é:</p><p>Afirmativa A: Garantia da Qualidade</p><p>Afirmativa B: Sistema de Gestão da Qualidade</p> <p>Afirmativa C: Controle da Qualidade</p> <p>Relembre:</p><p><strong>Sistema de Gestão da Qualidade:</strong> Conjunto de políticas, procedimentos e práticas documentadas que são implementadas para garantir a qualidade e a conformidade dos processos relacionados à pesquisa clínica. </p> <p><strong>Controle da Qualidade:</strong> Atividades destinadas a monitorar e a garantir a precisão e confiabilidade dos dados coletados durante o estudo.</p> <p><strong>Garantia da Qualidade:</strong> Garante que todos os aspectos do estudo estejam em conformidade com os padrões regulatórios, éticos e científicos aplicáveis.</p></div>
+
+												<!-- Javascript will create the feedback here! -->
+												<span class="exercise__submit--feedback d-none"></span>
+												<button class="fio-button fio-button-primary" type="submit">Conferir</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Quiz múltipla escolha (apenas 1 correta) -->
+								<div class="exercise" data-exercise="one" data-exercise-feedback="individual">
+									<div class="card">
+										<div class="card-header">Exercício 2</div>
+										<div class="card-body">
+											<div class="exercise__question">
+												<p>Marque a alternativa correta:</p>
+
+												<p>Um centro de pesquisa tem como prática fazer uma reunião quinzenal para análise das causas dos desvios de protocolo ocorridos nos últimos dias no Projeto NAIME, para verificar medidas que poderiam ter evitado o desvio e se há necessidade de treinamento de equipe em um ponto específico. Essa prática está relacionada com:</p>
+											</div>
+											<div class="exercise__answers">
+												<ul>
+													<li class="answer__option" data-feedback="Controle da Qualidade são atividades destinadas a monitorar e a garantir a precisão e a confiabilidade dos dados coletados durante o estudo." tabindex="0" correct><p>a) Controle da qualidade.</p></li>
+
+													<li class="answer__option" data-feedback="Na verdade, a opção certa é a “a”.  Controle da Qualidade são atividades destinadas a monitorar e a garantir a precisão e a confiabilidade dos dados coletados durante o estudo." tabindex="0"><p>b) Garantia da qualidade.</p></li>
+
+													<li class="answer__option" data-feedback="Na verdade, a opção certa é a “a”.  Controle da Qualidade são atividades destinadas a monitorar e a garantir a precisão e a confiabilidade dos dados coletados durante o estudo." tabindex="0"><p>c) Prática do CEP.</p></li>
+
+													<li class="answer__option" data-feedback="Na verdade, a opção certa é a “a”.  Controle da Qualidade são atividades destinadas a monitorar e a garantir a precisão e a confiabilidade dos dados coletados durante o estudo." tabindex="0"><p>d) Selo da qualidade.</p></li>
+												</ul>
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="exercise__submit">
+												<span class="exercise__submit--feedback d-none"></span>
+												<button class="fio-button fio-button-primary" type="submit">Conferir</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<!-- Quiz múltipla escolha (mais de 1 correta) -->
+								<div class="exercise" data-exercise="multiple" data-exercise-feedback="general">
+									<div class="card">
+										<div class="card-header">Exercício 2</div>
+										<div class="card-body">
+											<div class="exercise__question">
+												<p>De acordo com os conceitos que envolvem a pesquisa clínica, selecione as afirmativas verdadeiras:</p>
+											</div>
+											<div class="exercise__answers">
+												<ul>
+													<li class="answer__option" data-feedback="a) FALSA - Estudos Clínicos são aqueles que envolvem seres humanos. No entanto, para se verificar eficácia e segurança de um medicamento em seres humanos, primeiro, é preciso realizar testes em animais, denominados Estudos Pré-Clínicos." tabindex="0"><p>a) Estudos Clínicos são aqueles que envolvem tanto seres humanos quanto animais.</p></li>
+													<li class="answer__option" data-feedback="b) FALSA - Estudos que envolvem seres humanos são conhecidos como Estudos Clínicos. No entanto, quando o objetivo deste estudo é avaliar efeitos clínicos e/ou farmacológicos de um medicamento, passa a ser considerado um Ensaio Clínico." tabindex="0"><p>b) Todo estudo clínico é considerado um ensaio clínico.</p></li>
+													<li class="answer__option" data-feedback="" tabindex="0" correct><p>c) Projeto multicêntrico é aquele que possui protocolo único e é desenvolvido em mais de um centro de pesquisa.</p></li>
+													<li class="answer__option" data-feedback="d) FALSA - Evento Adverso é qualquer ocorrência médica inconveniente ou sinal desfavorável ou não planejado. Porém, quando o evento resulta em desfechos específicos, tais como: morte, represente risco à vida, hospitalização ou seu prolongamento, persistente inabilidade/incapacidade significativa ou anomalia congênita, é denominado Evento Adverso Grave." tabindex="0"><p>d) Em estudos que envolvem seres humanos, qualquer ocorrência inesperada é considerada um Evento Adverso Grave (EAS).</p></li>
+													<li class="answer__option" data-feedback="" tabindex="0" correct><p>e) Estudos que envolvem novas indicações de um medicamento que já tem registro no Brasil e já está sendo comercializado são consideradas pesquisas de novos medicamentos.</p></li>
+												</ul>
+											</div>
+										</div>
+										<div class="card-footer">
+											<div class="exercise__submit">
+												<!-- Insert feedbacks for data-exercise-feedback="general" -->
+												<span class="feedback--correct d-none"><p>Veja por que as demais alternativas são FALSAS:</p> <p><strong>Estudos Clínicos são aqueles que envolvem tanto seres humanos quanto animais.</strong> FALSA - Estudos Clínicos são aqueles que envolvem seres humanos. No entanto, para se verificar eficácia e segurança de um medicamento em seres humanos, primeiro, é preciso realizar testes em animais, denominados Estudos Pré-Clínicos.</p> <p><strong>Todo estudo clínico é considerado um ensaio clínico.</strong> FALSA - Estudos que envolvem seres humanos são conhecidos como Estudos Clínicos. No entanto, quando o objetivo deste estudo é avaliar efeitos clínicos e/ou farmacológicos de um medicamento, passa a ser considerado um Ensaio Clínico.</p> <p><strong>Em estudos que envolvem seres humanos, qualquer ocorrência inesperada é considerada um Evento Adverso Grave (EAS).</strong>  FALSA - Evento Adverso é qualquer ocorrência médica inconveniente ou sinal desfavorável ou não planejado. Porém, quando o evento resulta em desfechos específicos, tais como: morte, represente risco à vida, hospitalização ou seu prolongamento, persistente inabilidade/incapacidade significativa ou anomalia congênita, é denominado Evento Adverso Grave.</p></span>
+
+												<span class="feedback--missing d-none">Feedback geral incompleto</span>
+
+												<span class="feedback--incorrect d-none"><p>Na verdade, as afirmativas VERDADEIRAS são:</p> <p>Projeto multicêntrico é aquele que possui protocolo único e é desenvolvido em mais de um centro de pesquisa.</p> <p>Estudos que envolvem novas indicações de um medicamento que já tem registro no Brasil e já está sendo comercializado são consideradas pesquisas de novos medicamentos. </p> <p>Veja por que as demais alternativas são FALSAS:</p> <p><strong>Estudos Clínicos são aqueles que envolvem tanto seres humanos quanto animais.</strong> FALSA - Estudos Clínicos são aqueles que envolvem seres humanos. No entanto, para se verificar eficácia e segurança de um medicamento em seres humanos, primeiro, é preciso realizar testes em animais, denominados Estudos Pré-Clínicos.</p> <p><strong>Todo estudo clínico é considerado um ensaio clínico.</strong> FALSA - Estudos que envolvem seres humanos são conhecidos como Estudos Clínicos. No entanto, quando o objetivo deste estudo é avaliar efeitos clínicos e/ou farmacológicos de um medicamento, passa a ser considerado um Ensaio Clínico.</p> <p><strong>Em estudos que envolvem seres humanos, qualquer ocorrência inesperada é considerada um Evento Adverso Grave (EAS).</strong>  FALSA - Evento Adverso é qualquer ocorrência médica inconveniente ou sinal desfavorável ou não planejado. Porém, quando o evento resulta em desfechos específicos, tais como: morte, represente risco à vida, hospitalização ou seu prolongamento, persistente inabilidade/incapacidade significativa ou anomalia congênita, é denominado Evento Adverso Grave.</p></span>
+
+												<!-- Javascript will create the feedback here! -->
+												<span class="exercise__submit--feedback d-none"></span>
+												<button class="fio-button fio-button-primary" type="submit">Conferir</button>
 											</div>
 										</div>
 									</div>
@@ -3843,6 +3955,7 @@
 	<script type="text/javascript" src="../../assets/js/scripts.js"></script>
 	<script type="text/javascript" src="../../assets/js/custom-anime.js"></script>
 	<script type="text/javascript" src="../../sources/animate/aos/dist/aos.js"></script>
+		<script type="text/javascript" src="../../assets/js/exercise.js"></script>
 
 	<!-- Swiper -->
 	<script type="text/javascript" src="../../assets/js/swiper-bundle.min.js"></script>

@@ -252,7 +252,7 @@ let exerciseCard = document.querySelectorAll('.exercise');
 				if (!el) {
 					submitFeedback.innerHTML = `<div><span class="material-symbols-rounded">cancel</span> <strong>Você não selecionou a(s) resposta(s) correta(s)!</strong></span>
 												<br>
-												<span class="feedback__content">Das incorretas, a correlação é a seguinte:</span></div>`;
+												<span class="feedback__content">A correlação correta é a seguinte:</span></div>`;
 					submitFeedback.classList.remove('d-none', 'exercise__submit__feedback--correct');
 					submitFeedback.classList.add('exercise__submit__feedback--incorrect');
 

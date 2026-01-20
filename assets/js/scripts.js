@@ -353,49 +353,171 @@ const modalInfos = {
                     </h5>
                     <div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
                         <div class="accordion-body">
-                            <span class='d-block'><strong>Aula 1</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CHADHA, J. <em>et al</em>. Insights into the monkeypox virus: making of another pandemic within the pandemic? <strong>Environmental Microbiology</strong>. v. 24, out 2022. DOI: 10.1111/1462-2920.16174.</li>
+    <span class='d-block'><strong>Aula 1</strong></span>
+    <span class='d-block'><em>Obrigatórias</em></span>
+    <div class="list mb-5">
+        <ul class="list-group">
+            <li class="list-group-item">ALMEIDA FILHO, Naomar de; BARRETO, Maurício Lima (Ed.). <strong>Epidemiologia & saúde:</strong> Fundamentos, métodos, aplicações. reimpr. Rio de Janeiro: Guanabara Koogan, 2017. xxiv, 699 p. ISBN 8527716194.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CHO, C. T.; HERBERT, A. W. Monkeypox Virus. <strong>Bacteriological Reviews</strong>. Mar, 1973, p. 1-18.</li>
+            <li class="list-group-item">BARATA, R. B. Vigilância epidemiológica: breve histórico e a experiência dos Estados Unidos e do estado de São Paulo. <strong>Epidemiol. Serv. Saúde</strong>, v. 31, n. 2, e2021115. 2022. DOI 10.1590/s2237-962220220002000028.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KOONIN, E. V.; DOLJA, V. V.; KRUPOVIC, M; VARSANI, A.; WOLF, Y. I.; YUTIN, N.; ZERBINI, M.; KUHN, J. H. <strong>Create a megataxonomic framework, filling all principal taxonomic ranks, for DNA viruses encoding vertical jelly roll-type major capsid proteins</strong>. EC 51, Berlin, Germany. 2019. Disponível em: <a href='https://ictv.global/taxonomy/taxondetails?taxnode_id=202104771' target='_blank' rel="noopener noreferrer">https://ictv.global/taxonomy/taxondetails?taxnode_id=202104771</a>. Acesso em: 26 out. 2023.</li>
+            <li class="list-group-item">BARCELLOS, C.; QUITÉRIO, L. A. D. Vigilância ambiental em saúde e sua implantação no Sistema Único de Saúde. <strong>Rev Saude Publica</strong>, v. 40, n. 1. p. 170-177. 2006. DOI 10.1590/S0034-89102006000100025.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MOORE, M. J.; BALRAM, R; ZAHRA, F. Mpox (Monkeypox). <strong>Treasure Island</strong> (FL): StatPearls Publishing; 2023 Jan. Disponível em: <a href='https://www.ncbi.nlm.nih.gov/books/NBK574519/' target='_blank' rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/books/NBK574519/</a>. Acesso em: 26 out. 2023.</li>
+            <li class="list-group-item">Brasil. Ministério da Saúde. Portaria nº 1.378, de 9 de julho de 2013. Regulamenta as responsabilidades e define diretrizes para execução e financiamento das ações de Vigilância em Saúde pela União, Estados, Distrito Federal e Municípios, relativos ao Sistema Nacional de Vigilância em Saúde e Sistema Nacional de Vigilância Sanitária. <strong>Diário Oficial da União</strong>, v. 131, Seção 1. p. 48-50, 2013. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1378_09_07_2013.html' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1378_09_07_2013.html</a>. Acesso em: 31 ago. 2025.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">REY, L. <strong>Dicionário da saúde e da prevenção de seus riscos</strong>. Rio de Janeiro: Guanabara Koogan, 2006. ISBN: 85-277-1195-8. </li>
-                                </ul>
-                            </div>
+            <li class="list-group-item">Brasil. Ministério da Saúde. Portaria nº 3.252, de 22 de dezembro de 2009. <strong>Diário Oficial da União</strong>, v. 245, Seção 1. p. 65-69, 2009. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt3252_22_12_2009_comp.html' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt3252_22_12_2009_comp.html</a>. Acesso em: 6 set. 2025.</li>
 
-                            <span class='d-block'><strong>Aula 2</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    
+            <li class="list-group-item">Brasil. <strong>Mudanças climáticas para profissionais de saúde:</strong> guia de bolso [recurso eletrônico]. Brasília: Ministério da Saúde, 2024. <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/guia-mudancas-climaticas-para-profissionais-da-saude.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/guia-mudancas-climaticas-para-profissionais-da-saude.pdf</a>. ISBN 978-65-5993-649-6.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>. Acesso em: 20 out. 2023.</li>
+            <li class="list-group-item">CHOI, B. C. K. The past, present, and future of public health surveillance. <strong>Scientifica</strong>, v. 2012. p. 875253. 2012. DOI 10.6064/2012/875253.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). Guidance on Clinical Suspicion and Differential Diagnosis of Monkeypox. <strong>Provisional Technical Note</strong>, 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf</a>. Acesso em: 28 nov. 2023.</li>
+            <li class="list-group-item">ESCOREL, S.; TEIXEIRA, L. A. História das Políticas de Saúde no Brasil de 1822 a 1963: do império ao desenvolvimentismo populista. In: GIOVANELLA, L.; ESCOREL, S.; LOBATO, L. d. V. C.; NORONHA, L. d. V. C.; CARVALHO, J. C. de. <strong>Políticas e sistema de saúde no Brasil</strong>. Tradução: , [S. l.]: Editora FIOCRUZ, 2012. p. 279-321. ISBN 9788575413494.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Mpox (monkeypox)</strong>. 2024. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/monkeypox' target='_blank' rel="noopener noreferrer">https://www.who.int/news-room/fact-sheets/detail/monkeypox</a>. Acesso em: 28 nov. 2023.</li>
-                                </ul>
-                            </div>
+            <li class="list-group-item">GIOVANELLA, L.; ESCOREL, S.; LOBATO, L. d. V. C.; NORONHA, L. d. V. C.; CARVALHO, J. C. de. <strong>Sistema de saúde brasileiro: história e configuração atual</strong>. [S.l.]: Editora FIOCRUZ, 2012. 180 p. ISBN 9788575413494. DOI 10.7476/9788575413494.</li>
 
-                            <span class='d-block'><strong>Aula 3</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA (Anvisa). <strong>Voto nº 64/2023/SEI/DIRE2/ANVISA</strong>. 2023. Disponível em: <a href='https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/' target='_blank' rel="noopener noreferrer">https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/</a>. Acesso em: 30 out. 2023.</li>
+            <li class="list-group-item">MEDRONHO, Roberto de Andrade; BLOCH, Kátia Vergetti; LUIZ, Ronir Raggio; WERNECK, Guilherme Loureiro (Ed.). <strong>Epidemiologia</strong>. 2. ed. São Paulo: Atheneu, 2009. [xxiv], 685 p. ISBN 978-8573799996.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view</a>. Acesso em: 30 out. 2023.</li>
+            <li class="list-group-item">OUQUAYROL, Maria Zélia; DA SILVA, Marcelo Gurgel Carlos (Ed.). <strong>Rouquayrol:</strong> Epidemiologia & saúde. 8. ed. Rio de Janeiro: MedBook, 2018. xxi, 719 p. ISBN 978-8583690290.</li>
+        </ul>
+    </div>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COUTINHO, C. <em>et al</em>. <strong>Characteristics of women diagnosed with mpox infection compared to men:</strong> a case series from Brazil. Travel medicine and infectious disease v. 56 (2023): 102663. Doi: 10.1016/j.tmaid.2023.102663</li>
+    <span class='d-block'><em>Complementares</em></span>
+    <div class="list">
+        <ul class="list-group">
+            <li class="list-group-item">AVANCI, J. Q.; OLIVEIRA, Q. B. M.; ASSIS, S. G. de. Ações de vigilância das violências em serviços da atenção primária, hospitalar e de reabilitação no Brasil. <strong>Cien Saude Colet</strong>, v. 30, n. 3. e17372024. 2025. DOI 10.1590/1413-81232025303.17372024.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). <strong>Mpox:</strong> perguntas e respostas. Disponível em: <a href='https://www.paho.org/pt/mpox-perguntas-e-respostas' target='_blank' rel="noopener noreferrer">https://www.paho.org/pt/mpox-perguntas-e-respostas</a>. Acesso em: 20 out. 2023.</li>
+            <li class="list-group-item">BAQUI, P.; BICA, I.; MARRA, V.; ERCOLE, A.; VAN DER SCHAAR, M. Ethnic and regional variations in hospital mortality from COVID-19 in Brazil: a cross-sectional observational study. <strong>Lancet Glob Health</strong>, v. 8, n. 8. e1018-e1026. 2020. DOI 10.1016/S2214-109X(20)30285-0.</li>
 
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Multi-country outbreak of Mpox External Situation Report 22</strong>, published 11 May 2023 Data as received by WHO national authorities by 17:00 CEST, 8 May 2023. <a href='https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023</a>. Acesso em: 23 out. 2023.</li>
-                                </ul>
-                            </div>
-                        </div>
+            <li class="list-group-item">BARATA, R. B. Investigação de surtos e epidemias: transformações na teoria, nos conceitos e nas práticas do século XVIII ao século XXI. <strong>Saúde soc.</strong>, v. 33, n. 1, e220310pt. 2024. DOI 10.1590/s0104-12902024220310pt.</li>
+
+            <li class="list-group-item">BRASIL (ED.). <strong>Saúde ambiental:</strong> Guia básico para construção de indicadores. 1ª edição. Brasília DF: Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância em Saúde Ambiental e Saúde do Trabalhador, 2011. 128 pages. (Série B. Textos básicos de saúde). ISBN 9788533417779.</li>
+
+            <li class="list-group-item">Brasil. <strong>1ª Conferência Nacional de Vigilância em Saúde:</strong> Vigilância em Saúde: Direito, Conquistas e Defesa de um SUS Público de Qualidade. Brasília, 2018. Disponível em: <a href='http://ces.saude.mg.gov.br/wp-content/uploads/2016/06/Documento-Orientador-1%C2%AA-CEVS.pdf' target='_blank' rel='noopener noreferrer'>http://ces.saude.mg.gov.br/wp-content/uploads/2016/06/Documento-Orientador-1%C2%AA-CEVS.pdf</a>.</li>
+
+            <li class="list-group-item">CAIRUS, H. F.; RIBEIRO, W. A. <strong>Textos hipocráticos:</strong> O doente, o médico e a doença. Rio de Janeiro: Editora FIOCRUZ, 2005. 1 online resource (251 pages). (Coleção História e saúde). ISBN 9788575413753.</li>
+
+            <li class="list-group-item">CAMPOS, G. W. d. S.; MINAYO, M. C. d. S.; AKERMAN, M. <strong>Tratado de saúde coletiva</strong>. 2.ed., rev. aum. São Paulo: HUCITEC, 2012. 968 p. (Saúde em debate, v.170). ISBN 978-8564806566.</li>
+
+            <li class="list-group-item">DA SÁ, G. R. S. e.; NUNES, P. d. C.; OLIVEIRA, O. M. A. de; GONDIM, G. M. d. M. Políticas públicas de saúde e a organização do SUS. <em>In:</em> SILVA, M. d. N.; FLAUZINO, R. F.; GONDIM, G. M. d. M. <strong>Rede de frio: fundamentos para a compreensão do trabalho.</strong> Tradução: , [S. l.]: Editora FIOCRUZ, 2017. p. 51-83. ISBN 9786557080917. Disponível em: <a href='DA SÁ, G. R. S. e.; NUNES, P. d. C.; OLIVEIRA, O. M. A. de; GONDIM, G. M. d. M. Políticas públicas de saúde e a organização do SUS. In: SILVA, M. d. N.; FLAUZINO, R. F.; GONDIM, G. M. d. M. Rede de frio: fundamentos para a compreensão do trabalho. Tradução: , [S. l.]: Editora FIOCRUZ, 2017. p. 51-83. ISBN 9786557080917. Disponível em: https://books.scielo.org/id/m4kn3/pdf/silva-9786557080917-04.pdf.' target='_blank' rel='noopener noreferrer'>https://books.scielo.org/id/m4kn3/pdf/silva-9786557080917-04.pdf</a>.</li>
+
+            <li class="list-group-item">DA SILVA JUNIOR, J. B. A nova face da vigilância epidemiológica. <strong>Epidemiol. Serv. Saúde</strong>, v. 12, n. 1. 2003. DOI 10.5123/S1679-49742003000100001.</li>
+
+            <li class="list-group-item">DA SILVA, A. C. P.; PEPE, V. L. E. Vigilância sanitária: campo da promoção e proteção da saúde. <em>In:</em> GIOVANELLA, L.; ESCOREL, S.; LOBATO, L. d. V. C.; NORONHA, L. d. V. C.; CARVALHO, J. C. de. <strong>Políticas e sistema de saúde no Brasil</strong>. Tradução: , [S. l.]: Editora FIOCRUZ, 2012. p. 709-738. ISBN 9788575413494. Disponível em: <a href='https://books.scielo.org/id/c5nm2/pdf/giovanella-9788575413494-30.pdf' target='_blank' rel='noopener noreferrer'>https://books.scielo.org/id/c5nm2/pdf/giovanella-9788575413494-30.pdf</a>.</li>
+
+            <li class="list-group-item">DA SILVA, J. A. A.; COSTA, E. A.; LUCCHESE, G. SUS 30 anos: Vigilância Sanitária. <strong>Cien Saude Colet</strong>, v. 23, n. 6. p. 1953-1961. 2018. DOI 10.1590/1413-81232018236.04972018.</li>
+
+            <li class="list-group-item">DUMITH, S. C.; FETER, N. Demographic shifts and health dynamics: Exploring the impact of aging rates on health outcomes in Brazilian capitals. <strong>Archives of Gerontology and Geriatrics Plus</strong>, v. 1, n. 3. p. 100044. 2024. DOI 10.1016/j.aggp.2024.100044.</li>
+
+            <li class="list-group-item">FREITAS, C. M. de; BARCELLOS, C.; ASMUS, C. I. R. F.; DA SILVA, M. A.; XAVIER, D. R. Da Samarco em Mariana à Vale em Brumadinho: desastres em barragens de mineração e Saúde Coletiva. <strong>Cadernos De Saúde Pública</strong>, v. 35, n. 5. e00052519. 2019. DOI 10.1590/0102-311X00052519.</li>
+
+            <li class="list-group-item">HENRIQUES, C. M. P.; MOURA, N. F. O. de; SOUZA, P. B. de. Desafios e lições da pandemia de COVID-19 para a Vigilância em Saúde no Brasil: reflexões sobre tecnologias, modelos e organização do sistema. <strong>Rev. bras. epidemiol.</strong>, v. 27, e240049. 2024. DOI 10.1590/1980-549720240049.2.</li>
+
+            <li class="list-group-item">LEE, L. M.; TEUTSCH, S. M.; THACKER, S. B.; ST. LOUIS, M. E. <strong>Principles & Practice of Public Health Surveillance</strong>. [S.l.]: Oxford University Press, 2010. 766 p. ISBN 9780195372922. DOI 10.1093/acprof:oso/9780195372922.001.0001.</li>
+
+            <li class="list-group-item">MACIEL, E. L. N. 20 anos da Secretaria de Vigilância em Saúde e Ambiente: análise de duas décadas e perspectivas: análise de duas décadas e perspectivas. <strong>Epidemiol. Serv. Saúde</strong>, v. 32, n. 4, e2023373. 2023. DOI 10.1590/s2237-962220230004000016.pt.</li>
+
+            <li class="list-group-item">Ministério da Saúde. <strong>Intoxicação por metanol:</strong> casos e óbitos - 13.10.2025. [S.l.]: Ministério da Saúde, 2025. Disponível em: <a href='https://www.gov.br/saude/pt-br/assuntos/noticias/2025/outubro/arquivos/casos-e-obitos-13-10-2025-1.pdf/@@download/file' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/assuntos/noticias/2025/outubro/arquivos/casos-e-obitos-13-10-2025-1.pdf/@@download/file</a>.</li>
+
+            <li class="list-group-item">Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. <strong>Boletim Epidemiológico Especial:</strong> Doença pelo Novo Coronavírus – COVID-19. Brasília, 19 fev. 2024. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/covid-19/2023/boletim-epidemiologico-no-158-boletim-coe-coronavirus.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/covid-19/2023/boletim-epidemiologico-no-158-boletim-coe-coronavirus.pdf</a>.</li>
+
+            <li class="list-group-item">OKUMOTO, O.; BRITO, S. M. F.; GARCIA, L. P. A Política Nacional de Vigilância em Saúde. <strong>Epidemiol. Serv. Saúde</strong>, v. 27, n. 3. e2018318. 2018.</li>
+
+            <li class="list-group-item">OLIVEIRA, C. M. de; CRUZ, M. M. Sistema de Vigilância em Saúde no Brasil: avanços e desafios. <strong>Saúde debate</strong>, v. 39, n. 104. p. 255-267. 2015. DOI 10.1590/0103-110420151040385.</li>
+
+            <li class="list-group-item">OLIVEIRA, W. K. de; FRANÇA, G. V. A. de; CARMO, E. H.; DUNCAN, B. B.; SOUZA KUCHENBECKER, R. de; SCHMIDT, M. I. Infection-related microcephaly after the 2015 and 2016 Zika virus outbreaks in Brazil: a surveillance-based analysis. <strong>Lancet</strong>, v. 390, n. 10097. p. 861-870. 2017. DOI 10.1016/S0140-6736(17)31368-5.</li>
+
+            <li class="list-group-item">PAIM, J. S. <strong>Desafios para a saúde coletiva no século XXI</strong>. Salvador BA: EDUFBA, 2006. 153 ;. ISBN 9788523203955.</li>
+
+            <li class="list-group-item">RAMOS, F. L. d. P.; DA HORA, Á. L.; SOUZA, C. T. V. de; PEREIRA, L. O.; DA HORA, D. L. As contribuições da epidemiologia social para a pesquisa clínica em doenças infecciosas. <strong>Revista Pan-Amazônica de Saúde</strong>, v. 7, esp. p. 221-229. 2016. DOI 10.5123/S2176-62232016000500025.</li>
+
+            <li class="list-group-item">RECKTENWALDT, M.; JUNGES, J. R. A organização e a prática da Vigilância em Saúde em municípios de pequeno porte. <strong>Saúde soc.</strong>, v. 26, n. 2. p. 367-381. 2017. DOI 10.1590/s0104-12902017171916.</li>
+
+            <li class="list-group-item">ROHLFS, D. B.; GRIGOLETTO, J. C.; NETTO, G. F.; RANGEL, C. d. F. A construção da Vigilância em Saúde Ambiental no Brasil. <strong>Revista de Saúde Coletiva</strong>, v. 19, n. 4. p. 391-398. 2011.</li>
+
+            <li class="list-group-item">ROSEN, G. <strong>Uma história da saúde pública.</strong> São Paulo: HUCITEC, 1994. 423 p. (Saúde em debate). ISBN 978-8527102629.</li>
+
+            <li class="list-group-item">Secretária de Estado de Saúde de Minas Gerais. <strong>Nota Informativa - Intoxicação por dietilenoglicol</strong>. Belo Horizonte: Secretária de Estado de Saúde de Minas Gerais, 2020. Disponível em: <a href='https://www.saude.mg.gov.br/wp-content/uploads/2020/01/Nota_Informativa_DEG_10_06_2020-2b5.pdf' target='_blank' rel='noopener noreferrer'>https://www.saude.mg.gov.br/wp-content/uploads/2020/01/Nota_Informativa_DEG_10_06_2020-2b5.pdf</a>.</li>
+
+            <li class="list-group-item">TEIXEIRA, M. G.; DA COSTA, M. C. N. Vigilância epidemiológica: políticas, sistemas e serviços. <em>In:</em> GIOVANELLA, L.; ESCOREL, S.; LOBATO, L. d. V. C.; NORONHA, L. d. V. C.; CARVALHO, J. C. de. <strong>Políticas e sistema de saúde no Brasil</strong>. Tradução: , [S. l.]: Editora FIOCRUZ, 2012. p. 687-707. ISBN 9788575413494. Disponível em: <a href='https://books.scielo.org/id/c5nm2/pdf/giovanella-9788575413494-29.pdf' target='_blank' rel='noopener noreferrer'>https://books.scielo.org/id/c5nm2/pdf/giovanella-9788575413494-29.pdf</a>.</li>
+
+            <li class="list-group-item">TEIXEIRA, M. G.; DA COSTA, M. C. N.; CARMO, E. H.; OLIVEIRA, W. K. de; PENNA, G. O. Vigilância em Saúde no SUS - construção, efeitos e perspectivas. <strong>Cien Saude Colet</strong>, v. 23, n. 6. p. 1811-1818. 2018. DOI 10.1590/1413-81232018236.09032018.</li>
+
+            <li class="list-group-item">WHO. <strong>Noncommunicable diseases:</strong> Progress monitor 2025. Geneva: World Health Organization, 2025. Disponível em: <a href='https://iris.who.int/server/api/core/bitstreams/7a228681-a190-4c29-b2a8-9d4255dc49d1/content' target='_blank' rel='noopener noreferrer'>https://iris.who.int/server/api/core/bitstreams/7a228681-a190-4c29-b2a8-9d4255dc49d1/content</a></li>
+        </ul>
+    </div>
+
+    <span class='d-block'><em>Materiais multimídia complementares (recursos “Saiba Mais”)</em></span>
+    <div class="list">
+        <ul class="list-group">
+            <li class="list-group-item">LEANDRO KARNAL. História das Epidemias. YouTube, 2021. Disponível em: <a href='https://www.youtube.com/watch?v=vt8d0FKj7k4 ' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=vt8d0FKj7k4 </a> </li>
+
+            <li class="list-group-item">CANAL USP. Da colonização à abolição: a história das epidemias no Brasil. YouTube, 2020. Disponível em: <a href='https://www.youtube.com/watch?v=HRTkFCe7xwI' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=HRTkFCe7xwI</a> </li>
+
+            <li class="list-group-item">TV SENADO. A Revolta da Vacina. YouTube, 2017. Disponível em: <a href='https://www.youtube.com/watch?v=6i6v9f_aWjg' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=6i6v9f_aWjg</a> </li>
+
+            <li class="list-group-item">FIOCRUZ. A história da saúde pública no Brasil: 500 anos na busca de soluções. VideoSaúde Distribuidora, 2016. Disponível em: <a href='https://www.youtube.com/watch?v=7ouSg6oNMe8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=7ouSg6oNMe8</a> </li>
+
+            <li class="list-group-item">METEORO BRASIL. A história da Vigilância em Saúde no Brasil. YouTube, 2021. Disponível em: <a href='https://www.youtube.com/watch?v=DXXL4EBwxZo' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=DXXL4EBwxZo</a> </li>
+
+            <li class="list-group-item">CONASEMS. Vigilância em Saúde – Parte 1 e Parte 2. YouTube, 2022. Disponível em: <a href='https://www.youtube.com/watch?v=zszLy8ckb0E' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=zszLy8ckb0E</a> e <a href='https://www.youtube.com/watch?v=Q0hYz3lKrG8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=Q0hYz3lKrG8</a> </li>
+        </ul>
+    </div>
+
+    <span class='d-block'><em>Imagens</em></span>
+    <div class="list">
+        <ol class="list-group">
+            <li class="list-group-item">G<strong>ravura de Hipócrates e página de título do seu trabalho sobre os Ares, Águas e Lugares</strong> (1734). Disponível em: <a href='https://commons.wikimedia.org/wiki/File:Hippocrates_bust_and_title_page_Wellcome_L0041093.jpg?uselang=pt-br' target='_blank' rel='noopener noreferrer'>https://commons.wikimedia.org/wiki/File:Hippocrates_bust_and_title_page_Wellcome_L0041093.jpg?uselang=pt-br</a>.</li>
+
+            <li class="list-group-item">Furst, P. <strong>“Doktor Schnabel von Rom” (“Doutor Bico de Roma”). Traje médico utilizado para proteção contra a Peste Negra</strong>. (1656). Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/5/57/Paul_F%C3%BCrst%2C_Der_Doctor_Schnabel_von_Rom_%28Holl%C3%A4nder_version%29.png</a></li>
+
+            <li class="list-group-item"><strong>Bills of Mortality de 21 a 28 de fevereiro de 1664</strong> (1664). Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bills_of_Mortality_Feb_21_-_28_1664_Wellcome_L0043358.jpg/640px-Bills_of_Mortality_Feb_21_-_28_1664_Wellcome_L0043358.jpg' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bills_of_Mortality_Feb_21_-_28_1664_Wellcome_L0043358.jpg/640px-Bills_of_Mortality_Feb_21_-_28_1664_Wellcome_L0043358.jpg</a>.</li>
+
+            <li class="list-group-item"><strong>Dr. John Snow (1813-1858), Médico Britânico</strong> (1856). Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Snow.jpg/640px-John_Snow.jpg' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Snow.jpg/640px-John_Snow.jpg</a>.</li>
+
+            <li class="list-group-item">Snow, J. <strong>Mapa dos casos de cólera de John Snow</strong> (1854). Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/640px-Snow-cholera-map-1.jpg' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/640px-Snow-cholera-map-1.jpg</a>.</li>
+
+            <li class="list-group-item">CDC. <strong>Dr. Alexander Langmuir, Epidemiologista</strong> (1961). Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/2/24/Alexander_Langmuir.jpg' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/2/24/Alexander_Langmuir.jpg</a></li>
+
+            <li class="list-group-item">7.	Câmara dos Deputados. <strong>Idosos no Brasil</strong>. Brasília: Câmara dos Deputados, 2023. Disponível em: <a href='https://www.camara.leg.br/noticias/1178523-comissao-discute-transicao-demografica-e-envelhecimento-da-populacao-brasileira/' target='_blank' rel='noopener noreferrer'>https://www.camara.leg.br/noticias/1178523-comissao-discute-transicao-demografica-e-envelhecimento-da-populacao-brasileira/</a>.</li>
+
+            <li class="list-group-item"><strong>Dr. Oswaldo Cruz (1872-1917)</strong>. Disponível em: <a href='https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Osvaldo_Gon%C3%A7alves_Cruz.tif/lossy-page1-640px-Osvaldo_Gon%C3%A7alves_Cruz.tif.jpg' target='_blank' rel='noopener noreferrer'>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Osvaldo_Gon%C3%A7alves_Cruz.tif/lossy-page1-640px-Osvaldo_Gon%C3%A7alves_Cruz.tif.jpg</a>.</li>
+
+            <li class="list-group-item">Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. <strong>Infográfico: Intoxicação por Metanol: causas riscos e cuidado com bebidas adulteradas</strong>. Brasília: Ministério da Saúde, 2025. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/svsa/infograficos/infografico-metanol.png' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/composicao/svsa/infograficos/infografico-metanol.png</a>.</li>
+
+            <li class="list-group-item">Franco, G.; Villardi, J. W. R.; Machado, J. M. H.; Souza, M. d. S. de; Brito, I. F.; Santorum, J. A.; Ocké-Reis, C. O.; Fenner, A. L. D. <strong>Vigilância em Saúde brasileira: reflexões e contribuição ao debate da 1ª Conferência Nacional de Vigilância em Saúde</strong>. Cien Saude Colet, v. 22, n. 10. p. 3137-3148. 2017. DOI 10.1590/1413-812320172210.18092017. Disponível em: <a href='https://www.scielo.br/j/csc/a/gkJPYXnymhVD4TG5MSdN9MG/?format=html&lang=pt' target='_blank' rel='noopener noreferrer'>https://www.scielo.br/j/csc/a/gkJPYXnymhVD4TG5MSdN9MG/?format=html&lang=pt</a>.</li>
+
+            <li class="list-group-item">Arreaza, A. L. V.; Moraes, J. C. de. <strong>Vigilância da saúde: fundamentos, interfaces e tendências</strong>. Cien Saude Colet, v. 15, n. 4. p. 2215-2228. 2010. DOI 10.1590/S1413-81232010000400036. Disponível em: <a href='https://www.scielo.br/j/csc/a/nC4LpHzs3bS7RVztSq8SZnc/?format=html&lang=pt' target='_blank' rel='noopener noreferrer'>https://www.scielo.br/j/csc/a/nC4LpHzs3bS7RVztSq8SZnc/?format=html&lang=pt</a></li>
+        </ol>
+    </div>
+
+    <span class='d-block'><strong>Aula 2</strong></span>
+    <div class="list">
+        <ul class="list-group">
+
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>. Acesso em: 20 out. 2023.</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). Guidance on Clinical Suspicion and Differential Diagnosis of Monkeypox. <strong>Provisional Technical Note</strong>, 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf</a>. Acesso em: 28 nov. 2023.</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Mpox (monkeypox)</strong>. 2024. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/monkeypox' target='_blank' rel="noopener noreferrer">https://www.who.int/news-room/fact-sheets/detail/monkeypox</a>. Acesso em: 28 nov. 2023.</li>
+        </ul>
+    </div>
+
+    <span class='d-block'><strong>Aula 3</strong></span>
+    <div class="list">
+        <ul class="list-group">
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA (Anvisa). <strong>Voto nº 64/2023/SEI/DIRE2/ANVISA</strong>. 2023. Disponível em: <a href='https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/' target='_blank' rel="noopener noreferrer">https://www.gov.br/anvisa/pt-br/composicao/diretoria-colegiada/reunioes-da-diretoria/votos-dos-circuitos-deliberativos-1/2023/cd-231-2023-voto.pdf/</a>. Acesso em: 30 out. 2023.</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/campanhas-da-saude/2022/variola-dos-macacos/notas-informativas/nota-informativa-no-6-2022-cggap-desf-saps-ms/view</a>. Acesso em: 30 out. 2023.</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COUTINHO, C. <em>et al</em>. <strong>Characteristics of women diagnosed with mpox infection compared to men:</strong> a case series from Brazil. Travel medicine and infectious disease v. 56 (2023): 102663. Doi: 10.1016/j.tmaid.2023.102663</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). <strong>Mpox:</strong> perguntas e respostas. Disponível em: <a href='https://www.paho.org/pt/mpox-perguntas-e-respostas' target='_blank' rel="noopener noreferrer">https://www.paho.org/pt/mpox-perguntas-e-respostas</a>. Acesso em: 20 out. 2023.</li>
+
+            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Multi-country outbreak of Mpox External Situation Report 22</strong>, published 11 May 2023 Data as received by WHO national authorities by 17:00 CEST, 8 May 2023. <a href='https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/m/item/multi-country-outbreak-of-Mpox--external-situation-report--22---11-may-2023</a>. Acesso em: 23 out. 2023.</li>
+        </ul>
+    </div>
+</div>
                     </div>
                 </div>
 
@@ -556,82 +678,6 @@ const modalInfos = {
                                 </ul>
                             </div>
                             
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h5 class="accordion-header" id="heading1-item4">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item4" aria-expanded="false" aria-controls="collapse1-item4">Módulo 4</button>
-                    </h5>
-                    <div id="collapse1-item4" class="accordion-collapse collapse" aria-labelledby="heading1-item4" data-bs-parent="">
-                        <div class="accordion-body">
-                            <span class='d-block'><strong>Aula 1</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-                                        data-aos-easing="ease-out" data-aos-duration="1200">ARCE, V. A. R.; SOUSA, M. F. DE . Integralidade do cuidado: representações sociais das equipes de Saúde da Família do Distrito Federal. <strong>Saúde e Sociedade</strong>, v. 22, n. 1, p. 109–123, jan. 2013. </li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right"
-                                        data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M.; BATISTELLA, C. E. C. Vigilância em Saúde (verbete). <em>In:</em> PEREIRA, Isabel Brasil; LIMA, Júlio César França. <strong>Dicionário da educação profissional em saúde</strong>. 2.ed. rev. ampl. Rio de Janeiro: EPSJV, 2008.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Monkeypox multi-country outbreak response</strong>. Region of the Americas. Report n. 7, 3rd March, 2023.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">TEIXEIRA, Carmem Fontes; PAIM, Jairnilson Silva; VILASBOAS, Ana Luiza. SUS, modelos assistenciais e vigilância da saúde. <strong>Inf. Epidemiol. Sus</strong> [online]. 1998, v. 7, n. 2, p. 7-28.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. Surveillance, case investigation and contact tracing for mpox (monkeypox). <strong>Interim guidance</strong>, 22 december 2022. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4</a>. Acesso em: 10 jan. 2025.</li>
-                                </ul>
-                            </div>
-
-                            <span class='d-block'><strong>Aula 2</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância das Doenças Transmissíveis. G<strong>uia para Investigações de Surtos ou Epidemias</strong>. Brasília, DF: Ministério da Saúde, 2018. 64 p. : il.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUTANTAN. <strong>Entenda o que é uma pandemia e as diferenças entre surto, epidemia e endemia</strong>. Portal do Butantan. Disponível em: <a href='https://butantan.gov.br/covid/butantan-tira-duvida/tira-duvida-noticias/entenda-o-que-e-uma-pandemia-e-as-diferencas-entre-surto-epidemia-e-endemia' target='_blank' rel="noopener noreferrer">https://butantan.gov.br/covid/butantan-tira-duvida/tira-duvida-noticias/entenda-o-que-e-uma-pandemia-e-as-diferencas-entre-surto-epidemia-e-endemia</a>. Acesso em: 10 mar. 2024.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Orientações sobre o uso de vacinas contra a varíola símia</strong>. Edição corrigida. Washington, D.C.: OPAS, -1, 2024. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/59559/OPASCIM230010_por.pdf?sequence=1&isAllowed=y' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/59559/OPASCIM230010_por.pdf?sequence=1&isAllowed=y</a>. Acesso em: 10 jan. 2025.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Painel da OPAS/OMS sobre Mpox na Região das Américas</strong>, maio de 2023. Washington, D.C.: OPAS/OMS; 2023. Disponível em: <a href='https://shiny.paho-phe.org/mpox/' target='_blank' rel="noopener noreferrer">https://shiny.paho-phe.org/mpox/</a>. Acesso em: 22 jan. 2025.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OPAS. <strong>Vigilância, investigação de casos e rastreamento de contatos da varíola dos macacos</strong>: orientação provisória. 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/57085/OPASWBRAPHEMonkeypox220043_por.pdf?sequence=3&isAllowed=y.' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/57085/OPASWBRAPHEMonkeypox220043_por.pdf?sequence=3&isAllowed=y.</a> Acesso em: 26 fev. 2025.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SUAREZ, J. (1992) - Contribuição ao marco teórico para o desenvolvimento da ação intersetorial. <strong>Saúde Educ. Méd</strong>. 26(2): 225-241.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">UNIVERSIDADE DE SÃO PAULO. USP. Deficiências imunológicas são mais graves na infância: especialista explica tipos de imunodeficiências que podem necessitar de transplante de medula. <strong>Jornal da USP no Ar</strong>, Rádio USP, Atualidades. USP, 2018. Disponível em: <a href='https://jornal.usp.br/?p=164782' target='_blank' rel="noopener noreferrer">https://jornal.usp.br/?p=164782</a>. Acesso em: 12 fev. 2025.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO. <strong>Surveillance, case investigation and contact tracing for mpox (monkeypox)</strong>. Interim guidance, 22 december 2022. Disponível em: <a href='https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4' target='_blank' rel="noopener noreferrer">https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2022.4</a>. Acesso em: 5 fev. 2025.</li>
-                                </ul>
-                            </div>
-
-                            <span class='d-block'><strong>Aula 3</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARTHES, R. <strong>Elementos de Semiologia</strong>. São Paulo: Cultrix, 1972.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FERREIRA, V. S. C.; SILVA, L. M. V. Intersetorialidade em saúde: um estudo de caso. <em>In:</em> HARTZ, Z. M. A.; SILVA, L. M. V. (orgs.). <strong>Avaliação em saúde:</strong> dos modelos teóricos à prática na avaliação de programas e sistemas de saúde [online]. Salvador: EDUFBA; Rio de Janeiro: Editora FIOCRUZ, 2005, p. 103-150. ISBN: 978-85-7541-516-0. </li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GONDIM, G. M. M; MONKEN, M. Território e Territorialização. <em>In:</em> MIRANDA, G. M.; GONDIM, G. M.; CHRISTÓFARO, M. A. C.; MIYASHIRO, G.M. (orgs.)<strong>Técnico de vigilância em saúde:</strong> contexto e identidade. v. 1. Rio de Janeiro: EPSJV, 2017. 308 p.: il. ISBN: 978-85-98768-98-4 1</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">GUIRAUD, P. <strong>A semântica</strong>. 3.ed. Rio de Janeiro: Difel, 1980.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MATUS, Carlos. <strong>Pensamento Estratégico e Lógica de programação: o caso da saúde</strong>. São Paulo/Rio de Janeiro: HUCITEC/ABRASCO,1996. Disponível em:
-<a href='https://www.gov.br/saude/pt-br/composicao/saps/programa-cuida-mais-brasil/regioes-de-saude' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/programa-cuida-mais-brasil/regioes-de-saude</a>. ACESSO EM 21/02/2025 . Acesso em: 15 fev. 2025.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M.; GONDIM, G. M. Território: o lugar onde a vida acontece. <em>In:</em>Curso de BORNSTEIN, V. J. <em>et al</em>. <strong>Aperfeiçoamento em Educação Popular em Saúde:</strong> textos de apoio. Rio de Janeiro: EPSJV, 2016. 164 p.</li>
-                                </ul>
-                            </div>
-
-                            <span class='d-block'><strong>Aula 4</strong></span>
-                            <div class="list">
-                                <ul class="list-group">
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARCELLOS, C.; PEITER, P. The Covid-19 pandemic: possible lessons for international health and security. <em>In:</em> CZYMMECK, A. (org.). <strong>Threats without borders:</strong> Are we apt to cope with the challenges? Rio de Janeiro: Fundação Konrad Adenauer, 2022, v. 1, p. 150-165.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BORGES JÚNIOR, V.; GRELLE, C. E. V. Qual a relação entre conservação da natureza e doenças tropicais? <strong>Jornal O eco</strong>, 2023. Disponível em: <a href='https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/' target='_blank' rel="noopener noreferrer">https://oeco.org.br/analises/qual-a-relacao-entre-conservacao-da-natureza-e-as-doencas-tropicais/</a>.</li>
-
-                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MONKEN, M; PEREIRA, E. M. <strong>Território, Participação e Comunicação Popular em Saúde.</strong> Material Didático do Programa de Formação de Agentes Educadoras e Educadores Populares de Saúde. 2024. (No Prelo)</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
