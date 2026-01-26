@@ -7,16 +7,16 @@
 #sidebar {
 	--_sidebar-desktop-size: 380px;
 	--_sidebar-mobile-size: 100%;
-	--_sidebar-background-color: var(--fio-ref-color-secondary-40);
+	--_sidebar-background-color: var(--fio-ref-color-secondary-30);
 	--_sidebar-border: none;
 	--_sidebar-mobile-course-name-color: var(--fio-sys-color-neutral-white);
 
-	--_sidebar-module-btn--active: var(--fio-ref-color-secondary-30);
-	--_sidebar-module-btn--hover: var(--fio-ref-color-secondary-30);
+	--_sidebar-module-btn--active: var(--fio-sys-color-accent-extra-dark);
+	--_sidebar-module-btn--hover: var(--fio-sys-color-accent-extra-dark);
 	--_sidebar-module-btn-color: var(--fio-sys-color-neutral-white);
 
-	--_sidebar-lesson-btn--active: var(--fio-sys-color-accent-dark);
-	--_sidebar-lesson-btn--hover: var(--fio-sys-color-accent-dark);
+	--_sidebar-lesson-btn--active: var(--fio-sys-color-accent-extra-dark);
+	--_sidebar-lesson-btn--hover: var(--fio-sys-color-accent-extra-dark);
 	--_sidebar-lesson-btn-color: var(--fio-sys-color-neutral-white);
 	--_sidebar-lesson-content-background-color: #872912;
 
@@ -162,8 +162,8 @@
 	line-height: var(--_sidebar-line-height);
 }
 #sidebar .accordion .accordion-item .accordion-collapse {
-	/* background-color: transparent; */
-	background-color: var(--fio-sys-color-accent-medium);
+	background-color: transparent;
+	/* background-color: var(--fio-sys-color-accent-medium); */
 	margin-top: 8px;
 	border-radius: 8px;
 }
@@ -178,7 +178,7 @@
 	background-color: var(--_sidebar-lesson-btn--hover);
 }
 #sidebar .accordion .accordion-item.accordion-lesson .accordion-header .accordion-button:not(.collapsed) {
-	background-color: var(--_sidebar-lesson-btn--active);
+	background-color: var(--_sidebar-lesson-btn--active);	
 }
 
 #sidebar .sidebar__section .sidebar__section-accordion .accordion-module .accordion-body.list-group {
@@ -314,7 +314,7 @@
 		position: fixed;
 		left: 380px;
 		top: 100px;
-		background-color: var(--fio-ref-color-secondary-40);
+		background-color: var(--fio-ref-color-secondary-30);
 		border-top-right-radius: 12px;
 		border-bottom-right-radius: 12px;
 		border: none;

@@ -5,17 +5,17 @@ button,
 button:visited,
 .fio-button,
 .fio-button:visited {
-  --_background-color: var(--fio-sys-color-accent-medium);
-  --_border-color: var(--fio-sys-color-accent-medium);
+  --_background-color: var(--fio-sys-color-accent-dark);
+  --_border-color: var(--fio-sys-color-accent-dark);
   --_border-width: var(--fio-sys-size-stroke-sm);
   --_border-radius: var(--fio-sys-size-radius-lg);
-  --_text-color: var(--fio-sys-color-secondary-accent-medium-contrast);
+  --_text-color: var(--fio-sys-color-accent-extra-dark-contrast);
   --_text-size: var(--fio-sys-typography-size-0);
   --_text-family: var(--fio-sys-typography-family-primary-bold);
 
   --_background-color--hover: var(--fio-sys-color-accent-light);
   --_border-color--hover: var(--fio-sys-color-accent-light);
-  --_text-color--hover: var(--fio-sys-color-accent-medium);
+  --_text-color--hover: var(--fio-sys-color-accent-dark);
 
   --_background-color--disabled: var(--fio-sys-color-neutral-light);
   --_border-color--disabled: var(--fio-sys-color-neutral-light);
@@ -94,24 +94,24 @@ button.disabled,
 
 /* Primary button */
 .fio-button-primary {
-  --_button-color-primary: var(--fio-sys-color-accent-medium);
+  --_button-color-primary: var(--fio-sys-color-accent-dark);
   --_button-color-primary--hover: var(--fio-sys-color-accent-light);
-  --_button-text-color-primary: var(--fio-sys-color-secondary-accent-medium-contrast);
-  --_button-text-color-primary--hover: var(--fio-sys-color-secondary-accent-medium-contrast);
-  --_button-outline-color-primary: var(--fio-sys-color-accent-medium);
+  --_button-text-color-primary: var(--fio-sys-color-accent-extra-dark-contrast);
+  --_button-text-color-primary--hover: var(--fio-sys-color-accent-dark-contrast);
+  --_button-outline-color-primary: var(--fio-sys-color-accent-dark);
   --_button-outline-color-primary--hover: var(--fio-sys-color-accent-light);
   --_button-color-primary--active: var(--fio-sys-color-accent-dark);
-  --_button-text-color-primary--active: var(--fio-sys-color-secondary-accent-medium-contrast);
+  --_button-text-color-primary--active: var(--fio-sys-color-accent-dark-contrast);
 
 	background-color: var(--_button-color-primary);
 	border-color: var(--_button-outline-color-primary);
-	color: var(--_button-text-color-primary);
+	color: var(--fio-sys-color-accent-extra-dark-contrast);
 }
 
 .fio-button-primary:hover {
 	background-color: var(--_button-color-primary--hover);
 	border-color: var(--_button-outline-color-primary--hover);
-  color: var(--fio-sys-color-accent-medium);
+  color: var(--_text-color--hover);
 }
 
 /* Secondary button */

@@ -13,7 +13,7 @@ body {
 
 a,
 a:visited {
-  color: var(--fio-sys-color-accent-medium);
+  color: var(--fio-sys-color-accent-dark);
   text-decoration: none;
   text-transform: none;
   overflow-wrap: anywhere;
@@ -97,9 +97,10 @@ figure.link-image a[target="_blank"]::after {
 	color: var(--fio-sys-color-accent-medium);
 } */
 
-#page-content p > a:hover {
+#page-content p > a:hover,
+#page-content strong > a:hover  {
   background-color: var(--fio-sys-color-accent-medium);
-  color: #FFF;
+  color: var(--fio-sys-color-accent-medium-contrast);
   text-decoration: none;
 }
 
