@@ -352,7 +352,8 @@ const modalInfos = {
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1-item1" aria-expanded="true" aria-controls="collapse1-item1">Módulo 1</button>
                     </h5>
                     <div id="collapse1-item1" class="accordion-collapse collapse" aria-labelledby="heading1-item1" data-bs-parent="">
-                        <div class="accordion-body">
+                       
+<div class="accordion-body">
     <span class='d-block'><strong>Aula 1</strong></span>
     <span class='d-block'><em>Obrigatórias</em></span>
     <div class="list mb-5">
@@ -491,15 +492,123 @@ const modalInfos = {
     </div>
 
     <span class='d-block'><strong>Aula 2</strong></span>
-    <div class="list">
+    <span class='d-block'><em>Obrigatórias - PNVS</em></span>
+    <div class="list mb-5">
         <ul class="list-group">
+            <li class="list-group-item">BRASIL. Agência Nacional de Vigilância Sanitária (ANVISA). Guia de Vigilância em Saúde para a Exposição a Metais Pesados. Brasília: ANVISA, 2020. Disponível em: <a href='https://www.gov.br/anvisa/pt-br target='_blank' rel='noopener noreferrer'>https://www.gov.br/anvisa/pt-br</a>. Acesso em: 2 out. 2025.</li>
 
+            <li class="list-group-item">BRASIL. Conselho Nacional de Saúde. Resolução nº 588, de 12 de julho de 2018. Institui a Política Nacional de Vigilância em Saúde. Diário Oficial da União, Brasília, 13 ago. 2018.</li>
 
-            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <strong>Nota Informativa nº 6/2022-CGGAP/DESF/SAPS/MS</strong>. Brasília, DF: MS, 2022. Disponível em: <a href='https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms' target='_blank' rel="noopener noreferrer">https://www.gov.br/saude/pt-br/composicao/saps/publicacoes/notas-tecnicas/nota-informativa-no-6-2022-cggap-desf-saps-ms</a>. Acesso em: 20 out. 2023.</li>
+            <li class="list-group-item">CONSELHO NACIONAL DE SAÚDE. Política Nacional de Vigilância em Saúde completa seis anos ainda com desafios para sua implementação. Brasília, 2024. Disponível em: https://www.gov.br/conselho-nacional-de-saude. Acesso em: 26 ago. 2025.</li>
 
-            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAN AMERICAN HEALTH ORGANIZATION (PAHO). Guidance on Clinical Suspicion and Differential Diagnosis of Monkeypox. <strong>Provisional Technical Note</strong>, 2022. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf' target='_blank' rel="noopener noreferrer">https://iris.paho.org/bitstream/handle/10665.2/56218/PAHOPHEIMS220011_eng.pdf</a>. Acesso em: 28 nov. 2023.</li>
+            <li class="list-group-item">CSCI. Saúde e saneamento: uma avaliação das políticas públicas de prevenção, controle e contingência das arboviroses no Brasil. <strong>Ciência & Saúde Coletiva</strong>, v. 28, n. 6, p. 1767-1776, 2023.</li>
 
-            <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION (WHO). <strong>Mpox (monkeypox)</strong>. 2024. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/monkeypox' target='_blank' rel="noopener noreferrer">https://www.who.int/news-room/fact-sheets/detail/monkeypox</a>. Acesso em: 28 nov. 2023.</li>
+            <li class="list-group-item">FIOCRUZ. Abrascão promove o lançamento da Política Nacional de Vigilância em Saúde (PNVS). Rio de Janeiro: EPSJV, 2018. Disponível em: <a href='https://www.epsjv.fiocruz.br' target='_blank' rel='noopener noreferrer'>https://www.epsjv.fiocruz.br</a>. Acesso em: 26 ago. 2025.</li>
+
+            <li class="list-group-item">GARCIA, L. P.; DUARTE, E. 1ª Conferência Nacional de Vigilância em Saúde: marco para a construção da Política Nacional de Vigilância em Saúde. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 27, n. 2, e20180002, 2018.</li>
+
+            <li class="list-group-item">INTERFACE. Caminhos possíveis para a avaliação das práticas da Vigilância em Saúde. <strong>Interface – Comunicação, Saúde, Educação</strong>, v. 21, supl. 1, p. 3183-3192, 2017..</li>
+
+            <li class="list-group-item">MULTI EDUCATIVA. Gestão em Vigilância em Saúde: estratégias e implementação. São Paulo: Multi Educativa, 2024a.</li>
+
+            <li class="list-group-item">MULTI EDUCATIVA. Gestão da Vigilância em Saúde: como monitorar riscos e proteger a população. São Paulo: Multi Educativa, 2024b.</li>
+
+            <li class="list-group-item">OKUMOTO, O.; BRITO, S. M. F.; GARCIA, L. P. A Política Nacional de Vigilância em Saúde. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 27, n. 3, e2018318, 2018.</li>
+
+            <li class="list-group-item">OLIVEIRA, C. M.; CRUZ, M. M. Sistema de Vigilância em Saúde no Brasil: avanços e desafios. <strong>Saúde em Debate</strong>, v. 39, n. 104, p. 255-267, 2015.</li>
+
+            <li class="list-group-item">RECKTENWALDT, M.; JUNGES, J. R. A organização e a prática da Vigilância em Saúde em municípios de pequeno porte. <strong>Saúde e Sociedade</strong>, v. 26, n. 2, p. 367-381, 2017.</li>
+
+            <li class="list-group-item">REDALYC. Aspectos facilitadores e desafios para a implementação de um modelo de educação permanente para a Vigilância Sanitária. <strong>Revista Salud Colectiva</strong>, v. 16, n. 4, p. 1-12, 2020.</li>
+
+            <li class="list-group-item">SANAR SAÚDE. Princípios da PNVS: o que você precisa saber! Blog Sanar Saúde, 2023. Disponível em: <a href='https://blog.sanarsaude.com' target='_blank' rel='noopener noreferrer'>https://blog.sanarsaude.com</a>. Acesso em: 26 ago. 2025.</li>
+        </ul>
+    </div>
+
+    <span class='d-block'><em>Obrigatórias - Planejamento</em></span>
+    <div class="list mb-5">
+        <ul class="list-group">
+            <li class="list-group-item">GIOVANELLA, L.; MENDES, A. Atenção primária à saúde e coordenação do cuidado no SUS. <strong>Saúde em Debate</strong>, v. 43, n. spe5, p. 8-22, 2019.</li>
+
+            <li class="list-group-item">MATUS, C. Política, planejamento e governo. Brasília: IPEA, 1993.</li>
+
+            <li class="list-group-item">PAIM, J. S.; TEIXEIRA, C. F. Política, planejamento e gestão em saúde: balanço do estado da arte. <strong>Revista de Saúde Pública</strong>, v. 40, n. spe, p. 73-78, 2006.</li>
+
+            <li class="list-group-item">TANAKA, O. Y.; MELO, C. Avaliação de programas de saúde do adolescente: um modo de fazer. São Paulo: EDUSP, 2004.</li>
+
+            <li class="list-group-item">TESTA, M. Pensamento estratégico e lógica de programação: o caso da saúde. São Paulo: Hucitec, 1992.</li>
+
+            <li class="list-group-item">MENDES, E. V. (2011). As redes de atenção à saúde. Brasília: Organização Pan-Americana da Saúde.</li>
+
+            <li class="list-group-item">TANAKA, O. Y., & Tamaki, E. M. (2012). O papel da avaliação para a tomada de decisão na gestão de serviços de saúde. <strong>Ciência & Saúde Coletiva</strong>, 17(4), 821-828.</li>
+
+            <li class="list-group-item">TEIXEIRA, C. F., & Paim, J. S. (2000). Planejamento em saúde: conceitos, métodos e experiências. <strong>Ciência & Saúde Coletiva</strong>, 5(1), 17-39.</li>
+
+            <li class="list-group-item">BRASIL. Ministério da Saúde. (2016). Planejamento no SUS: conceitos, métodos e experiências. Brasília: Ministério da Saúde.</li>
+        </ul>
+    </div>
+
+    <span class='d-block'><em>Complementares</em></span>
+    <div class="list mb-5">
+        <ul class="list-group">
+            <li class="list-group-item">PAIM, J. S. O que é o SUS. Rio de Janeiro: Editora Fiocruz, 2009.</li>
+
+            <li class="list-group-item">TEIXEIRA, C. F. Planejamento em saúde: conceitos, métodos e experiências. Salvador: EDUFBA, 2010.</li>
+
+            <li class="list-group-item">PORTO, M. F. Saúde, ambiente e sustentabilidade: uma análise interdisciplinar. Rio de Janeiro: Fiocruz, 2012.</li>
+
+            <li class="list-group-item">BRASIL. Ministério da Saúde. Vigilância em Saúde das Populações Expostas a Contaminantes e Substâncias Químicas. <a href='https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigipeq#:~:text=SISSOLO,pela%20exposi%C3%A7%C3%A3o%20a%20subst%C3%A2ncias%20qu%C3%ADmicas' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigipeq#:~:text=SISSOLO,pela%20exposi%C3%A7%C3%A3o%20a%20subst%C3%A2ncias%20qu%C3%ADmicas</a></li>
+
+            <li class="list-group-item">Link Manual de planejamento do SUS:  <a href='https://bvsms.saude.gov.br/bvs/publicacoes/articulacao_interfederativa_v4_manual_planejamento_atual.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/articulacao_interfederativa_v4_manual_planejamento_atual.pdf</a> </li>
+
+            <li class="list-group-item">Instrumentos de planejamento do SUS: <a href='https://www.gov.br/saude/pt-br/acesso-a-informacao/gestao-do-sus/instrumentos-de-planejamento' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/acesso-a-informacao/gestao-do-sus/instrumentos-de-planejamento</a> </li>
+
+            <li class="list-group-item">Tabnet para registros SINAN intoxicação exógena; <a href='http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/Intoxbr.def' target='_blank' rel='noopener noreferrer'>http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/Intoxbr.def</a> </li>
+
+            <li class="list-group-item">Site Datasus MS: <a href='https://datasus.saude.gov.br/' target='_blank' rel='noopener noreferrer'>https://datasus.saude.gov.br/</a></li>
+        </ul>
+    </div>
+
+    <span class='d-block'><em>Recursos educacionais sugeridos</em></span>
+    <div class="list mb-5">
+        <ul class="list-group">
+            <li class="list-group-item">Vídeo A história da saúde pública no Brasil – 500 anos na busca de soluções - <a href='https://www.youtube.com/watch?v=7ouSg6oNMe8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=7ouSg6oNMe8</a> </li>
+
+            <li class="list-group-item">Vídeo sobre o serviço de vigilância em saúde e sua importância no planejamento das ações executadas pelo SUS - <a href='https://www.youtube.com/watch?v=TOW_ij0zjh8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=TOW_ij0zjh8</a> </li>
+
+            <li class="list-group-item">Vídeo Carlos Machado a respeito da importância para a Saúde Coletiva nos desastres de Mariana e Brumadinho - <a href='https://www.youtube.com/watch?app=desktop&v=YlMMk_-ZDKM' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?app=desktop&v=YlMMk_-ZDKM</a> </li>
+
+            <li class="list-group-item">BRASIL. Ministério da Saúde. Vigilância em Saúde das Populações Expostas a Contaminantes e Substâncias Químicas. <a href='https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigipeq#:~:text=SISSOLO,pela%20exposi%C3%A7%C3%A3o%20a%20subst%C3%A2ncias%20qu%C3%ADmicas' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigipeq#:~:text=SISSOLO,pela%20exposi%C3%A7%C3%A3o%20a%20subst%C3%A2ncias%20qu%C3%ADmicas</a></li>
+
+            <li class="list-group-item">Vídeo Christovam Barcellos a respeito de impactos sobre a saúde e os desafios para a Gestão em desastre como os de Mariana e Brumadinho - <a href='https://www.youtube.com/watch?v=rCMXE_WBag8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=rCMXE_WBag8</a> </li>
+
+            <li class="list-group-item">Vídeo Mariano Andrade a respeito de impactos sobre a saúde e os desafios para a Gestão em desastre como os de Mariana e Brumadinho - <a href='https://www.youtube.com/watch?v=rsivSx-kEU8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=rsivSx-kEU8</a> </li>
+
+            <li class="list-group-item">Relatos de vítimas de Brumadinho - <a href='https://www.youtube.com/watch?v=PZ3X52sq1pA' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=PZ3X52sq1pA</a></li>
+
+            <li class="list-group-item">Como usar o Tabnet (Datasus) <a href='https://datasus.saude.gov.br/wp-content/uploads/2020/02/Tutorial-TABNET-2020.pdf' target='_blank' rel='noopener noreferrer'>https://datasus.saude.gov.br/wp-content/uploads/2020/02/Tutorial-TABNET-2020.pdf </a></li>
+
+            <li class="list-group-item">Vídeo Fantasmas da Lama: a vida dos atingidos pela mineração em MG, oito anos após Mariana: <a href='https://www.youtube.com/watch?v=8xwOIFizqA0' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=8xwOIFizqA0</a> </li>
+
+            <li class="list-group-item">Vídeo Vigilância em Saúde (Parte 1) - Conasems: <a href='https://www.youtube.com/watch?v=zszLy8ckb0E' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=zszLy8ckb0E</a> </li>
+
+            <li class="list-group-item">Vídeo Vigilância em Saúde (Parte 2)- <a href='https://www.youtube.com/watch?v=Q0hYz3lKrG8' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=Q0hYz3lKrG8</a></li>
+
+            <li class="list-group-item">Vídeo de Vigilância em saúde Fiocruz: <a href='https://fiocruz.br/video/vigilancia-em-saude-ligado-em-saude' target='_blank' rel='noopener noreferrer'>https://fiocruz.br/video/vigilancia-em-saude-ligado-em-saude</a> </li>
+
+            <li class="list-group-item">Vídeo Vigilância Genômica dengue, chikungunya e Zika: <a href='https://fiocruz.br/video/projeto-da-fiocruz-gera-mais-de-120-genomas-completos-de-dengue-zika-e-chikungunya' target='_blank' rel='noopener noreferrer'>https://fiocruz.br/video/projeto-da-fiocruz-gera-mais-de-120-genomas-completos-de-dengue-zika-e-chikungunya</a></li>
+
+            <li class="list-group-item">Vídeo longo sobre utilização do Tabnet: <a href='https://www.youtube.com/watch?v=PJTx7STy0Xc' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=PJTx7STy0Xc</a></li>
+
+            <li class="list-group-item">Vídeo curto sobre utilização do Tabnet: <a href='http://go.microsoft.com/fwlink/p/?LinkId=255141' target='_blank' rel='noopener noreferrer'>http://go.microsoft.com/fwlink/p/?LinkId=255141</a></li>
+
+            <li class="list-group-item">Trailer do filme Amazônia Nova Minamata?: <a href='https://www.youtube.com/watch?v=lcosMnYaR8M' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=lcosMnYaR8M</a></li>
+
+            <li class="list-group-item">BRASIL DE FATO. Documentário denuncia contaminação por contato com lama tóxica da Samarco. 5 fev. 2019. Disponível em: <a href='https://www.brasildefato.com.br/2019/02/05/documentario-denuncia-contaminacao-por-contato-com-lama-toxica-da-samarco/?utm_source=chatgpt.com' target='_blank' rel='noopener noreferrer'>https://www.brasildefato.com.br/2019/02/05/documentario-denuncia-contaminacao-por-contato-com-lama-toxica-da-samarco/?utm_source=chatgpt.com</a>. Acesso em: 2 out. 2025. </li>
+
+            <li class="list-group-item">MURAD, Vinícius. COP30: Documentário mostra a luta do povo Munduruku contra o garimpo ilegal. <strong>CNN Brasil</strong>, São Paulo, 8 set. 2025. Disponível em: <a href='https://www.cnnbrasil.com.br/nacional/cop30-documentario-mostra-a-luta-do-povo-munduruku-contra-o-garimpo-ilegal.com' target='_blank' rel='noopener noreferrer'>https://www.cnnbrasil.com.br/nacional/cop30-documentario-mostra-a-luta-do-povo-munduruku-contra-o-garimpo-ilegal.com</a>. Acesso em: 2 out. 2025.</li>
+
+            <li class="list-group-item">PEREIRA, João Carlos; SILVA, Maria Fernanda da. O impacto das tecnologias educacionais na aprendizagem ativa. Revista Brasileira de Ensino Superior Online, São Paulo, v. 15, n. 2, p. 123-145, jul./dez. 2025. Disponível em: <a href='https://www.scielo.br/j/rbso/a/RFccCXPZH4Z57Dw5gTzBmpj/?format=html&lang=pt' target='_blank' rel='noopener noreferrer'>https://www.scielo.br/j/rbso/a/RFccCXPZH4Z57Dw5gTzBmpj/?format=html&lang=pt</a>. Acesso em: 2 out. 2025.</li>
         </ul>
     </div>
 
