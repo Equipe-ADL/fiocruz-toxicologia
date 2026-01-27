@@ -49,6 +49,7 @@
 
 .tab-pane-content{
 	padding: 1.5rem;
+	overflow: hidden;
 }
 
 .boot-tabs {
