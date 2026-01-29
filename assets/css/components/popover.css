@@ -14,16 +14,25 @@ a[data-bs-toggle="popover"]:not([href]):not([class]):hover {
     max-width: 500px;
 }
 
-
 .popover-header {
     color: var(--fio-sys-typography-head-color);
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: var(--fio-sys-typography-size-0);
     background-color: var(--fio-sys-color-primary-medium-contrast);
     border-bottom: none;
     border-top-left-radius: var(--fio-component-card-border-radius);
     border-top-right-radius: var(--fio-component-card-border-radius);
+}
+
+.popover ul li {
+    color: var(--fio-sys-color-primary-dark);
+    font-family: var(--fio-sys-typography-family-primary-regular);
+    font-size: var(--fio-sys-typography-size-0);
+    font-weight: var(--fio-sys-typography-weight-medium);
+    letter-spacing: var(--fio-sys-typography-spacing-medium);
+    line-height: 1.5;
+    margin-bottom: var(--fio-sys-size-margin-xs);
 }
 
 .bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after,
