@@ -25,6 +25,7 @@
 	font-size: var(--fio-sys-typography-size-0);
 	padding: var(--fio-sys-spacing-padding-md);
 	padding-left: var(--fio-sys-spacing-padding-xl);
+	color: var(--fio-sys-color-primary-dark);
 }
 
 .list .list-group .list-group-item:last-child {
@@ -32,7 +33,7 @@
 }
 
 .list .list-group .list-group-item::before {
-	color: var(--fio-sys-color-primary-medium);
+	color: var(--fio-sys-color-accent-medium);
 	content: 'label_important';
 	font-family: 'Material Symbols Rounded';
 	font-size: calc(var(--fio-sys-typography-paragraph-size) * 1.2);

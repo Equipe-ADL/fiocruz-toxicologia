@@ -71,6 +71,9 @@
 	--_card-header-border-color: var(--fio-sys-color-secondary5-normal);
 }
 
+
+
+
 .card.card-primary {
 	background-color: var(--_card-background-primary);
 	border-color: var(--_card-border-color-primary);
@@ -113,6 +116,8 @@
 	color: var(--_card-header-color);
 }
 
+
+
 /* .card .card-body,
 .card .card-footer {
 	background-color: var(--_card-background);
@@ -124,6 +129,19 @@
 .card .card-body :last-child {
 	margin-bottom: 0;
 }
+
+.card .card-body .slide-title {
+	font-size: var(--fio-sys-typography-size-0)!important;
+	font-style: bold;
+	color: var(--fio-sys-color-accent-dark);
+	}
+
+.card .card-body .slide-title p {
+	size: var(--fio-sys-typography-size--1);
+	color: var(--fio-sys-color-primary-medium);
+
+}
+
 .card .card-footer {
 	border-bottom-left-radius: var(--_card-border-radius);
 	border-bottom-right-radius: var(--_card-border-radius);
