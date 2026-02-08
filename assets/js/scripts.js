@@ -557,7 +557,15 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m2-aula4" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula4" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 4</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">Klaassen, Curtis D.; Watkins III, John B. <strong>Fundamentos em toxicologia de Casarett e Doull (Lange)</strong>. AMGH Editora. Porto Alegre, 2a. edição, 2012.</li>
+
+                                                    <li class="list-group-item">Oga, S.; Camargo, M.M.A.; Batistuzzo, J.A.O. <strong>Fundamentos de toxicologia</strong>. Atheneu Editora. São Paulo, 4a. edição, 2014.</li>
+
+                                                    <li class="list-group-item">Shibamoto, Takayuki; Bjeldanes, Leonard F. <strong>Introdução à toxicologia de alimentos</strong>. Elsevier, 2014.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
