@@ -102,7 +102,8 @@ const course = {
           items: [
             { type: "link", icon: "lesson", title: "Sobre esta aula", path: "/modulo2/aula4/sobre-aula.html" },
             { type: "link", icon: "lesson", title: "Tópico 1: O que é toxicologia dos alimentos?", path: "/modulo2/aula4/topico1.html" },
-            { type: "link", icon: "lesson", title: "Tópico 2: Classificação dos contaminantes alimentares", path: "/modulo2/aula4/topico2.html" },
+            { type: "link", icon: "lesson", title: "Tópico 2: Principais conceitos relacionados à toxicologia dos alimentos", path: "/modulo2/aula4/topico2.html" },
+            { type: "link", icon: "lesson", title: "Tópico 3: Classificação dos contaminantes alimentares", path: "/modulo2/aula4/topico3.html" },
             { type: "link", icon: "lesson", title: "Questão de Fixação", path: "/modulo2/aula4/atividade.html" }
           ]
         },

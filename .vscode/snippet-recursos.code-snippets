@@ -1,35 +1,35 @@
 {
-	// Place your fiocruz-toxicologia workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
-	// Placeholders with the same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"scope": "javascript,typescript",
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-	"Row": {
-		"prefix": "row",
-		"body": [
-			"<div class=\"row justify-content-center\">",
+    // Place your fiocruz-toxicologia workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+    // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+    // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+    // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+    // Placeholders with the same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"scope": "javascript,typescript",
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "Row": {
+        "prefix": "row",
+        "body": [
+            "<div class=\"row justify-content-center\">",
     "	<div class=\"col-12 col-md-10 col-lg-8 mb-5\">",
     "	</div>",
-			"</div>"
-		],
-		"description": "Row"
-	},
-	"Abas": {
-		"prefix": "abas",
-		"body": [
-			"<!-- Abas -->",
-			"<div class=\"aba\">",
+            "</div>"
+        ],
+        "description": "Row"
+    },
+    "Abas": {
+        "prefix": "abas",
+        "body": [
+            "<!-- Abas -->",
+            "<div class=\"aba\">",
     "	<ul class=\"nav nav-pills nav-fill\" id=\"pills-tab\" role=\"tablist\">",
     "		<li class=\"nav-item\" role=\"presentation\">",
     "			<button class=\"nav-link active\" id=\"pills-atores-tab\" data-bs-toggle=\"pill\" data-bs-target=\"#pills-atores\" type=\"button\" role=\"tab\" aria-controls=\"pills-atores\" aria-selected=\"true\">Aba 1</button>",
@@ -46,7 +46,7 @@
     "		<div class=\"tab-pane fade show active\" id=\"pills-atores\" role=\"tabpanel\" aria-labelledby=\"pills-atores-tab\">",
     "			<div class=\"tab-pane-content\">",
     "				<p class=\"h6\">Exemplo de conteúdo</p>",
-			"",
+            "",
     "				<p>Raw denim you probably haven't heard of them jean shorts",
     "					Austin. Nesciunt",
     "					tofu stumptown aliqua, retro synth master cleanse.",
@@ -73,15 +73,15 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Abas"
-	},
-	"Accordion": {
-		"prefix": "accordion",
-		"body": [
-			"<!-- Accordion -->",
-			"<div class=\"accordion accordion-flush aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"800\" id=\"accordionExample\">",
+            "</div>"
+        ],
+        "description": "Abas"
+    },
+    "Accordion": {
+        "prefix": "accordion",
+        "body": [
+            "<!-- Accordion -->",
+            "<div class=\"accordion accordion-flush aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"800\" id=\"accordionExample\">",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item1\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item1\" aria-expanded=\"true\" aria-controls=\"collapse1-item1\">Accordion ítem 1</button>",
@@ -92,19 +92,19 @@
     "				<p>Agência Nacional de Vigilância Sanitária, autarquia que",
     "					exerce atividades de regulação, normatização, controle e",
     "					fiscalização na área de vigilância sanitária.</p>",
-			"",
+            "",
     "				<p><strong>Autoridade Nacional Reguladora do Medicamento",
     "						(ANARME) ou Entidade Reguladora de",
     "						Moçambique</strong></p>",
-			"",
+            "",
     "				<p>Instituição pública, dotada de personalidade jurídica,",
     "					autonomia administrativa, financeira e patrimonial, que",
     "					desempenha funções de regulamentação, supervisão,",
     "					fiscalização e sancionamento, nos termos definidos pela",
     "					Lei.</p>",
-			"",
+            "",
     "				<p><strong>Autoridades Regulatórias</strong></p>",
-			"",
+            "",
     "				<p>Instituições que têm poder regulatório, ou seja,",
     "					autoridades que analisam os dados submetidos e conduzem",
     "					inspeções. Podem também serem denominadas autoridades",
@@ -112,7 +112,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item2\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item2\" aria-expanded=\"false\" aria-controls=\"collapse1-item2\">Accordion ítem 2</button>",
@@ -123,7 +123,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item3\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item3\" aria-expanded=\"false\" aria-controls=\"collapse1-item3\">Accordion ítem 3</button>",
@@ -134,7 +134,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item4\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item4\" aria-expanded=\"false\" aria-controls=\"collapse1-item4\">Accordion ítem 4</button>",
@@ -145,7 +145,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item5\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item5\" aria-expanded=\"false\" aria-controls=\"collapse1-item5\">Accordion ítem 5</button>",
@@ -156,7 +156,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"accordion-item\">",
     "		<h5 class=\"accordion-header\" id=\"heading1-item6\">",
     "			<button class=\"accordion-button collapsed\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#collapse1-item6\" aria-expanded=\"false\" aria-controls=\"collapse1-item6\">Accordion ítem 6</button>",
@@ -167,20 +167,20 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Accordion"
-	},
-	"Accordion com imagens": {
-		"prefix": "accordion-com-imagens",
-		"body": [
-			"<!-- Accordion com imagens-->",
-			"<div class=\"row justify-content-center\">",
+            "</div>"
+        ],
+        "description": "Accordion"
+    },
+    "Accordion com imagens": {
+        "prefix": "accordion-com-imagens",
+        "body": [
+            "<!-- Accordion com imagens-->",
+            "<div class=\"row justify-content-center\">",
     "	<div class=\"col-12\">",
     "		<p class=\"text-muted text-center mb-5\"><span class=\"material-symbols-rounded\" style=\"transform: rotateX(180deg)\">pan_tool_alt</span> <span class=\"d-none d-lg-inline-block\">Clique</span> <span class=\"d-inline-block d-lg-none\">Toque</span> nas imagens",
     "			para visualizar as informações.</p>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-10 col-md-5 col-lg-4 mb-5\">",
     "		<div class=\"image-dropdown\">",
     "			<a class=\"image-button\" data-bs-toggle=\"collapse\" href=\"#collapse1\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapse1\">",
@@ -200,7 +200,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-10 col-md-5 col-lg-4 mb-5\">",
     "		<div class=\"image-dropdown\">",
     "			<a class=\"image-button\" data-bs-toggle=\"collapse\" href=\"#collapse2\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapse2\">",
@@ -220,7 +220,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-10 col-md-5 col-lg-4 mb-5\">",
     "		<div class=\"image-dropdown\">",
     "			<a class=\"image-button\" data-bs-toggle=\"collapse\" href=\"#collapse3\" role=\"button\" aria-expanded=\"false\" aria-controls=\"collapse3\">",
@@ -240,23 +240,23 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Accordion com imagens"
-	},
-	"Box de Atenção": {
-		"prefix": "atenção",
-		"body": [
-			"<!-- Box de Atenção -->",
-			"<div class=\"box\" data-box=\"atenção\">",
+            "</div>"
+        ],
+        "description": "Accordion com imagens"
+    },
+    "Box de Atenção": {
+        "prefix": "atenção",
+        "body": [
+            "<!-- Box de Atenção -->",
+            "<div class=\"box\" data-box=\"atenção\">",
     "	<div class=\"card aos-init aos-animate\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
     "			<span class=\"label\">Atenção</span>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"custom-shape-divider-top-1751890676\">",
-			"",
+            "",
     "		</div>",
     "		<div class=\"card-body\">",
     "			<div>",
@@ -270,20 +270,20 @@
     "					massa quis lorem porttitor tempus.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"custom-shape-divider-bottom-1751890016\">",
-			"",
+            "",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Atenção"
-	},
-	"Box de Você sabia": {
-		"prefix": "voce-sabia",
-		"body": [
-			"<!-- Box de Você sabia -->",
-			"<div class=\"box\" data-box=\"Você sabia?\">",
+            "</div>"
+        ],
+        "description": "Atenção"
+    },
+    "Box de Você sabia": {
+        "prefix": "voce-sabia",
+        "body": [
+            "<!-- Box de Você sabia -->",
+            "<div class=\"box\" data-box=\"Você sabia?\">",
     "	<div class=\"card card--out\">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -300,16 +300,16 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Curiosidade"
-	},
-	"Box de Dica": {
-		"prefix": "dica",
-		"body": [
-			"<!-- Box de Dica -->",
-			"<div class=\"box\" data-box=\"dica\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Curiosidade"
+    },
+    "Box de Dica": {
+        "prefix": "dica",
+        "body": [
+            "<!-- Box de Dica -->",
+            "<div class=\"box\" data-box=\"dica\">",
     "	<div class=\"card card--out\">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -326,16 +326,16 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Dica"
-	},
-	"Box de Dúvida": {
-		"prefix": "duvida",
-		"body": [
-			"<!-- Box de Dúvida -->",
-			"<div class=\"box\" data-box=\"dúvida\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Dica"
+    },
+    "Box de Dúvida": {
+        "prefix": "duvida",
+        "body": [
+            "<!-- Box de Dúvida -->",
+            "<div class=\"box\" data-box=\"dúvida\">",
     "	<div class=\"card card--out\">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -352,15 +352,15 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Box de Dúvida"
-	},
-	"Box de Glossário": {
-		"prefix": "glossario",
-		"body": [
-			"<!-- Box de Glossário -->",
-			"<div class=\"box\" data-box=\"glossário\">",
+            "</div>"
+        ],
+        "description": "Box de Dúvida"
+    },
+    "Box de Glossário": {
+        "prefix": "glossario",
+        "body": [
+            "<!-- Box de Glossário -->",
+            "<div class=\"box\" data-box=\"glossário\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -377,16 +377,16 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Glossário"
-	},
-	"Box de Material Complementar": {
-		"prefix": "material-complementar",
-		"body": [
-			"<!-- Box de Material Complementar -->",
-			"<div class=\"box\" data-box=\"material complementar\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Glossário"
+    },
+    "Box de Material Complementar": {
+        "prefix": "material-complementar",
+        "body": [
+            "<!-- Box de Material Complementar -->",
+            "<div class=\"box\" data-box=\"material complementar\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -403,15 +403,15 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Box de Material Complementar"
-	},
-	"Box de Para Refletir": {
-		"prefix": "para-refletir",
-		"body": [
-			"<!-- Box de Para refletir -->",
-			"<div class=\"box\" data-box=\"para refletir\">",
+            "</div>"
+        ],
+        "description": "Box de Material Complementar"
+    },
+    "Box de Para Refletir": {
+        "prefix": "para-refletir",
+        "body": [
+            "<!-- Box de Para refletir -->",
+            "<div class=\"box\" data-box=\"para refletir\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -428,16 +428,16 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Para Refletir"
-	},
-	"Box de Para Escutar": {
-		"prefix": "para-escutar",
-		"body": [
-			"<!-- Box de Para Escutar -->",
-			"<div class=\"box\" data-box=\"para escutar\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Para Refletir"
+    },
+    "Box de Para Escutar": {
+        "prefix": "para-escutar",
+        "body": [
+            "<!-- Box de Para Escutar -->",
+            "<div class=\"box\" data-box=\"para escutar\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -456,9 +456,9 @@
     "					</button>",
     "					<div class=\"transcription-content collapse\" id=\"mediatranscription1\" style=\"\">",
     "						<h6 class=\"mt-4\">Escravidão no Brasil</h6>",
-			"",
+            "",
     "						<p>[Toca música inicial]</p>",
-			"",
+            "",
     "						<p>Apesar do processo de decadência da",
     "							escravidão a partir de 1850 e do",
     "							movimento abolicionista em 1880",
@@ -476,9 +476,9 @@
     "							a libertação não lhes deu cidadania,",
     "							porque se tornaram reféns da falta de",
     "							trabalho e de moradia.</p>",
-			"",
+            "",
     "						<p>[Pausa musical entre assuntos]</p>",
-			"",
+            "",
     "						<p>Apesar da luta histórica de movimentos e",
     "							grupos sociais negros, somente em tempos",
     "							muito recentes foram elaboradas",
@@ -511,7 +511,7 @@
     "							discriminação nas instituições e",
     "							serviços do SUS”.</p>",
     "						<p>[Pausa musical entre assuntos]</p>",
-			"",
+            "",
     "						<p>Uma reflexão importante: a Lei Áurea",
     "							declarou extinta a escravidão, mas não",
     "							significou mudanças significativas no",
@@ -535,22 +535,22 @@
     "							outros países, essa distinção favorece",
     "							os brancos e coloca como subalternos",
     "							negros e indígenas.</p>",
-			"",
+            "",
     "						<p>[Toca música final]</p>",
     "					</div>",
     "				</div>",
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Box de Para Escutar"
-	},
-	"Box de Para Assistir": {
-		"prefix": "para-assistir",
-		"body": [
-			"<!-- Box de Para Assistir -->",
-			"<div class=\"box\" data-box=\"para assistir\">",
+            "</div>"
+        ],
+        "description": "Box de Para Escutar"
+    },
+    "Box de Para Assistir": {
+        "prefix": "para-assistir",
+        "body": [
+            "<!-- Box de Para Assistir -->",
+            "<div class=\"box\" data-box=\"para assistir\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -559,20 +559,20 @@
     "		<div class=\"card-body\">",
     "			<div class=\"ratio ratio-16x9\">",
     "				<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NpEaa2P7qZI?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe>",
-			"",
+            "",
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Para Assistir"
-	},
-	"Box de Saiba Mais": {
-		"prefix": "saiba-mais",
-		"body": [
-			"<!-- Box de Saiba Mais -->",
-			"<div class=\"box\" data-box=\"saiba mais\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Para Assistir"
+    },
+    "Box de Saiba Mais": {
+        "prefix": "saiba-mais",
+        "body": [
+            "<!-- Box de Saiba Mais -->",
+            "<div class=\"box\" data-box=\"saiba mais\">",
     "	<div class=\"card \">",
     "		<div class=\"card-header\">",
     "			<span class=\"icone material-symbols-rounded\" aria-hidden=\"true\"></span>",
@@ -589,43 +589,43 @@
     "				tempus.</p>",
     "		</div>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Box de Saiba Mais"
-	},
-	"Card": {
-		"prefix": "card",
-		"body": [
-			"<div class=\"card\">",
+            "</div>",
+            ""
+        ],
+        "description": "Box de Saiba Mais"
+    },
+    "Card": {
+        "prefix": "card",
+        "body": [
+            "<div class=\"card\">",
     "	<div class=\"card-thumb\">",
     "		<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "	</div>",
-			"",
+            "",
     "	<div class=\"card-header\">",
     "		<span class=\"\">Card completo</span>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"card-body\">",
     "		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "			Laborum eius delectus inventore laboriosam dolorem",
     "			officiis natus!</p>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"card-footer\">",
     "		<button type=\"button\" class=\"fio-button button-sm fio-button-primary\" data-bs-dismiss=\"modal\">Salvar</button>",
     "		<button type=\"button\" class=\"fio-button button-sm fio-button-secondary\" data-bs-dismiss=\"modal\">Cancelar</button>",
     "	</div>",
-			"</div>",
-			""
-		],
-		"description": "Card"
-	},
-	"Citação": {
-		"prefix": "citacao",
-		"body": [
-			"<!-- Citação -->",
-			"<div class=\"quotation\">",
+            "</div>",
+            ""
+        ],
+        "description": "Card"
+    },
+    "Citação": {
+        "prefix": "citacao",
+        "body": [
+            "<!-- Citação -->",
+            "<div class=\"quotation\">",
     "	<blockquote class=\"\">",
     "		<span class=\"quotation-background\"></span>",
     "		<div class=\"quotation-body\">",
@@ -636,15 +636,15 @@
     "			<span class=\"quotation-autor\">COUTO E ARANTES (2006, p.42)</span>",
     "		</div>",
     "	</blockquote>",
-			"</div>"
-		],
-		"description": "Citação"
-	},
-	"Flipcard": {
-		"prefix": "flipcard",
-		"body": [
-			"<!--Flipcard-->",
-			"<div class=\"flipcard\">",
+            "</div>"
+        ],
+        "description": "Citação"
+    },
+    "Flipcard": {
+        "prefix": "flipcard",
+        "body": [
+            "<!--Flipcard-->",
+            "<div class=\"flipcard\">",
     "	<div class=\"flip-card\">",
     "		<input type=\"checkbox\" id=\"flipcard1\" class=\"more\" aria-hidden=\"true\">",
     "		<div class=\"flip-card-inner\">",
@@ -656,7 +656,7 @@
     "							1</span>",
     "						<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "					</div>",
-			"",
+            "",
     "					<div class=\"card-footer text-white\">",
     "						<div class=\"card-btn\">",
     "							<label for=\"flipcard1\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -667,7 +667,7 @@
     "					</div>",
     "				</div>",
     "			</div>",
-			"",
+            "",
     "			<!-- VERSO -->",
     "			<div class=\"card flip-card-back \">",
     "				<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -690,7 +690,7 @@
     "								saúde pública.</p>",
     "						</div>",
     "					</div>",
-			"",
+            "",
     "					<div class=\"card-footer\">",
     "						<div class=\"card-btn\">",
     "							<label for=\"flipcard1\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -702,15 +702,15 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Flipcard"
-	},
-	"Saiba Mais Toggle": {
-		"prefix": "saiba-mais-toggle",
-		"body": [
-			"<!-- Saiba Mais Toggle -->",
-			"<div class=\"saiba-mais aos-init aos-animate\" data-aos=\"fade-left\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
+            "</div>"
+        ],
+        "description": "Flipcard"
+    },
+    "Saiba Mais Toggle": {
+        "prefix": "saiba-mais-toggle",
+        "body": [
+            "<!-- Saiba Mais Toggle -->",
+            "<div class=\"saiba-mais aos-init aos-animate\" data-aos=\"fade-left\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "	<div class=\"saiba-mais__header\">",
     "		<button class=\"fio-button button-md fio-button-primary collapsed\" type=\"collapsed\" data-bs-toggle=\"collapse\" data-bs-target=\"#saiba-mais1\" aria-expanded=\"false\" aria-controls=\"saiba-mais1\"><span class=\"icone material-symbols-rounded\" aria-hidden=\"true\">touch_app</span> Saiba",
     "			mais</button>",
@@ -720,15 +720,15 @@
     "			COVID-19. Já utilizada em crises anteriores, como",
     "			chikungunya e microcefalia.</p>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Saiba Mais Toggle"
-	},
-	"Destaque Parallax": {
-		"prefix": "destaque-parallax",
-		"body": [
-			"<!-- Destaque Parallax -->",
-			"<div class=\"container-fluid px-0 mb-5\">",
+            "</div>"
+        ],
+        "description": "Saiba Mais Toggle"
+    },
+    "Destaque Parallax": {
+        "prefix": "destaque-parallax",
+        "body": [
+            "<!-- Destaque Parallax -->",
+            "<div class=\"container-fluid px-0 mb-5\">",
 		"	<div class=\"destaque-parallax my-0\">",
 		"		<div class=\"container aos-animate aos-init\" data-aos=\"fade\" data-aos-easing=\"ease-out\" data-aos-duration=\"800\">",
 		"			<div class=\"row justify-content-center\">",
@@ -742,15 +742,15 @@
 		"			</div>",
 		"		</div>",
 		"	</div>",
-			"</div>"
-		],
-		"description": "Destaque Parallax"
-	},
-	"Comparação": {
-		"prefix": "comparacao",
-		"body": [
-			"<!--Comparação-->",
-			"<div class=\"row justify-content-center\">",
+            "</div>"
+        ],
+        "description": "Destaque Parallax"
+    },
+    "Comparação": {
+        "prefix": "comparacao",
+        "body": [
+            "<!--Comparação-->",
+            "<div class=\"row justify-content-center\">",
     "	<div class=\"col-12 col-md-4 mb-5\">",
     "		<div class=\"card h-100 \">",
     "			<div class=\"card-header\">",
@@ -762,11 +762,11 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-12 col-md-1 align-self-center mb-5 compare-symbol\">",
     "		<span class=\"d-block text-center mx-auto\">&</span>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-12 col-md-4 mb-5\">",
     "		<div class=\"card \">",
     "			<div class=\"card-header\">",
@@ -778,15 +778,15 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Comparação"
-	},
-	"Diferença": {
-		"prefix": "diferenca",
-		"body": [
-			"<!--Diferença-->",
-			"<div class=\"row justify-content-center\">",
+            "</div>"
+        ],
+        "description": "Comparação"
+    },
+    "Diferença": {
+        "prefix": "diferenca",
+        "body": [
+            "<!--Diferença-->",
+            "<div class=\"row justify-content-center\">",
     "	<div class=\"col-12 col-md-4 mb-5\">",
     "		<div class=\"card h-100 \">",
     "			<div class=\"card-header\">",
@@ -798,11 +798,11 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-12 col-md-1 align-self-center mb-5 compare-symbol different\">",
     "		<span class=\"d-block text-center mx-auto\">&#8800;</span>",
     "	</div>",
-			"",
+            "",
     "	<div class=\"col-12 col-md-4 mb-5\">",
     "		<div class=\"card \">",
     "			<div class=\"card-header\">",
@@ -815,15 +815,15 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Diferença"
-	},
-	"Destaque Box Cor": {
-		"prefix": "destaque-box-cor",
-		"body": [
-			"<!-- Box Cor -->",
-			"<div class=\"box-cor aos-init aos-animate\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
+            "</div>"
+        ],
+        "description": "Diferença"
+    },
+    "Destaque Box Cor": {
+        "prefix": "destaque-box-cor",
+        "body": [
+            "<!-- Box Cor -->",
+            "<div class=\"box-cor aos-init aos-animate\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "	<div class=\"box-cor__base\">",
     "		<div class=\"base-header\">",
     "			<h4>Na Prática!</h4>",
@@ -852,7 +852,7 @@
     "				</div>",
     "				<div class=\"col-12 col-md-6\">",
     "					<button class=\"fio-button fio-button-primary\" type=\"collapsed\" data-bs-toggle=\"collapse\" data-bs-target=\"#box-cor2\" aria-expanded=\"false\" aria-controls=\"box-cor2\">Não</button>",
-			"",
+            "",
     "					<div class=\"mt-3 collapse\" id=\"box-cor2\">",
     "						<h6 class=\"color-success-dark\">Resposta Correta!</h6>",
     "						<p class=\"color-success-dark\">Isso mesmo! Para este estudo o",
@@ -863,40 +863,40 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Destaque Box Cor"
-	},
-	"Destaque Olho de texto": {
-		"prefix": "destaque-olho-de-texto",
-		"body": [
-			"<!-- Olho de texto -->",
-			"<div class=\"olho-de-texto my-5 aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"800\">",
+            "</div>"
+        ],
+        "description": "Destaque Box Cor"
+    },
+    "Destaque Olho de texto": {
+        "prefix": "destaque-olho-de-texto",
+        "body": [
+            "<!-- Olho de texto -->",
+            "<div class=\"olho-de-texto my-5 aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"800\">",
     "	<p>A ausência do nome da pessoa na base de dados do público-alvo não deve ser",
     "		impedimento",
     "		para ele receber",
     "		a vacina, desde que comprove que integra algum grupo prioritário.</p>",
-			"</div>"
-		],
-		"description": "Destaque Olho de texto"
-	},
-	"Imagem ": {
-		"prefix": "imagem",
-		"body": [
-			"<!-- Imagem -->",
-			"<figure class=\"lightbox aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
+            "</div>"
+        ],
+        "description": "Destaque Olho de texto"
+    },
+    "Imagem ": {
+        "prefix": "imagem",
+        "body": [
+            "<!-- Imagem -->",
+            "<figure class=\"lightbox aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "	<img class=\"img-fluid mx-auto d-block mb-3\" src=\"https://placehold.co/1280x720\" alt=\"Imagem aleatória de exmplo\" title=\"Fonte: unsplash.com\">",
     "	<figcaption class=\"figure-caption\">Imagem com tamanho 1280x720</figcaption>",
     "	<figcaption class=\"figure-caption fonte\">Fonte: unsplash.com</figcaption>",
-			"</figure>"
-		],
-		"description": "Imagem "
-	},
-	"Imagem com texto à esquerda": {
-		"prefix": "img-texto-a-esquerda",
-		"body": [
-			"<!-- Texto à esquerda com Imagem -->",
-			"<div class=\"row justify-content-center d-lg-block\">",
+            "</figure>"
+        ],
+        "description": "Imagem "
+    },
+    "Imagem com texto à esquerda": {
+        "prefix": "img-texto-a-esquerda",
+        "body": [
+            "<!-- Texto à esquerda com Imagem -->",
+            "<div class=\"row justify-content-center d-lg-block\">",
     "	<!-- Imagem -->",
     "	<div class=\"col-md-8 col-lg-6 float-lg-end ms-lg-4 px-0 order-1 order-lg-2\">",
     "		<figure class=\"lightbox\">",
@@ -905,7 +905,7 @@
     "			<figcaption class=\"figure-caption fonte\">Fonte: unsplash.com</figcaption>",
     "		</figure>",
     "	</div>",
-			"",
+            "",
     "	<!-- Texto -->",
     "	<div class=\"order-2 order-lg-1\">",
     "		<p>",
@@ -916,7 +916,7 @@
     "			nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet,",
     "			consectetur adipiscing elit.",
     "		</p>",
-			"",
+            "",
     "		<p>",
     "			Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna",
     "			mollis",
@@ -930,7 +930,7 @@
     "			sit",
     "			amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
     "		</p>",
-			"",
+            "",
     "		<p>",
     "			Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam.",
     "			Pellentesque",
@@ -941,15 +941,15 @@
     "			Donec id elit non mi porta gravida at eget metus.",
     "		</p>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Imagem com texto à esquerda"
-	},
-	"Imagem com texto à direita": {
-		"prefix": "img-texto-a-direita",
-		"body": [
-			"<!-- Texto à direita com Imagem  -->",
-			"<div class=\"row justify-content-center d-lg-block\">",
+            "</div>"
+        ],
+        "description": "Imagem com texto à esquerda"
+    },
+    "Imagem com texto à direita": {
+        "prefix": "img-texto-a-direita",
+        "body": [
+            "<!-- Texto à direita com Imagem  -->",
+            "<div class=\"row justify-content-center d-lg-block\">",
     "	<!-- Imagem -->",
     "	<div class=\"col-md-8 col-lg-6 float-lg-start me-lg-4 px-0 order-1 order-lg-2\">",
     "		<figure class=\"lightbox\">",
@@ -958,7 +958,7 @@
     "			<figcaption class=\"figure-caption fonte\">Fonte: unsplash.com</figcaption>",
     "		</figure>",
     "	</div>",
-			"",
+            "",
     "	<!-- Texto -->",
     "	<div class=\"order-2 order-lg-1\">",
     "		<p>",
@@ -969,7 +969,7 @@
     "			nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet,",
     "			consectetur adipiscing elit.",
     "		</p>",
-			"",
+            "",
     "		<p>",
     "			Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna",
     "			mollis",
@@ -983,7 +983,7 @@
     "			sit",
     "			amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
     "		</p>",
-			"",
+            "",
     "		<p>",
     "			Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam.",
     "			Pellentesque",
@@ -994,22 +994,22 @@
     "			Donec id elit non mi porta gravida at eget metus.",
     "		</p>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Imagem com texto à direita"
-	},
-	"Lista Não Ordenada": {
-		"prefix": "lista-nao-ordenada",
-		"body": [
-			"<!-- Lista Não-Ordenada -->",
-			"<div class=\"list\">",
+            "</div>"
+        ],
+        "description": "Imagem com texto à direita"
+    },
+    "Lista Não Ordenada": {
+        "prefix": "lista-nao-ordenada",
+        "body": [
+            "<!-- Lista Não-Ordenada -->",
+            "<div class=\"list\">",
     "	<ul class=\"list-group\">",
     "		<li class=\"list-group-item aos-init aos-animate\" list-style=\"default\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"1200\">a",
     "			ação popular que ficou conhecida como Queda da Bastilha,",
     "			uma prisão que era símbolo da opressão e do poder real",
     "			na França do Século XVIII, durante a Revolução Francesa;",
     "		</li>",
-			"",
+            "",
     "		<li class=\"list-group-item aos-init aos-animate\" list-style='audio' data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"1200\" data-aos-delay=\"100\">",
     "			<a href='' target=''>Exemplo de link de áudio</a>",
     "		</li>",
@@ -1023,20 +1023,20 @@
     "		<li class=\"list-group-item aos-init aos-animate\" list-style='video' data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"1200\" data-aos-delay=\"400\">",
     "			<a href='' target=''>Exemplo de link de vídeo</a>",
     "		</li>",
-			"",
+            "",
     "		<li class=\"list-group-item aos-init aos-animate\" list-style=\"none\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"1200\">",
     "			Lista sem ícone</li>",
-			"",
+            "",
     "	</ul>",
-			"</div>"
-		],
-		"description": "Lista Não Ordenada"
-	},
-	"Lista Ordenada": {
-		"prefix": "lista-ordenada",
-		"body": [
-			"<!-- Lista Ordenada -->",
-			"<div class=\"list\">",
+            "</div>"
+        ],
+        "description": "Lista Não Ordenada"
+    },
+    "Lista Ordenada": {
+        "prefix": "lista-ordenada",
+        "body": [
+            "<!-- Lista Ordenada -->",
+            "<div class=\"list\">",
     "	<ol class=\"list-group list-group-numbered\">",
     "		<li class=\"list-group-item aos-init aos-animate\" data-aos=\"fade-right\" data-aos-easing=\"ease-out\" data-aos-duration=\"1200\">Genética humana, quando o",
     "			projeto envolver:",
@@ -1106,22 +1106,53 @@
     "			que, a critério do CEP e devidamente justificados, sejam",
     "			julgados merecedores de análise pela CONEP. </li>",
     "	</ol>",
-			"</div>"
-		],
-		"description": "Lista Ordenada"
-	},
-	"Popover": {
-		"prefix": "popover",
-		"body": [
-			"<a class=\"\" tabindex=\"0\" role=\"button\" data-bs-toggle=\"popover\" data-bs-trigger=\"focus\" title=\"\" data-bs-html='true' data-bs-content=\"<p>Ciência e atividades relativas à identificação, avaliação, compreensão e prevenção de efeitos adversos ou quaisquer problemas relacionados ao uso de medicamentos.</p>\" data-bs-original-title=\"Farmacovigilância\">Popover</a>"
-		],
-		"description": "Popover"
-	},
-	"Swiper Navigation": {
-		"prefix": "swiper-navigation",
-		"body": [
-			"<!-- Swiper Navigation -->",
-			"<div class=\"swiper swiper--navigation card\">",
+            "</div>"
+        ],
+        "description": "Lista Ordenada"
+    },
+    "Modal com texto": {
+        "prefix": "modal-texto",
+        "body": [
+            "<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#modal-Exemplo\">Modal com texto</a>",
+            "",
+            "<!-- Modal -->",
+            "<div class=\"modal fade\" id=\"modal-Exemplo\" tabindex=\"-1\" aria-labelledby=\"modal-Exemplo-Label\" aria-hidden=\"true\">",
+            "    <div class=\"modal-dialog modal-lg\">",
+            "        <div class=\"modal-content\">",
+            "            <div class=\"modal-header\">",
+            "                <h5 class=\"modal-title\">Modal title</h5>",
+            "                <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>",
+            "            </div>",
+            "            <div class=\"modal-body\">",
+            "                <div class=\"row\">",
+            "                    <div class=\"col-12\">",
+            "                        <p>Texto aqui</p>",
+            "                    </div>",
+            "                </div>",
+            "",
+            "            </div>",
+            "            <div class=\"modal-footer\">",
+            "                <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>",
+            "                <button type=\"button\" class=\"btn btn-primary\">Save changes</button>",
+            "            </div>",
+            "        </div>",
+            "    </div>",
+            "</div>"
+        ],
+        "description": "Modal com texto"
+    },
+    "Popover": {
+        "prefix": "popover",
+        "body": [
+            "<a class=\"\" tabindex=\"0\" role=\"button\" data-bs-toggle=\"popover\" data-bs-trigger=\"focus\" title=\"\" data-bs-html='true' data-bs-content=\"<p>Ciência e atividades relativas à identificação, avaliação, compreensão e prevenção de efeitos adversos ou quaisquer problemas relacionados ao uso de medicamentos.</p>\" data-bs-original-title=\"Farmacovigilância\">Popover</a>"
+        ],
+        "description": "Popover"
+    },
+    "Swiper Navigation": {
+        "prefix": "swiper-navigation",
+        "body": [
+            "<!-- Swiper Navigation -->",
+            "<div class=\"swiper swiper--navigation card\">",
     "	<!-- Additional required wrapper -->",
     "	<div class=\"swiper-wrapper\">",
     "		<!-- Slides -->",
@@ -1129,11 +1160,11 @@
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\" title=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Sinais e Sintomas de Gripe</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>A gripe é caracterizada por sintomas como febre,",
     "					dor de garganta, dor de cabeça, calafrios, tosse",
@@ -1142,16 +1173,16 @@
     "					7 dias.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\" title=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Sinais e Sintomas de SRAG</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>SRAG inclui sintomas mais graves, como",
     "					dificuldade para respirar, pressão no peito,",
@@ -1161,16 +1192,16 @@
     "					médico urgente.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\" title=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Comparando os Sintomas</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>A gripe apresenta sintomas leves e temporários,",
     "					enquanto a SRAG envolve complicações",
@@ -1180,35 +1211,35 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!-- If we need pagination -->",
     "	<div class=\"swiper-pagination\"></div>",
-			"",
+            "",
     "	<!-- If we need navigation buttons -->",
     "	<div class=\"swiper-button-prev\"></div>",
     "	<div class=\"swiper-button-next\"></div>",
-			"",
+            "",
     "	<!-- If we need scrollbar -->",
     "	<!-- <div class=\"swiper-scrollbar\"></div> -->",
-			"</div>"
-		],
-		"description": "Swiper Navigation"
-	},
-	"Swiper Effect Card": {
-		"prefix": "swiper-effect-card",
-		"body": [
-			"<!-- Swipper Effect Card -->",
-			"<div class=\"swiper swiper--effect-card card\">",
+            "</div>"
+        ],
+        "description": "Swiper Navigation"
+    },
+    "Swiper Effect Card": {
+        "prefix": "swiper-effect-card",
+        "body": [
+            "<!-- Swipper Effect Card -->",
+            "<div class=\"swiper swiper--effect-card card\">",
     "	<div class=\"swiper-wrapper\">",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Slider 1</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
@@ -1218,16 +1249,16 @@
     "					voluptates architecto totam? Atque, maxime.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Slider 2</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
@@ -1235,19 +1266,19 @@
     "					cumque repudiandae corrupti quibusdam",
     "					necessitatibus maiores possimus, facilis",
     "					voluptates architecto totam? Atque, maxime.</p>",
-			"",
+            "",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Slider 3</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
@@ -1255,7 +1286,7 @@
     "					cumque repudiandae corrupti quibusdam",
     "					necessitatibus maiores possimus, facilis",
     "					voluptates architecto totam? Atque, maxime.</p>",
-			"",
+            "",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
     "					dicta labore? Eaque error maxime voluptatum",
@@ -1264,16 +1295,16 @@
     "					voluptates architecto totam? Atque, maxime.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Slider 4</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
@@ -1284,16 +1315,16 @@
     "					Atque, maxime.</p>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<div class=\"card-thumb\">",
     "				<img src=\"https://placehold.co/1280x720\" alt=\"\">",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-header\">",
     "				<span class=\"h6\">Slider 5</span>",
     "			</div>",
-			"",
+            "",
     "			<div class=\"card-body\">",
     "				<p>Lorem ipsum dolor sit amet consectetur",
     "					adipisicing elit. Maxime doloremque delectus",
@@ -1306,15 +1337,15 @@
     "		</div>",
     "	</div>",
     "	<div class=\"swiper-pagination swiper-pagination3\"></div>",
-			"</div>"
-		],
-		"description": "Swiper Effect Card"
-	},
-	"Swiper Effect Card with Flipcard": {
-		"prefix": "swiper-effect-card-flipcard",
-		"body": [
-			"<!-- Swipper Effect Card with Flipcard -->",
-			"<div class=\"swiper swiper--effect-card swiper-flipcard\">",
+            "</div>"
+        ],
+        "description": "Swiper Effect Card"
+    },
+    "Swiper Effect Card with Flipcard": {
+        "prefix": "swiper-effect-card-flipcard",
+        "body": [
+            "<!-- Swipper Effect Card with Flipcard -->",
+            "<div class=\"swiper swiper--effect-card swiper-flipcard\">",
     "	<div class=\"swiper-wrapper\">",
     "		<div class=\"swiper-slide\">",
     "			<!--Flipcard-->",
@@ -1330,7 +1361,7 @@
     "										1</span>",
     "									<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer text-white\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardA\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -1341,7 +1372,7 @@
     "								</div>",
     "							</div>",
     "						</div>",
-			"",
+            "",
     "						<!-- VERSO -->",
     "						<div class=\"card flip-card-back \">",
     "							<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -1374,7 +1405,7 @@
     "											pública.</p>",
     "									</div>",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardA\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -1389,7 +1420,7 @@
     "				</div>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<!--Flipcard-->",
     "			<div class=\"flipcard\">",
@@ -1404,7 +1435,7 @@
     "										2</span>",
     "									<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer text-white\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardB\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -1415,7 +1446,7 @@
     "								</div>",
     "							</div>",
     "						</div>",
-			"",
+            "",
     "						<!-- VERSO -->",
     "						<div class=\"card flip-card-back \">",
     "							<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -1448,7 +1479,7 @@
     "											pública.</p>",
     "									</div>",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardB\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -1463,7 +1494,7 @@
     "				</div>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<!--Flipcard-->",
     "			<div class=\"flipcard\">",
@@ -1478,7 +1509,7 @@
     "										3</span>",
     "									<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer text-white\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardC\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -1489,7 +1520,7 @@
     "								</div>",
     "							</div>",
     "						</div>",
-			"",
+            "",
     "						<!-- VERSO -->",
     "						<div class=\"card flip-card-back \">",
     "							<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -1522,7 +1553,7 @@
     "											pública.</p>",
     "									</div>",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardC\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -1537,7 +1568,7 @@
     "				</div>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<!--Flipcard-->",
     "			<div class=\"flipcard\">",
@@ -1552,7 +1583,7 @@
     "										4</span>",
     "									<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer text-white\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardD\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -1563,7 +1594,7 @@
     "								</div>",
     "							</div>",
     "						</div>",
-			"",
+            "",
     "						<!-- VERSO -->",
     "						<div class=\"card flip-card-back \">",
     "							<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -1596,7 +1627,7 @@
     "											pública.</p>",
     "									</div>",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardD\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -1611,7 +1642,7 @@
     "				</div>",
     "			</div>",
     "		</div>",
-			"",
+            "",
     "		<div class=\"swiper-slide\">",
     "			<!--Flipcard-->",
     "			<div class=\"flipcard\">",
@@ -1626,7 +1657,7 @@
     "										4</span>",
     "									<!-- <p>Este card <strong>possui</strong> um texto rolável atrás</p> -->",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer text-white\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardE\" class=\"fio-button fio-button-primary\" aria-hidden=\"true\">",
@@ -1637,7 +1668,7 @@
     "								</div>",
     "							</div>",
     "						</div>",
-			"",
+            "",
     "						<!-- VERSO -->",
     "						<div class=\"card flip-card-back \">",
     "							<div class=\"h-100 bg-transparent border-0 text-center\">",
@@ -1670,7 +1701,7 @@
     "											pública.</p>",
     "									</div>",
     "								</div>",
-			"",
+            "",
     "								<div class=\"card-footer\">",
     "									<div class=\"card-btn\">",
     "										<label for=\"flipcardE\" class=\"fio-button fio-button-secondary return\" aria-hidden=\"true\">",
@@ -1687,15 +1718,15 @@
     "		</div>",
     "	</div>",
     "	<div class=\"swiper-pagination swiper-pagination3\"></div>",
-			"</div>"
-		],
-		"description": "Swiper Effect Card with Flipcard"
-	},
-	"Tabela": {
-		"prefix": "tabela",
-		"body": [
-			"<!-- Tabela -->",
-			"<div class=\"table-responsive aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
+            "</div>"
+        ],
+        "description": "Swiper Effect Card with Flipcard"
+    },
+    "Tabela": {
+        "prefix": "tabela",
+        "body": [
+            "<!-- Tabela -->",
+            "<div class=\"table-responsive aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "	<table class=\"table table-bordered\">",
     "		<thead>",
     "			<tr>",
@@ -1708,7 +1739,7 @@
     "				<th>Exemplos</th>",
     "			</tr>",
     "		</thead>",
-			"",
+            "",
     "		<tbody>",
     "			<tr class=\"text-center\">",
     "				<td><strong>Democracia Direta ou",
@@ -1724,7 +1755,7 @@
     "					tomadas de decisão, como as mulheres. Referendos",
     "					e plebiscitos são exemplos.</td>",
     "			</tr>",
-			"",
+            "",
     "			<tr class=\"text-center\">",
     "				<td><strong>Democracia Representativa</strong></td>",
     "				<td>Conjunto da população delega o seu poder de",
@@ -1736,22 +1767,22 @@
     "			</tr>",
     "		</tbody>",
     "	</table>",
-			"</div>"
-		],
-		"description": "Tabela"
-	},
-	"Timeline vertical": {
-		"prefix": "timeline-vertical",
-		"body": [
-			"<!-- Timeline Vertical -->",
-			"<div class=\"timeline-vertical\">",
+            "</div>"
+        ],
+        "description": "Tabela"
+    },
+    "Timeline vertical": {
+        "prefix": "timeline-vertical",
+        "body": [
+            "<!-- Timeline Vertical -->",
+            "<div class=\"timeline-vertical\">",
 		"	<div class=\"cd-timeline js-cd-timeline\">",
 		"		<div class=\"cd-timeline__container\">",
 		"			<div class=\"cd-timeline__block js-cd-block\">",
 		"				<div class=\"cd-timeline__img cd-timeline__option1\">",
 		"					<h4 class=\"ano\">1900</h4>",
 		"				</div>",
-			"",
+            "",
 		"				<div class=\"cd-timeline__content js-cd-content bounce-left animate__animated animate__fadeInLeft\">",
 		"					<div class=\"card card--out\">",
 		"						<div class=\"card-header\">",
@@ -1767,20 +1798,20 @@
 		"								estabelecer regras para esse tipo de",
 		"								pesquisa.</p>",
 		"						</div>",
-			"",
+            "",
 		"						<div class=\"card-footer\">",
 		"							<button type=\"button\" class=\"fio-button button-sm fio-button-primary\" data-bs-dismiss=\"modal\">Botão</button>",
 		"						</div>",
-			"",
+            "",
 		"					</div>",
 		"				</div>",
 		"			</div>",
-			"",
+            "",
 		"			<div class=\"cd-timeline__block js-cd-block\">",
 		"				<div class=\"cd-timeline__img cd-timeline__option1\">",
 		"					<h4 class=\"ano\">1906</h4>",
 		"				</div>",
-			"",
+            "",
 		"				<div class=\"cd-timeline__content js-cd-content bounce-right animate__animated animate__fadeOutRight\">",
 		"					<div class=\"card card--out\">",
 		"						<div class=\"card-header\">",
@@ -1795,12 +1826,12 @@
 		"					</div>",
 		"				</div>",
 		"			</div>",
-			"",
+            "",
 		"			<div class=\"cd-timeline__block js-cd-block\">",
 		"				<div class=\"cd-timeline__img cd-timeline__option1\">",
 		"					<h4 class=\"ano\">1938</h4>",
 		"				</div>",
-			"",
+            "",
 		"				<div class=\"cd-timeline__content js-cd-content bounce-left animate__animated animate__fadeOutLeft\">",
 		"					<div class=\"card card--out\">",
 		"						<div class=\"card-header\">",
@@ -1817,15 +1848,15 @@
 		"			</div>",
 		"		</div>",
 		"	</div>",
-			"</div>"
-		],
-		"description": "Timeline vertical"
-	},
-	"Timeline Zigzag": {
-		"prefix": "timeline-zigzag",
-		"body": [
-			"<!-- Timeline ZigZag -->",
-			"<div class=\"timeline-zigzag aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
+            "</div>"
+        ],
+        "description": "Timeline vertical"
+    },
+    "Timeline Zigzag": {
+        "prefix": "timeline-zigzag",
+        "body": [
+            "<!-- Timeline ZigZag -->",
+            "<div class=\"timeline-zigzag aos-init aos-animate\" data-aos=\"fade-up\" data-aos-easing=\"ease-out\" data-aos-duration=\"600\">",
     "	<!--1ª sessão-->",
     "	<div class=\"row align-items-center timeline-z-estrutura mb-0 pt-0\">",
     "		<div class=\"col-2 text-center bottom\">",
@@ -1843,7 +1874,7 @@
     "			</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--Linha entre 1-2-->",
     "	<div class=\"row timeline-z mb-0\">",
     "		<div class=\"col-2\">",
@@ -1856,7 +1887,7 @@
     "			<div class=\"corner left-bottom\"></div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--2ª sessão -->",
     "	<div class=\"row align-items-center justify-content-end timeline-z-estrutura\">",
     "		<div class=\"col-10 col-lg-6 pr-4 py-5 text-end\">",
@@ -1875,7 +1906,7 @@
     "			<div class=\"circle-timeline-z\">2</div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--Linha entre 2-3-->",
     "	<div class=\"row timeline-z mb-0\">",
     "		<div class=\"col-2\">",
@@ -1888,7 +1919,7 @@
     "			<div class=\"corner top-left\"></div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--3ª sessão-->",
     "	<div class=\"row align-items-center justify-content-start timeline-z-estrutura mb-0\">",
     "		<div class=\"col-2 text-center full\">",
@@ -1909,7 +1940,7 @@
     "				maleficência e justiça.</p>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--Linha entre 3-4-->",
     "	<div class=\"row timeline-z mb-0\">",
     "		<div class=\"col-2\">",
@@ -1922,7 +1953,7 @@
     "			<div class=\"corner left-bottom\"></div>",
     "		</div>",
     "	</div>",
-			"",
+            "",
     "	<!--4ª sessão -->",
     "	<div class=\"row align-items-center justify-content-end timeline-z-estrutura\">",
     "		<div class=\"col-10 col-lg-6 pr-4 py-5 text-end\">",
@@ -1935,8 +1966,8 @@
     "			<div class=\"circle-timeline-z\">4</div>",
     "		</div>",
     "	</div>",
-			"</div>"
-		],
-		"description": "Timeline Zigzag"
-	}
+            "</div>"
+        ],
+        "description": "Timeline Zigzag"
+    }
 }
