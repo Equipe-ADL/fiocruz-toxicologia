@@ -24,7 +24,7 @@
 	border-radius: var(--fio-sys-spacing-border-radius-lg);
 	transition: 0.1s;
 }
-.exercise:not([data-exercise='dropdown']) .exercise__answers .answer__option {
+.exercise:not([data-exercise="dropdown"]) .exercise__answers .answer__option {
 	cursor: pointer;
 }
 .exercise .exercise__answers .answer__option:last-child {
@@ -85,7 +85,9 @@
 	font-weight: 400;
 	line-height: 1.5;
 	padding: var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-xl) var(--fio-sys-spacing-padding-xs) var(--fio-sys-spacing-padding-md);
-	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	transition:
+		border-color 0.15s ease-in-out,
+		box-shadow 0.15s ease-in-out;
 	width: auto;
 	-webkit-appearance: none;
 	-moz-padding-start: calc(0.75rem - 3px);
@@ -125,6 +127,7 @@
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
+	flex-basis: 100%;
 	/* padding: var(--fio-sys-spacing-padding-xl) 0; */
 	/* border-top: 1px solid var(--exercise-divider-line); */
 }
@@ -132,7 +135,7 @@
 	overflow-wrap: normal;
 	align-self: end;
 }
-.exercise .exercise__submit button[aria-disabled='true'] {
+.exercise .exercise__submit button[aria-disabled="true"] {
 	background-color: var(--fio-component-button-color-disable);
 	border-color: var(--fio-component-button-color-disable);
 	cursor: not-allowed;
