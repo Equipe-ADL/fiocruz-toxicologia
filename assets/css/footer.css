@@ -25,7 +25,8 @@ footer .logos li {
 	text-align: center;
 	position: relative;
 }
-footer .logos li.realizacao::before {
+
+/* footer .logos li.realizacao::before {
 	content: 'Realização:';
 	text-align: center;
 	display: block;
@@ -43,7 +44,7 @@ footer .logos li.apoio::before {
 	position: absolute;
 	top: -30px;
 	left: 0;
-}
+} */
 
 footer .logos.principais {
 	/* border-top: 1px solid var(--fio-sys-color-neutral-light); */
