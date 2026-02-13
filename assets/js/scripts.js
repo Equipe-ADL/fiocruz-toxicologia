@@ -546,7 +546,69 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m2-aula3" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula3" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 3</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">OGA <em>et al</em>. (2014). Fundamentos de Toxicologia, 4ª edição.</li>
+
+                                                    <li class="list-group-item">KATZING, B. G. e TREVOR, A. J. (2017). Basic and Clinical Pharmacology, 14ª edição.</li>
+
+                                                    <li class="list-group-item">AURORA, N. Pharmaceutical Toxicology: Understanding the Risks and Benefits of Medications. <strong>Journal of Pharmaceutical Toxicology</strong>, v. 6, n. 2, p. 21–24, 2023. Disponível em: <a href='https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html. Acesso em: 1 set. 2025.' target='_blank' rel='noopener noreferrer'>https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html. Acesso em: 1 set. 2025.</a></li>
+
+                                                    <li class="list-group-item">GOLAN, David E. <em>et al</em>. Farmacodinâmica. Principles of Pharmacology: <strong>The Pathophysiologic Basis of Drug Therapy</strong>, 3. ed. 2012. Disponível em: <a href='https://anestesiologia.paginas.ufsc.br/files/2015/02/Farmacodinamica-texto.pdf' target='_blank' rel='noopener noreferrer'>https://anestesiologia.paginas.ufsc.br/files/2015/02/Farmacodinamica-texto.pdf</a>. Acesso em: 23 set. 2025.</li>
+
+                                                    <li class="list-group-item">GUPTA, M. The Importance of Pharmaceutical Toxicology in Drug Development. <strong>Journal of Pharmaceutical Toxicology</strong>, v. 6, n. 2, p. 29–32, 2023. DOI: 10.37532/jpt.2023.6(2).29-32. Acesso em: 1 set. 2025. </li>
+
+                                                    <li class="list-group-item">SERENO, V. M. B.; SILVA, A. S.; SILVA, G. C. da. Perfil epidemiológico das intoxicações por medicamentos no Brasil entre os anos de 2013 a 2017 / Epidemiological profile of drug intoxications in Brazil between 2013 and 2017. <strong>Brazilian Journal of Development</strong>, v. 6, n. 6, p. 33892–33903, 2020. DOI: 10.34117/bjdv6n6-079. Disponível em: <a href='https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/11082' target='_blank' rel='noopener noreferrer'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/11082</a>. Acesso em: 24 set. 2025.</li>
+
+                                                    <li class="list-group-item">UNIVERSIDADE FEDERAL DA PARAÍBA (UFPB). Uso indiscriminado de medicamentos e automedicação no Brasil. <strong>Centro de Informação sobre Medicamentos</strong>, 2024. Disponível em: <a href='https://www.ufpb.br/cim/contents/noticias/uso-indiscriminado-de-medicamentos-e-automedicacao-no-brasil' target='_blank' rel='noopener noreferrer'>https://www.ufpb.br/cim/contents/noticias/uso-indiscriminado-de-medicamentos-e-automedicacao-no-brasil</a>. Acesso em: 1 set. 2025.</li>
+
+                                                    <li class="list-group-item">WORLD HEALTH ORGANIZATION. Antimicrobial resistance, 2023. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance' target='_blank' rel='noopener noreferrer'>https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance</a>. Acesso em: 23 set. 2025.</li>
+
+                                                    <li class="list-group-item">WORLD HEALTH ORGANIZATION. Essential medicines, 2024. Disponível em: https://www.who.int/news-room/fact-sheets/detail/essential-medicines. Acesso em: 1 set. 2025.</li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+
+                                                    <li class="list-group-item"></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -599,7 +661,19 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m3-aula1" class="accordion-collapse collapse" aria-labelledby="heading-m3-aula1" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 1</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO NACIONAL DE CÂNCER (INCA). <em>Metais pesados, câncer e os riscos ambientais</em>. Rio de Janeiro: INCA. Disponível em: <a href='https://ninho.inca.gov.br/jspui/bitstream/123456789/15363/1/Metais%20e%20Cancer.pdf' target='_blank' rel='noopener noreferrer'>https://ninho.inca.gov.br/jspui/bitstream/123456789/15363/1/Metais%20e%20Cancer.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OLSON, K. R. (Org.). <em>Manual de toxicologia clínica</em> [recurso eletrônico]. 6. ed. Porto Alegre: AMGH, 2014. Disponível em: <a href='https://saude.ufpr.br/medtrab/wp-content/uploads/sites/25/2016/08/Manual-de-Toxicologia-Clínica_pdf.pdf' target='_blank' rel='noopener noreferrer'>https://saude.ufpr.br/medtrab/wp-content/uploads/sites/25/2016/08/Manual-de-Toxicologia-Clínica_pdf.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE (OPAS).<em> O impacto de substâncias químicas sobre a saúde pública: fatores conhecidos e desconhecidos</em>. Brasília: OPAS, 2018. Disponível em: <a href='https://iris.paho.org/bitstream/handle/10665.2/49122/OPASBRA180022-por.pdf' target='_blank' rel='noopener noreferrer'>https://iris.paho.org/bitstream/handle/10665.2/49122/OPASBRA180022-por.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PERUZZO, L. C. <em>Toxicologia e segurança</em>. Indaial: UNIASSELVI, 2018. 215 p. Disponível em: <a href='https://www.ispsn.org/sites/default/files/documentos-virtuais/pdf/toxicologia_e_seguranca_-_lucile_cecilia_peruzzo_0.pdf' target='_blank' rel='noopener noreferrer'>https://www.ispsn.org/sites/default/files/documentos-virtuais/pdf/toxicologia_e_seguranca_-_lucile_cecilia_peruzzo_0.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">TEIXEIRA, A. G. Toxicologia. Londrina: Editora e Distribuidora Educacional S.A., 2016. 184 p. ISBN 978-85-8482-694-0. Disponível em: <a href='http://cm-kls-content.s3.amazonaws.com/201602/INTERATIVAS_2_0/TOXICOLOGIA/U1/LIVRO_UNICO.pdf' target='_blank' rel='noopener noreferrer'>http://cm-kls-content.s3.amazonaws.com/201602/INTERATIVAS_2_0/TOXICOLOGIA/U1/LIVRO_UNICO.pdf</a>. Acesso em: 10 fev. 2026.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -643,7 +717,43 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m3-aula5" class="accordion-collapse collapse" aria-labelledby="heading-m3-aula5" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 5</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGÊNCIA GOV (Agência Brasil de Comunicação). Yanomamis de nove aldeias estão contaminados por mercúrio. 4 abr. 2024. Disponível em: <a href='https://agenciagov.ebc.com.br/noticias/202404/yanomamis-de-nove-aldeias-assediadas-pelo-garimpo-estao-contaminados-por-mercurio' target='_blank' rel='noopener noreferrer'>https://agenciagov.ebc.com.br/noticias/202404/yanomamis-de-nove-aldeias-assediadas-pelo-garimpo-estao-contaminados-por-mercurio</a>. Acesso em: 22 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGÊNCIA NACIONAL DE MINERAÇÃO (ANM). Disponível em:<a href=' http://www.anm.gov.br/' target='_blank' rel='noopener noreferrer'> http://www.anm.gov.br/</a>. Acesso em: 26 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BARTH, Christian (Canal Christian Barth). Metais Pesados (animação explicativa). [s.l.]: s.n., s.d. Disponível em: <a href='https://www.youtube.com/watch?v=GAh2CdV5CfI' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=GAh2CdV5CfI</a>. Acesso em: 08 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BUSS, P. M.; PELLEGRINI FILHO, A. A saúde e seus determinantes sociais. Physis: Revista de Saúde Coletiva, Rio de Janeiro, v. 17, n. 1, p. 77-93, 2007.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COSTA, B. B. (org.). Saúde coletiva: conceitos, práticas e determinantes em saúde. Vol. 2. [Livro digital]. 1. ed. São Paulo: Aya Editora, 2025. 116 p. DOI: <a href='https://doi.org/10.47573/aya.5379.2.410' target='_blank' rel='noopener noreferrer'>https://doi.org/10.47573/aya.5379.2.410</a>. ISBN: 978-65-5379-684-3.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CONSELHO REGIONAL DE QUÍMICA – IV REGIÃO (CRQ-SP). Tabela Periódica Interativa. Disponível em: <a href='https://crqsp.org.br/tabelaperiodica/' target='_blank' rel='noopener noreferrer'>https://crqsp.org.br/tabelaperiodica/</a>. Acesso em: 08 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CRICHTON, Robert R. <em>Metal Toxicity – An Introduction</em>. In: Metal Chelation in Medicine. RSC Metallobiology Series, edited volume, Chapter 1. Cambridge: Royal Society of Chemistry, 2016. Disponível em: <a href='https://books.rsc.org/books/edited-volume/538/chapter/186451/Metal-Toxicity-An-Introduction' target='_blank' rel='noopener noreferrer'>https://books.rsc.org/books/edited-volume/538/chapter/186451/Metal-Toxicity-An-Introduction</a>. Acesso em: 20 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CIÊNCIA ANIMADA (Canal Ciência Animada). De onde vem o ferro – BNCC (EF01CI01). [s.l.]: s.n., s.d. Disponível em: <a href='https://www.youtube.com/watch?v=6NuKda-T5Bo' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=6NuKda-T5Bo</a>. Acesso em: 08 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">HAIDAR, Z.; FATEMA, K.; SHOILY, S. S.; SAJIB, A. A. Disease-associated metabolic pathways affected by heavy metals and metalloid. Toxicology Reports, [S.l.], v. 10, p. 554–570, 2023. DOI: <a href='https://doi.org/10.1016/j.toxrep.2023.04.010' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1016/j.toxrep.2023.04.010</a></li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO BRASILEIRO DE MINERAÇÃO (IBRAM). [s.l.]: [s.n.], s.d. Disponível em: <a href='https://portaldamineracao.com.br/' target='_blank' rel='noopener noreferrer'>https://portaldamineracao.com.br/</a>. Acesso em: 08 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA (INCA). Metais e câncer. Rio de Janeiro: INCA, [2024]. Disponível em: <a href='https://ninho.inca.gov.br/jspui/bitstream/123456789/15363/1/Metais%20e%20Cancer.pdf' target='_blank' rel='noopener noreferrer'>https://ninho.inca.gov.br/jspui/bitstream/123456789/15363/1/Metais%20e%20Cancer.pdf</a>. Acesso em: 22 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">JAZIDA. Mineração no Brasil. Blog Jazida, 20 out. 2023. Disponível em: <a href='https://blog.jazida.com/mineracao-no-brasil/' target='_blank' rel='noopener noreferrer'>https://blog.jazida.com/mineracao-no-brasil/</a>. Acesso em: 22 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KOYAMA, H.; KAMOGASHIRA, T.; YAMASOBA, T. <em>Heavy metal exposure: molecular pathways, clinical implications, and protective strategies</em>. Antioxidants, Basel, v. 13, n. 1, p. 76, 2024. DOI: <a href='https://doi.org/10.3390/antiox13010076' target='_blank' rel='noopener noreferrer'>https://doi.org/10.3390/antiox13010076</a>.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MALTA, D. C. (org.); SILVA, A. G.; GOMES, C. S.; SOUZA, J. B. Determinantes sociais em saúde: doenças crônicas não transmissíveis e seus fatores de risco e de proteção na população adulta brasileira. 1. ed. São Paulo: Rema Editora, 2025. </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OBREGÓN, P. L.; ESPINOZA-QUIÑONES, F. R.; OLIVEIRA, L. G. O. DE. Intoxicações de mercúrio e chumbo com maior prevalência em crianças e trabalhadores no Paraná. Cadernos Saúde Coletiva, 9 abr. 2021.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PAHO IRIS. Determinantes ambientais e sociais da saúde - PAHO IRIS. Disponível em:  <a href='https://iris.paho.org/bitstream/handle/10665.2/51687/9789275731291_por.pdf' target='_blank' rel='noopener noreferrer'>https://iris.paho.org/bitstream/handle/10665.2/51687/9789275731291_por.pdf</a> . 2011.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SUS TV. Determinantes sociais da saúde. [s.l.]: s.n., 2019. Disponível em: <a href='https://www.youtube.com/watch?v=2JJNDeUkVtI' target='_blank' rel='noopener noreferrer'>https://www.youtube.com/watch?v=2JJNDeUkVtI</a>. Acesso em: 08 set. 2025.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
