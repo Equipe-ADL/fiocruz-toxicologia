@@ -184,8 +184,8 @@ const course = {
           title: "Aula 6 | Comunicação de risco à saúde",
           items: [
             { type: "link", icon: "lesson", title: "Sobre esta aula", path: "/modulo3/aula6/sobre-aula.html" },
-            { type: "link", icon: "lesson", title: "Tópico 1: Aguardando SB", path: "/modulo3/aula6/topico1.html" },
-            { type: "link", icon: "lesson", title: "Tópico 2: Aguardando SB", path: "/modulo3/aula6/topico2.html" },
+            { type: "link", icon: "lesson", title: "Tópico 1: Determinantes sociais e vulnerabilidade à exposição e sua relação com os metais", path: "/modulo3/aula6/topico1.html" },
+            { type: "link", icon: "lesson", title: "Tópico 2: Determinantes de saúde", path: "/modulo3/aula6/topico2.html" },
             { type: "link", icon: "lesson", title: "Questão de Fixação", path: "/modulo3/aula6/atividade.html" }
           ]
         },
