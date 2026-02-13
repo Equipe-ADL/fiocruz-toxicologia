@@ -68,7 +68,7 @@
 
 .swiper .swiper-button-next:hover, 
 .swiper .swiper-button-prev:hover {
-     background-color: var(--_swiper-button-hover);
+    background-color: var(--_swiper-button-hover);
 }
 
 .swiper .swiper-button-next:after, 
@@ -78,7 +78,8 @@
 
 /* SWIPER NAVIGATION */
 .swiper--navigation .swiper-slide .card-body {
-    padding:calc(var(--fio-sys-size-padding-xl) * 1.5) calc(var(--fio-sys-size-padding-xl) * 2.25);
+    /* padding:calc(var(--fio-sys-size-padding-xl) * 1.5) calc(var(--fio-sys-size-padding-xl) * 2.25); */
+    padding:calc(var(--fio-sys-size-padding-xl) * 1.5) var(--fio-sys-size-padding-xl);
 }
 
 /*SWIPER VERTICAL*/
