@@ -342,7 +342,7 @@ const modalInfos = {
 		modalSize: 'modal-xl',
 		modalTitle: 'Bibliografia',
 		modalBody: `
-			<div class="row justify-content-center pt-5">
+		<div class="row justify-content-center pt-5">
     <div class="col-12 col-md-11">
         <div class="mb-5">
             <!-- Accordion Módulos-->
@@ -462,7 +462,39 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m1-aula3" class="accordion-collapse collapse" aria-labelledby="heading-m1-aula3" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 3</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALBUQUERQUE, M. I. N., Carvalho, E. M. F., & Lima, L. P. (2002). Vigilância epidemiológica: Conceitos e institucionalização. <em>Revista Brasileira de Saúde Materno Infantil, 2(2), 77–87</em>.  Disponível em: <a href='https://www.scielo.br/j/rbsmi/a/6L4R958YLyJywqtG9WcRRCv/?format=html&lang=pt' target='_blank' rel='noopener noreferrer'>https://www.scielo.br/j/rbsmi/a/6L4R958YLyJywqtG9WcRRCv/?format=html&lang=pt</a>. Acesso em: 23 out. 2025. </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Lei nº 6.259, de 30 de outubro de 1975. Dispõe sobre as organizações de Vigilância Epidemiológica, sobre o Programa Nacional de Imunizações, estabelece normas relativas à notificação compulsória de doenças, e dá outras providências. Diário Oficial da União, Poder Executivo, Brasília, DF, 31 out. 1975. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/leis/l6259.htm' target='_blank' rel='noopener noreferrer'>https://www.planalto.gov.br/ccivil_03/leis/l6259.htm</a>. Acesso em: 23 out. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Agência Nacional de Vigilância Sanitária. Cartilha de Vigilância Sanitária: cidadania e controle social. Brasília; Agência Nacional de Vigilância Sanitária; 2. ed.; 2002. 58 p. ilus. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/cartilha_vigilancia.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/cartilha_vigilancia.pdf</a>. Acesso em: 24 out. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Asis - Análise de Situação de Saúde. Ministério da Saúde, Universidade Federal de Goiás. Brasília: Ministério da Saúde, 2015. 3v.: il. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/asis_analise_situacao_saude_volume_1.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/asis_analise_situacao_saude_volume_1.pdf</a>. Acesso em: 29 set. 2025. </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Portaria n.º 2.436, de 21 de setembro de 2017. Aprova a Política Nacional de Atenção Básica, no âmbito do Sistema Único de Saúde (SUS). Diário Oficial da União: seção 1, Brasília, DF, v. 183, n. 68, p. 68, 22 set. 2017. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prt2436_22_09_2017.html</a>. Acesso em: 23 out. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Portaria GM/MS nº 6.734, de 18 de março de 2025. Altera o Anexo 1 do Anexo V da Portaria de Consolidação GM/MS nº 4, de 28 de setembro 2017, para incluir a esporotricose humana na Lista Nacional de Notificação Compulsória de Doenças, Agravos e Eventos de Saúde Pública nos serviços de saúde públicos e privados em todo o território nacional. 2025a. Disponível em: <a href='https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/08/2024&jornal=515&pagina=127&totalArquivos=263' target='_blank' rel='noopener noreferrer'>https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/08/2024&jornal=515&pagina=127&totalArquivos=263</a>. Acesso em: 22 abr. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. Resolução n.º 588, de 12 de julho de 2018. Fica instituída a Política Nacional de Vigilância em Saúde (PNVS), aprovada por meio desta resolução. Diário Oficial da República Federativa do Brasil: seção 1, Brasília, DF, p. 87, 13 ago. 2018. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/cns/2018/res0588_13_08_2018.html' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/cns/2018/res0588_13_08_2018.html</a>. Acesso em: 23 out. 2025. </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Saúde Ambiental, do Trabalhador e Vigilância das Emergências em Saúde Pública. EpiSUS fundamental: caderno de conteúdos. Ministério da Saúde, Secretaria de Vigilância em Saúde, Departamento de Saúde Ambiental, do Trabalhador e Vigilância das Emergências em Saúde Pública. Brasília: Ministério da Saúde, 2022. 236 p.: il. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/episus_fundamental_apostila.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/episus_fundamental_apostila.pdf</a>. Acesso em: 23 out. 2025. </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Guia de vigilância em saúde: volume 1. Ministério da Saúde, Secretaria de Vigilância em Saúde e Ambiente, Departamento de Ações Estratégicas de Epidemiologia e Vigilância em Saúde e Ambiente. 6. ed. rev. – Brasília: Ministério da Saúde, 2024a. 3 v.: il. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-1-6a-edicao/view' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-1-6a-edicao/view</a>. Acesso em: 29 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Guia de vigilância em saúde: volume 3. Ministério da Saúde, Secretaria de Vigilância em Saúde e Ambiente, Departamento de Ações Estratégicas de Epidemiologia e Vigilância em Saúde e Ambiente. 6. ed. rev. Brasília: Ministério da Saúde, 2024b. 3 v.: il. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-3-6a-edicao/view' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/guia-de-vigilancia-em-saude-volume-3-6a-edicao/view</a>. Acesso em: 29 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. Plano de contingência para emergência em saúde pública por rompimento de barragens. Ministério da Saúde, Secretaria de Vigilância em Saúde e Ambiente, Departamento de Emergências em Saúde Pública. Brasília: Ministério da Saúde, 2025b. 44 p. : il. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia-ambiental/plano-de-contingencia-barragens.pdf' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia-ambiental/plano-de-contingencia-barragens.pdf</a>. Acesso em: 29 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FERREIRA, A.B.H. Dicionário Aurélio da Língua Portuguesa. 5. ed. Curitiba: Editora Positivo, 2010. 2222 p.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. Indicadores de saúde. Elementos conceituais e práticos. Washington, D.C.: OPAS; 2018. Disponível em: <a href='https://www3.paho.org/hq/joomlatools-files/docman-files/Health_Indicators-June18-pt.pdf' target='_blank' rel='noopener noreferrer'>https://www3.paho.org/hq/joomlatools-files/docman-files/Health_Indicators-June18-pt.pdf</a>. Acesso em: 29 set. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RAMOS, M. <em>et al</em>. Acidente de trabalho ampliado: o rompimento da barragem de Fundão nos jornais impressos do Espírito Santo. Rev. bras. saúde ocup. 45, 2020. <a href='https://doi.org/10.1590/2317-6369000013719' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/2317-6369000013719</a>  </li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RIPSA. Rede Interagencial de Informações para a Saúde. Indicadores. Conceitos e critérios. Disponível em <a href='https://www.ripsa.org.br/indicadores/' target='_blank' rel='noopener noreferrer'>https://www.ripsa.org.br/indicadores/</a>. Acesso em: 25 set. 2025.  </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -473,7 +505,33 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m1-aula4" class="accordion-collapse collapse" aria-labelledby="heading-m1-aula4" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 4</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Conselho Nacional de Saúde. <em>Resolução nº 588, de 12 de julho de 2018</em>. Institui a Política Nacional de Vigilância em Saúde (PNVS). Diário Oficial da União, Brasília, DF, seção 1, n. 155, p. 87, 13 ago. 2018. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/cns/2018/res0588_13_08_2018.html' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/cns/2018/res0588_13_08_2018.html</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Decreto nº 7.616, de 17 de novembro de 2011. <em>Dispõe sobre a declaração de Emergência em Saúde Pública de Importância Nacional (ESPIN) e institui a Força Nacional do Sistema Único de Saúde – FN-SUS</em>. Diário Oficial da União, Brasília, DF, seção 1, n. 221, p. 1, 18 nov. 2011. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7616.htm' target='_blank' rel='noopener noreferrer'>https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7616.htm</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Decreto nº 10.593, de 24 de dezembro de 2020. <em>Dispõe sobre o Sistema Nacional de Proteção e Defesa Civil – SINPDEC e o Conselho Nacional de Proteção e Defesa Civil – CONPDEC</em>. Diário Oficial da União, Brasília, DF, 28 dez. 2020. Disponível em: <a href='https://www2.camara.leg.br/legin/fed/decret/2020/decreto-10593-24-dezembro-2020-790946-publicacaooriginal-162026-pe.html' target='_blank' rel='noopener noreferrer'>https://www2.camara.leg.br/legin/fed/decret/2020/decreto-10593-24-dezembro-2020-790946-publicacaooriginal-162026-pe.html</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Integração Nacional. <em>Instrução Normativa nº 02, de 20 de dezembro de 2016</em>. Estabelece a Classificação e Codificação Brasileira de Desastres – COBRADE. Diário Oficial da União, Brasília, DF, 21 dez. 2016. Disponível em: <a href='https://www.defesacivil.rs.gov.br/upload/arquivos/202105/04095316-cobrade-classificacao-e-codificacao-brasileira-de-desastres.pdf' target='_blank' rel='noopener noreferrer'>https://www.defesacivil.rs.gov.br/upload/arquivos/202105/04095316-cobrade-classificacao-e-codificacao-brasileira-de-desastres.pdf</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Plano de resposta às emergências em saúde pública</em>. Brasília, DF: Ministério da Saúde, 2014. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/publicacoes/plano_resposta_emergencias_saude_publica.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/publicacoes/plano_resposta_emergencias_saude_publica.pdf</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BRASIL. Ministério da Saúde. <em>Guia para elaboração de planos de contingência</em>. Brasília, DF: Ministério da Saúde, 2024. 42 p. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/emergencia-em-saude-publica/guia-para-elaboracao-de-planos-de-contingencia' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/emergencia-em-saude-publica/guia-para-elaboracao-de-planos-de-contingencia</a>. Acesso em: 6 out. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LIMA, A. M. M.; MONTEIRO, J. B. <em>Entre o risco e o desastre: uma análise conceitual dos múltiplos componentes envoltos em uma complexa equação</em>. Revista de Geografia, v. 39, n. 2, p. 59-84, 2022. DOI: 10.51359/2238-6211.2022.251953.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ORGANIZAÇÃO MUNDIAL DA SAÚDE. <em>Comunicação de riscos em emergências de saúde pública: um guia da OMS para políticas e práticas em comunicação de risco de emergência.</em> Genebra: OMS, 2018. Disponível em: <a href='https://iris.who.int/bitstream/handle/10665/259807/9789248550201-por.pdf' target='_blank' rel='noopener noreferrer'>https://iris.who.int/bitstream/handle/10665/259807/9789248550201-por.pdf</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUZA, A. S. S. <em>et al</em>. <em>Histórico de implementação da gestão às emergências em saúde pública no Brasil</em>. Epidemiologia e Serviços de Saúde, v. 33, n. 2, e20240498, 2024. DOI: 10.1590/S2237-96222024v34e20240498.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SOUZA, A. S. S. <em>et al</em>. <em>Brazil’s response to public health emergencies in 2023: lessons for the international community</em>. Revista Panamericana de Salud Pública, v. 49, e15, 2025. DOI: 10.26633/RPSP.2025.15.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. <em>International Health Regulations (2005)</em>. 3. ed. Genebra: World Health Organization, 2016. Disponível em: <a href='https://iris.who.int/handle/10665/246107' target='_blank' rel='noopener noreferrer'>https://iris.who.int/handle/10665/246107</a>. Acesso em: 6 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. WHO <em>Pandemic Agreement</em>. Genebra: World Health Organization, 2025. Disponível em: <a href='https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_R1-en.pdf' target='_blank' rel='noopener noreferrer'>https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_R1-en.pdf</a>. Acesso em: 6 fev. 2026.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -535,7 +593,47 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m2-aula2" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula2" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 2</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for arsenic</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2007.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for benzene</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2007.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for cadmium</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2012.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for cyanide</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2006.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for fluorides, hydrogen fluoride, and fluorine</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2003.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AGENCY FOR TOXIC SUBSTANCES AND DISEASE REGISTRY. <em>Toxicological profile for lead</em>. Atlanta: U.S. Department of Health and Human Services, Public Health Service, 2020. Disponível em: https://www.atsdr.cdc.gov/toxprofiles/tp13.pdf. Acesso em: 16 ago. 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">BOISCHIO, Ana Paula Raggio; CÓLUS, Iracema Marilene Souza. Mercúrio e saúde: uma revisão. <em>Cadernos de Saúde Pública</em>, v. 16, n. 1, p. 19–32, 2000.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">CARNEIRO, Fernando Ferreira; PIGNATI, Wanderlei; RIGOTTO, Raquel Maria; AUGUSTO, Lia Giraldo da Silva (org.). <em>Dossiê ABRASCO: um alerta sobre os impactos dos agrotóxicos na saúde</em>. Rio de Janeiro: EPSJV/Fiocruz, 2015.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DE SOUZA GUERRA, Carolina <em>et al</em>. Lead concentrations in whole blood, serum, saliva and house dust in samples collected at two time points (12 months apart) in Santo Amaro, BA, Brazil. <em>Environmental Research</em>, v. 142, p. 337–344, 2015.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">EATON, David L.; KLAASSEN, Curtis D. Principles of toxicology. In: KLAASSEN, Curtis D. (ed.). <em>Casarett and Doull’s toxicology</em>. 6. ed. New York: McGraw-Hill, 2001. p. 11–33.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">HILEWITZ, Daniel <em>et al</em>. Epidemiology of sensitivity to nickel, cobalt and chromium in Israel: a retrospective cohort study. <em>Contact Dermatitis</em>, 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">JAFFERY, Farhat N.; MISRA, Virendra; VISWANATHAN, P. N. Convergence of clinical toxicology and epidemiology in relation to health effects of chemicals. <em>Environmental Toxicology and Pharmacology</em>, v. 12, n. 3, p. 169–179, 2002.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">LECTURIO. <em>Farmacocinética e farmacodinâmica</em>. [S.l.], 2025.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">METZGER, Ingrid F.; SOUZA-COSTA, Débora C.; TANUS-SANTOS, José E. Farmacogenética: princípios, aplicações e perspectivas. <em>Medicina (Ribeirão Preto)</em>, 2006.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OGA, Seizi; CAMARGO, Márcia Maria de Almeida; BATISTUZZO, José Antonio de Oliveira. <em>Fundamentos de toxicologia</em>. 4. ed. São Paulo: Atheneu, 2014.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OLIVEIRA, J. F. P. Curto período de exposição ao chumbo promove aumento da biodisponibilidade de óxido nítrico, via receptores AT2, e ativação de canais para K+ em aorta de ratos. 2015. Tese (Doutorado em Ciências Fisiológicas) – Universidade Federal do Espírito Santo, Centro de Ciências da Saúde, Vitória, 2015.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">PRICE, N. F.; LIN, P. I. D.; CARDENAS, A. <em>et al</em>. Prenatal metal exposures and kidney function in adolescence in Project Viva. <em>Environmental Health</em>, v. 23, p. 94, 2024.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WANG, Yican <em>et al</em>. Investigating the relationship of co-exposure to multiple metals with chronic kidney disease: an integrated perspective from epidemiology and adverse outcome pathways. <em>Journal of Hazardous Materials</em>, v. 480, p. 135844, 2024.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">WORLD HEALTH ORGANIZATION. <em>Some non-heterocyclic polycyclic aromatic hydrocarbons and some related exposures</em>. Lyon: International Agency for Research on Cancer, 2010. (IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, v. 92).</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -548,65 +646,57 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">OGA <em>et al</em>. (2014). Fundamentos de Toxicologia, 4ª edição.</li>
+                                                    <li class="list-group-item">AMERICAN LUNG ASSOCIATION. 10 of the worst diseases smoking causes | State of Tobacco Control. Disponível em: <a href='https://www.lung.org/research/sotc/by-the-numbers/10-worst-diseases-smoking-causes' target='_blank' rel='noopener noreferrer'>https://www.lung.org/research/sotc/by-the-numbers/10-worst-diseases-smoking-causes</a>. Acesso em: 23 set. 2025.</li>
 
-                                                    <li class="list-group-item">KATZING, B. G. e TREVOR, A. J. (2017). Basic and Clinical Pharmacology, 14ª edição.</li>
+                                                    <li class="list-group-item">AURORA, N. Pharmaceutical toxicology: understanding the risks and benefits of medications. <em>Journal of Pharmaceutical Toxicology</em>, v. 6, n. 2, p. 21–24, 2023. Disponível em: <a href='https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html' target='_blank' rel='noopener noreferrer'>https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html</a>. Acesso em: 1 set. 2025.</li>
 
-                                                    <li class="list-group-item">AURORA, N. Pharmaceutical Toxicology: Understanding the Risks and Benefits of Medications. <strong>Journal of Pharmaceutical Toxicology</strong>, v. 6, n. 2, p. 21–24, 2023. Disponível em: <a href='https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html. Acesso em: 1 set. 2025.' target='_blank' rel='noopener noreferrer'>https://www.openaccessjournals.com/articles/pharmaceutical-toxicology-understanding-the-risks-and-benefits-of-medications-16214.html. Acesso em: 1 set. 2025.</a></li>
+                                                    <li class="list-group-item">BOCCHINI, B. SUS oferece tratamento gratuito para quem quiser parar de fumar. <em>Agência Brasil</em>, São Paulo, 2022. Disponível em: <a href='https://agenciabrasil.ebc.com.br/saude/noticia/2022-05/sus-oferece-tratamento-gratuito-para-quem-quiser-parar-de-fumar' target='_blank' rel='noopener noreferrer'>https://agenciabrasil.ebc.com.br/saude/noticia/2022-05/sus-oferece-tratamento-gratuito-para-quem-quiser-parar-de-fumar</a>. Acesso em: 30 ago. 2025.</li>
+
+                                                    <li class="list-group-item">BRASIL. INSTITUTO NACIONAL DE CÂNCER – INCA. Mortalidade no Brasil. Programa Nacional de Controle do Tabagismo: Observatório da Política Nacional de Controle do Tabaco, 2025. Disponível em: <a href='https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/observatorio-da-politica-nacional-de-controle-do-tabaco/dados-e-numeros-do-tabagismo/mortalidade-no-brasil' target='_blank' rel='noopener noreferrer'>https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/observatorio-da-politica-nacional-de-controle-do-tabaco/dados-e-numeros-do-tabagismo/mortalidade-no-brasil</a>. Acesso em: 30 ago. 2025.</li>
+
+                                                    <li class="list-group-item">CONSUMO de tabaco e dispositivos eletrônicos de fumar – LENAD. São Paulo, 2025. Disponível em: <a href='https://lenad.uniad.org.br/resultados/lenad-iii-consumo-de-tabaco-e-defs/' target='_blank' rel='noopener noreferrer'>https://lenad.uniad.org.br/resultados/lenad-iii-consumo-de-tabaco-e-defs/</a>. Acesso em: 30 ago. 2025.</li>
 
                                                     <li class="list-group-item">GOLAN, David E. <em>et al</em>. Farmacodinâmica. Principles of Pharmacology: <strong>The Pathophysiologic Basis of Drug Therapy</strong>, 3. ed. 2012. Disponível em: <a href='https://anestesiologia.paginas.ufsc.br/files/2015/02/Farmacodinamica-texto.pdf' target='_blank' rel='noopener noreferrer'>https://anestesiologia.paginas.ufsc.br/files/2015/02/Farmacodinamica-texto.pdf</a>. Acesso em: 23 set. 2025.</li>
 
                                                     <li class="list-group-item">GUPTA, M. The Importance of Pharmaceutical Toxicology in Drug Development. <strong>Journal of Pharmaceutical Toxicology</strong>, v. 6, n. 2, p. 29–32, 2023. DOI: 10.37532/jpt.2023.6(2).29-32. Acesso em: 1 set. 2025. </li>
 
+                                                    <li class="list-group-item">HOGG, R. <em>et al</em>. Nicotinic acetylcholine receptors: from structure to brain function. <em>Reviews of Physiology, Biochemistry and Pharmacology</em>, v. 147, p. 1–46, 2003.</li>
+
+                                                    <li class="list-group-item">IARC WORKING GROUP ON THE EVALUATION OF CARCINOGENIC RISKS TO HUMANS. <em>Tobacco smoke and involuntary smoking</em>. Lyon (FR): International Agency for Research on Cancer, 2004. (IARC Monographs on the Evaluation of Carcinogenic Risks to Humans, n. 83). Cap. 1: Composition, exposure and regulations. Disponível em: <a href='https://www.ncbi.nlm.nih.gov/books/NBK316410/' target='_blank' rel='noopener noreferrer'>https://www.ncbi.nlm.nih.gov/books/NBK316410/</a>. Acesso em: 31 ago. 2025.</li>
+
+                                                    <li class="list-group-item">INSTITUTO NACIONAL DE CÂNCER – INCA. <em>Tabagismo</em>. 2025. Disponível em: INSTITUTO NACIONAL DE CÂNCER – INCA. Tabagismo. 2025. Disponível em: <a href='https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo/tabagismo' target='_blank' rel='noopener noreferrer'>https://www.gov.br/inca/pt-br/assuntos/causas-e-prevencao-do-cancer/tabagismo/tabagismo</a>. Acesso em: 23 set. 2025.. Acesso em: 23 set. 2025.</li>
+
+                                                    <li class="list-group-item">KATZUNG, B. G.; TREVOR, A. J. <em>Basic and clinical pharmacology</em>. 14. ed. New York: McGraw-Hill Education, 2017.</li>
+
+                                                    <li class="list-group-item">MARQUES, P. <em>et al</em>. An updated overview of e-cigarette impact on human health. <em>Respiratory Research</em>, v. 22, n. 1, p. 151, maio 2021.</li>
+
+                                                    <li class="list-group-item">NATIONAL ACADEMIES OF SCIENCES, ENGINEERING, AND MEDICINE <em>et al</em>. <em>Public health consequences of e-cigarettes</em>. Washington (DC): National Academies Press, 2018. Disponível em: <a href='http://www.ncbi.nlm.nih.gov/books/NBK507171/' target='_blank' rel='noopener noreferrer'>http://www.ncbi.nlm.nih.gov/books/NBK507171/</a>. Acesso em: 23 set. 2025.</li>
+
+                                                    <li class="list-group-item">NATIONAL CENTER FOR CHRONIC DISEASE PREVENTION AND HEALTH PROMOTION (US) OFFICE ON SMOKING AND HEALTH. <em>The health consequences of smoking—50 years of progress: a report of the Surgeon General. Atlanta: Centers for Disease Control and Prevention</em>, 2014. Disponível em: <a href='https://www.ncbi.nlm.nih.gov/books/NBK294308/' target='_blank' rel='noopener noreferrer'>https://www.ncbi.nlm.nih.gov/books/NBK294308/</a>. Acesso em: 28 ago. 2025.</li>
+
+                                                    <li class="list-group-item">OGA, Seizi; CAMARGO, Márcia Maria de Almeida; BATISTUZZO, José Antonio de Oliveira. <em>Fundamentos de toxicologia</em>. 4. ed. São Paulo: Atheneu, 2014.</li>
+
+                                                    <li class="list-group-item">PINTO, M. <em>et al</em>. Chemical characterisation of the vapour emitted by an e-cigarette using a ceramic wick-based technology. <em>Scientific Reports</em>, v. 12, n. 1, p. 16497, 3 out. 2022.</li>
+
+                                                    <li class="list-group-item">ROSEMBERG, J. <em>Nicotina – droga universal</em>. 1. ed. Rio de Janeiro: Instituto Nacional do Câncer – INCA, 2004. Disponível em: <a href='https://www.inca.gov.br/publicacoes/livros/nicotina-droga-universal' target='_blank' rel='noopener noreferrer'>https://www.inca.gov.br/publicacoes/livros/nicotina-droga-universal</a>. Acesso em: 30 ago. 2025.</li>
+
+                                                    <li class="list-group-item">SCHAAF, C. Nicotinic acetylcholine receptors in human genetic disease. <em>Genetics in Medicine</em>, v. 16, n. 9, p. 649–656, set. 2014.</li>
+
                                                     <li class="list-group-item">SERENO, V. M. B.; SILVA, A. S.; SILVA, G. C. da. Perfil epidemiológico das intoxicações por medicamentos no Brasil entre os anos de 2013 a 2017 / Epidemiological profile of drug intoxications in Brazil between 2013 and 2017. <strong>Brazilian Journal of Development</strong>, v. 6, n. 6, p. 33892–33903, 2020. DOI: 10.34117/bjdv6n6-079. Disponível em: <a href='https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/11082' target='_blank' rel='noopener noreferrer'>https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/11082</a>. Acesso em: 24 set. 2025.</li>
 
+                                                    <li class="list-group-item">SHEHATA, S. et al. Vaping, environmental toxicants exposure, and lung cancer risk. <em>Cancers</em>, v. 15, n. 18, p. 4525, 12 set. 2023.</li>
+
                                                     <li class="list-group-item">UNIVERSIDADE FEDERAL DA PARAÍBA (UFPB). Uso indiscriminado de medicamentos e automedicação no Brasil. <strong>Centro de Informação sobre Medicamentos</strong>, 2024. Disponível em: <a href='https://www.ufpb.br/cim/contents/noticias/uso-indiscriminado-de-medicamentos-e-automedicacao-no-brasil' target='_blank' rel='noopener noreferrer'>https://www.ufpb.br/cim/contents/noticias/uso-indiscriminado-de-medicamentos-e-automedicacao-no-brasil</a>. Acesso em: 1 set. 2025.</li>
+
+                                                    <li class="list-group-item">WISE, R. Doença pulmonar obstrutiva crônica (DPOC). <em>Manual MSD</em>, abr. 2024. Disponível em: <a href='https://www.msdmanuals.com/pt/profissional/distúrbios-pulmonares/doença-pulmonar-obstrutiva-crônica-e-doenças-relacionadas/doença-pulmonar-obstrutiva-crônica-dpoc' target='_blank' rel='noopener noreferrer'>https://www.msdmanuals.com/pt/profissional/distúrbios-pulmonares/doença-pulmonar-obstrutiva-crônica-e-doenças-relacionadas/doença-pulmonar-obstrutiva-crônica-dpoc</a>.</li>
 
                                                     <li class="list-group-item">WORLD HEALTH ORGANIZATION. Antimicrobial resistance, 2023. Disponível em: <a href='https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance' target='_blank' rel='noopener noreferrer'>https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance</a>. Acesso em: 23 set. 2025.</li>
 
                                                     <li class="list-group-item">WORLD HEALTH ORGANIZATION. Essential medicines, 2024. Disponível em: https://www.who.int/news-room/fact-sheets/detail/essential-medicines. Acesso em: 1 set. 2025.</li>
 
-                                                    <li class="list-group-item"></li>
+                                                    <li class="list-group-item">YALCIN, E.; DE LA MONTE, S. Tobacco nitrosamines as culprits in disease: mechanisms reviewed. <em>Journal of Physiology and Biochemistry</em>, v. 72, n. 1, p. 107–120, mar. 2016.</li>
 
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
-
-                                                    <li class="list-group-item"></li>
+                                                    <li class="list-group-item">YANG, L. <em>et al</em>. Maternal cigarette smoking before or during pregnancy increases the risk of birth congenital anomalies: a population-based retrospective cohort study of 12 million mother–infant pairs. <em>BMC Medicine</em>, v. 20, n. 1, p. 4, jan. 2022.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -621,11 +711,25 @@ const modalInfos = {
                                         <div class="accordion-body">
                                             <div class="list mb-5">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">Klaassen, Curtis D.; Watkins III, John B. <strong>Fundamentos em toxicologia de Casarett e Doull (Lange)</strong>. AMGH Editora. Porto Alegre, 2a. edição, 2012.</li>
+                                                    <li class="list-group-item">ANVISA. Resolução RDC nº 296, de 29 de julho de 2019. Dispõe sobre as informações toxicológicas para rótulos e bulas de agrotóxicos, afins e preservativos de madeira. Diário Oficial da União, Brasília, DF, 29 jul. 2019. Disponível em: <a href='https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2019/rdc0296_29_07_2019.pdf' target='_blank' rel='noopener noreferrer'>https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2019/rdc0296_29_07_2019.pdf</a>. Acesso em: 6 fev. 2026.</li>
 
-                                                    <li class="list-group-item">Oga, S.; Camargo, M.M.A.; Batistuzzo, J.A.O. <strong>Fundamentos de toxicologia</strong>. Atheneu Editora. São Paulo, 4a. edição, 2014.</li>
+                                                    <li class="list-group-item">BRASIL. Agência Nacional de Vigilância Sanitária (ANVISA). Resolução RDC nº 722, de 1º de julho de 2022. Disponível em: <a href='https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&link=S&tipo=RDC&numeroAto=00000722&seqAto=002&valorAno=2022&orgao=RDC/DC/ANVISA/MS&cod_modulo=134&cod_menu=1696' target='_blank' rel='noopener noreferrer'>https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&link=S&tipo=RDC&numeroAto=00000722&seqAto=002&valorAno=2022&orgao=RDC/DC/ANVISA/MS&cod_modulo=134&cod_menu=1696</a>. Acesso em: 30 ago. 2025.</li>
 
-                                                    <li class="list-group-item">Shibamoto, Takayuki; Bjeldanes, Leonard F. <strong>Introdução à toxicologia de alimentos</strong>. Elsevier, 2014.</li>
+                                                    <li class="list-group-item">BRASIL. Agência Nacional de Vigilância Sanitária (ANVISA). Instrução Normativa nº 160, de 1º de julho de 2022. Disponível em: <a href='https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&link=S&tipo=INM&numeroAto=00000160&seqAto=000&valorAno=2022&orgao=ANVISA/MS&cod_modulo=134&cod_menu=1696' target='_blank' rel='noopener noreferrer'>https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&link=S&tipo=INM&numeroAto=00000160&seqAto=000&valorAno=2022&orgao=ANVISA/MS&cod_modulo=134&cod_menu=1696</a>. Acesso em: 30 ago. 2025.</li>
+
+                                                    <li class="list-group-item">BRASIL. Agência Nacional de Vigilância Sanitária (ANVISA). Conheça os novos guias de avaliação toxicológica de agrotóxicos. 2023. Disponível em: <a href='https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2023/conheca-os-novos-guias-de-avaliacao-toxicologica-de-agrotoxicos' target='_blank' rel='noopener noreferrer'>https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2023/conheca-os-novos-guias-de-avaliacao-toxicologica-de-agrotoxicos</a>. Acesso em: 30 set. 2025.</li>
+
+                                                    <li class="list-group-item">BRASIL. Lei nº 14.785, de 27 de dezembro de 2023. Lei dos agrotóxicos. Diário Oficial da União, Brasília, 28 dez. 2023. Disponível em: <a href='https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14785.htm' target='_blank' rel='noopener noreferrer'>https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14785.htm</a>. Acesso em: 20 ago. 2025.</li>
+
+                                                    <li class="list-group-item">BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde e Ambiente. Boletim Epidemiológico: intoxicações exógenas por agrotóxicos no Brasil – 2013 a 2022. Brasília: Ministério da Saúde, v. 54, n. 12, 2023. Disponível em: <a href='https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2023/boletim-epidemiologico-volume-54-no-12' target='_blank' rel='noopener noreferrer'>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2023/boletim-epidemiologico-volume-54-no-12</a>. Acesso em: 25 ago. 2025.</li>
+
+                                                    <li class="list-group-item">IBAMA – Instituto Brasileiro de Recursos Naturais Renováveis. Relatórios de comercialização de agrotóxicos: boletins anuais de produção, importação, exportação e vendas de agrotóxicos no Brasil. Brasília: IBAMA, 2025. Disponível em: <a href='http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos' target='_blank' rel='noopener noreferrer'>http://www.ibama.gov.br/agrotoxicos/relatorios-de-comercializacao-de-agrotoxicos</a>. Acesso em: 18 set. 2025.</li>
+
+                                                    <li class="list-group-item">KLAASSEN, Curtis D.; WATKINS III, John B. Fundamentos em toxicologia de Casarett e Doull. 2. ed. Porto Alegre: AMGH, 2012.</li>
+
+                                                    <li class="list-group-item">OGA, Seizi; CAMARGO, Márcia Maria de Almeida; BATISTUZZO, José Antonio de Oliveira. Fundamentos de toxicologia. 4. ed. São Paulo: Atheneu, 2014.</li>
+
+                                                    <li class="list-group-item">SHIBAMOTO, Takayuki; BJELDANES, Leonard F. Introdução à toxicologia de alimentos. Rio de Janeiro: Elsevier, 2014.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -638,7 +742,27 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m2-aula5" class="accordion-collapse collapse" aria-labelledby="heading-m2-aula5" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 5</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">AMORIM, L. C. A. Os biomarcadores e sua aplicação na avaliação da exposição aos agentes químicos ambientais. Revista Brasileira de Epidemiologia, v. 6, n. 2, p. 158–170, jun. 2003. Disponível em: <a href='https://doi.org/10.1590/S1415-790X2003000200009' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/S1415-790X2003000200009</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">AZEVEDO, F. A.; CHASIN, A. A. M. (Coord.). As bases toxicológicas da ecotoxicologia. São Carlos: RiMa; São Paulo: Intertox, 2003.</li>
+
+                                                    <li class="list-group-item">FUNDACENTRO. Manual de orientação sobre controle médico ocupacional da exposição a substâncias químicas. São Paulo: Fundacentro, 2014. Disponível em: <a href='http://arquivosbiblioteca.fundacentro.gov.br/exlibris/aleph/a23_1/apache_media/QLH7B8HET1QGHYRIJH3ADNE4A47XVU.pdf' target='_blank' rel='noopener noreferrer'>http://arquivosbiblioteca.fundacentro.gov.br/exlibris/aleph/a23_1/apache_media/QLH7B8HET1QGHYRIJH3ADNE4A47XVU.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">FUNDACENTRO. Toxicologia ocupacional. São Paulo: Fundacentro, 2020. Disponível em: <a href='http://arquivosbiblioteca.fundacentro.gov.br/exlibris/aleph/u23_1/bd/Toxicologia_ocupacional_final.pdf' target='_blank' rel='noopener noreferrer'>http://arquivosbiblioteca.fundacentro.gov.br/exlibris/aleph/u23_1/bd/Toxicologia_ocupacional_final.pdf</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">ILO – INTERNATIONAL LABOR ORGANIZATION. Enciclopédia de saúde ocupacional e segurança: princípios gerais de toxicologia. Disponível em: <a href='https://www.iloencyclopaedia.org/pt/part-iv-66769/toxicology-57951/general-principles-of-toxicology' target='_blank' rel='noopener noreferrer'>https://www.iloencyclopaedia.org/pt/part-iv-66769/toxicology-57951/general-principles-of-toxicology</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">PEIXOTO, N. F.; FERREIRA, L. S. Higiene ocupacional III. Santa Maria: Universidade Federal de Santa Maria, Colégio Técnico Industrial de Santa Maria; Rede e-Tec Brasil, 2013. Disponível em: <a href='https://www.ufsm.br/unidades-universitarias/ctism/cte/seguranca-do-trabalho-ctism-apostilas' target='_blank' rel='noopener noreferrer'>https://www.ufsm.br/unidades-universitarias/ctism/cte/seguranca-do-trabalho-ctism-apostilas</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">PIVETTA, F.; MACHADO, J. M. H.; ARAÚJO, U. C.; MOREIRA, M. F. R.; APOSTOLI, P. Monitoramento biológico: conceitos e aplicações em saúde pública. Cadernos de Saúde Pública, v. 17, n. 3, p. 545–554, maio 2001. Disponível em: <a href='https://doi.org/10.1590/S0102-311X2001000300010' target='_blank' rel='noopener noreferrer'>https://doi.org/10.1590/S0102-311X2001000300010</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item">ROSA, H. V. D.; MARTINS, I.; SIQUEIRA, M. E. P. B.; COLACIOPPO, S. Monitoramento ambiental e biológico. In: OGA, S.; CAMARGO, M. M. A.; BATISTUZZO, J. A. O. (Org.). Fundamentos de toxicologia. 5. ed. São Paulo: Atheneu, 2021.</li>
+
+                                                    <li class="list-group-item">THORNE, O. S. Toxicologia ocupacional. In: KLASSEN, C. D.; WATKINS III, J. B. (Org.). Fundamentos em toxicologia de Casarett e Doull. 2. ed. Porto Alegre: AMGH, 2012.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -684,7 +808,29 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m3-aula2" class="accordion-collapse collapse" aria-labelledby="heading-m3-aula2" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 2</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">ALVES, C. B. C. <em>et al</em>. Intoxicação crônica por chumbo após acidente por arma de fogo: relato de caso. Brazilian Journal of Health Review, v. 7, n. 1, p. 189–199, 2024.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">AP NEWS. Trabalhadores denunciam mortes e adoecimentos por exposição ao mercúrio. 2024. Disponível em: <a href='https://apnews.com/article/amazon-mercury-gold-mining-yanomami-brazil-indigenous-8809d4f22c84dd6e81bb7a1f5f3ba9f6' target='_blank' rel='noopener noreferrer'>https://apnews.com/article/amazon-mercury-gold-mining-yanomami-brazil-indigenous-8809d4f22c84dd6e81bb7a1f5f3ba9f6</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">DUFFUS, J. H. “Heavy metals”: a meaningless term? Pure and Applied Chemistry, v. 74, n. 5, p. 793–807, 2002.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FUNDAÇÃO CENTRO DE REFERÊNCIA EM SEGURANÇA, SAÚDE NO TRABALHO (FUNDACENTRO). Estudo do Banco Mundial aponta morte de 5,5 milhões de pessoas devido à intoxicação por chumbo. Brasília: Fundacentro, 2023. Disponível em: <a href='https://www.gov.br/fundacentro/pt-br/comunicacao/noticias/noticias/2023/setembro/estudo-do-banco-mundial-aponta-morte-de-5-5-milhoes-de-pessoas-devido-a-intoxicacao-por-chumbo' target='_blank' rel='noopener noreferrer'>https://www.gov.br/fundacentro/pt-br/comunicacao/noticias/noticias/2023/setembro/estudo-do-banco-mundial-aponta-morte-de-5-5-milhoes-de-pessoas-devido-a-intoxicacao-por-chumbo</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">FUNDAÇÃO OSWALDO CRUZ (FIOCRUZ). Fiocruz apresenta novos dados de estudo que avalia a saúde da população de Brumadinho. Disponível em: <a href='https://fiocruz.br/noticia/2025/01/fiocruz-apresenta-novos-dados-de-estudo-que-avalia-saude-da-populacao-de-brumadinho' target='_blank' rel='noopener noreferrer'>https://fiocruz.br/noticia/2025/01/fiocruz-apresenta-novos-dados-de-estudo-que-avalia-saude-da-populacao-de-brumadinho</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">INSTITUTO NACIONAL DE CÂNCER (Brasil). Metais pesados, câncer e os riscos ambientais. Rio de Janeiro: INCA, 2024. 22 p.: il. color.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">MANZINI, F. F.; SÁ, K. B. de; PLICAS, L. M. de A. Metais pesados: fonte e ação toxicológica. Fórum Ambiental da Alta Paulista, [S. l.], v. 6, n. 12, 2010. DOI: 10.17271/19800827612201026. Disponível em: <a href='https://publicacoes.amigosdanatureza.org.br/index.php/forum_ambiental/article/view/26' target='_blank' rel='noopener noreferrer'>https://publicacoes.amigosdanatureza.org.br/index.php/forum_ambiental/article/view/26</a>. Acesso em: 10 fev. 2026.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">OGA, S.; CAMARGO, M. M. A.; BATISTUZZO, J. A. O. Fundamentos de toxicologia. 4. ed. São Paulo: Atheneu, 2014.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">RUSYNIAK, D. E. et al. Heavy metal poisoning: management of intoxication and antidotes. In: Molecular, Clinical and Environmental Toxicology: Volume 2 – Clinical Toxicology. p. 365–396, 2010.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">SAMPAIO, A. Caso do bolo envenenado: saiba como funciona a atuação técnica do Instituto-Geral de Perícias. Instituto-Geral de Perícias do Rio Grande do Sul, 13 jan. 2025. Disponível em: <a href='https://igp.rs.gov.br/caso-do-bolo-envenenado-saiba-como-funciona-a-atuacao-tecnica-do-instituto-geral-de-pericias' target='_blank' rel='noopener noreferrer'>https://igp.rs.gov.br/caso-do-bolo-envenenado-saiba-como-funciona-a-atuacao-tecnica-do-instituto-geral-de-pericias</a>. Acesso em: 10 fev. 2026.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -764,7 +910,15 @@ const modalInfos = {
                                     </h5>
                                     <div id="collapse-m3-aula6" class="accordion-collapse collapse" aria-labelledby="heading-m3-aula6" data-bs-parent="">
                                         <div class="accordion-body">
-                                            <p>Bibliografia Aula 6</p>
+                                            <div class="list mb-5">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">COVELLO, V.; SANDMAN, P. Risk communication: evolution and revolution. In: WOLBARST, A. Solutions to an environment in peril. Baltimore: Johns Hopkins University Press, 2001. p. 164–178.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">KRIMSKY, S.; PLOUGH, A. Environmental hazards: communicating risks as a social process. Dover, MA: Auburn House Publishing Company, 1988.</li>
+
+                                                    <li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">NATIONAL RESEARCH COUNCIL. Recommendations for improving risk communication. In: NATIONAL RESEARCH COUNCIL. Improving risk communication. Washington, DC: National Academies Press, 1989. p. 16–19.</li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
