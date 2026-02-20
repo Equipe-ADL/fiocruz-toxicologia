@@ -118,59 +118,95 @@
 							<div class="col-12 col-md-10 col-lg-8 mb-5">
 								<div class="heading__block">
 									<span class="heading__before">Tópico 1</span>
-									<h3 class="heading__title">Automedicação, o uso indevido de medicamentos e intoxicação </h3>
+									<h3 class="heading__title">Introdução</h3>
 								</div>
 							</div>
 						</div>
 
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-5">
+							<div class="col-12 col-md-10 col-lg-8 mb-5">
+								<p>A avaliação laboratorial é o eixo central no diagnóstico e monitoramento de intoxicações por metais. Diferentemente de outras intoxicações químicas, nas quais muitas vezes o diagnóstico é apenas clínico, os metais permitem quantificação direta em matrizes biológicas. Ainda assim, interpretar esses exames exige cautela, pois os valores variam segundo a matriz, o tempo de exposição, a toxicocinética e a vulnerabilidade individual.</p>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-3">
 								<div class="heading__block">
 									<span class="heading__before"></span>
-									<h4 class="heading__title h5">Contextualização</h4>
+									<h4 class="heading__title h5">Matrizes biológicas utilizadas</h4>
 								</div>
 
-								<p>A toxicologia de medicamentos estuda os efeitos tóxicos dos fármacos sobre os organismos, que variam conforme:</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<!-- Lista Não-Ordenada -->
-								<div class="list">
-									<ul class="list-group">
-										<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">dose</li>
-
-										<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">via de administração</li>
-
-										<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">tempo de exposição</li>
-
-										<li class="list-group-item aos-init aos-animate" list-style="default" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">características do indivíduo</li>
+								<!-- Abas -->
+								<div class="aba pt-3">
+									<ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+										<li class="nav-item" role="presentation">
+											<button class="nav-link active" id="pills-aba1-tab" data-bs-toggle="pill" data-bs-target="#pills-aba1" type="button" role="tab" aria-controls="pills-aba1" aria-selected="true">Sangue</button>
+										</li>
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-aba2-tab" data-bs-toggle="pill" data-bs-target="#pills-aba2" type="button" role="tab" aria-controls="pills-aba2" aria-selected="false">Urina</button>
+										</li>
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-aba3-tab" data-bs-toggle="pill" data-bs-target="#pills-aba3" type="button" role="tab" aria-controls="pills-aba3" aria-selected="false">Cabelos e unhas</button>
+										</li>
 									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+									<div class="tab-content p-0" id="pills-tabContent">
+										<!-- Aba 1 -->
+										<div class="tab-pane fade show active" id="pills-aba1" role="tabpanel" aria-labelledby="pills-aba1-tab">
+											<div class="tab-pane-content">
+												<p>O sangue é a matriz mais comumente utilizada, especialmente para metais que circulam em fase inicial de exposição.</p>
 
-					<!-- Destaque Parallax -->
-					<div class="container-fluid px-0 mb-5">
-						<div class="destaque-parallax my-0">
-							<div class="container aos-animate aos-init" data-aos="fade" data-aos-easing="ease-out" data-aos-duration="800">
-								<div class="row justify-content-center">
-									<div class="col-12 col-md-10 col-lg-8">
-										<p>O termo droga refere-se a qualquer substância capaz de alterar processos fisiológicos ou patológicos, enquanto o fármaco é uma substância com estrutura química definida, desenvolvida para fins terapêuticos.</p>
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item" list-style="default"><strong>Vantagem:</strong> reflete exposições recentes.</li>
+
+														<li class="list-group-item" list-style="default"><strong>Limitação:</strong> meia-vida curta em alguns casos (ex.: chumbo no sangue, 30 dias).</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!-- Aba 2-->
+										<div class="tab-pane fade" id="pills-aba2" role="tabpanel" aria-labelledby="pills-aba2-tab">
+											<div class="tab-pane-content">
+												<p>A urina é indicada para metais eliminados preferencialmente por via renal (arsênio, cádmio, mercúrio inorgânico).</p>
+
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item" list-style="default"><strong>Vantagem:</strong> útil em exposições agudas e para monitoramento de trabalhadores.</li>
+
+														<li class="list-group-item" list-style="default"><strong>Limitação:</strong> coleta de 24 horas é necessária para maior precisão; valores podem variar conforme hidratação.</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<!-- Aba 3 -->
+										<div class="tab-pane fade" id="pills-aba3" role="tabpanel" aria-labelledby="pills-aba3-tab">
+											<div class="tab-pane-content">
+												<p>Essas matrizes são particularmente relevantes para investigações retrospectivas, pois armazenam exposições crônicas.</p>
+
+												<!-- Lista Não-Ordenada -->
+												<div class="list">
+													<ul class="list-group">
+														<li class="list-group-item" list-style="default"><strong>Vantagem:</strong> indicam exposição passada, em semanas ou meses.</li>
+
+														<li class="list-group-item" list-style="default"><strong>Limitação:</strong> suscetíveis à contaminação externa (poeira, cosméticos, tinturas).</li>
+													</ul>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<p>De acordo com a <a href='https://www.planalto.gov.br/ccivil_03/leis/l5991.htm' target='_blank' rel='noopener noreferrer'>Lei nº 5.991, de 17/12/73</a> medicamento é definido como produto farmacêutico que contém o princípio ativo e é destinado a finalidades profilática, curativa, paliativa ou diagnóstica.</p>
-
-								<p>Embora o termo "droga" seja comumente usado como sinônimo de substância tóxica, não deve ser aplicado a medicamentos, que, quando utilizados corretamente, oferecem benefícios terapêuticos. </p>
+							<div class="col-12 col-md-10 col-lg-8 mb-5 pt-3">
+								<div class="heading__block">
+									<span class="heading__before"></span>
+									<h4 class="heading__title h5">Outros compartimentos</h4>
+								</div>
+								<p>Ossos (chumbo), pele e dentes podem ser analisados em protocolos de pesquisa. O avanço de técnicas como fluorescência de raios X portátil vem permitindo estimar a carga óssea de chumbo em estudos populacionais.</p>
 							</div>
 						</div>
 
@@ -179,88 +215,13 @@
 								<!-- Saiba Mais Toggle -->
 								<div class="saiba-mais aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
 									<div class="saiba-mais__header">
-										<button class="fio-button button-md fio-button-primary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais0" aria-expanded="false" aria-controls="saiba-mais0"><span class="icone material-symbols-rounded" aria-hidden="true">touch_app</span> Saiba
-											mais</button>
-									</div>
-									<div class="saiba-mais__content collapse" id="saiba-mais0">
-										<p>Entenda a <a href='https://alagoas.al.gov.br/noticia/sesau-explica-diferenca-entre-medicamento-generico-similar-e-de-referencia' target='_blank' rel='noopener noreferrer'>diferença entre genérico, similar e de referência</a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<p>O uso inadequado de medicamentos - como a automedicação - pode causar reações adversas, intoxicações e complicações clínicas, configurando um grave problema de saúde pública. Estima-se que a intoxicação medicamentosa cause cerca de 190 mil mortes anuais, além de morbidades não fatais que ocorrem de 20 a 30 vezes mais frequentemente.</p>
-
-								<p>Assim, a toxicologia de medicamentos é fundamental para identificar efeitos adversos, orientar o uso seguro de fármacos e contribuir para o desenvolvimento de terapias mais eficazes e seguras antes e sua liberação no mercado.</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<p>A automedicação é o uso de medicamentos sem orientação adequada, muitas vezes com indicação de pessoas não especializadas, como amigos ou familiares. Isso pode resultar em autodiagnósticos errados, escolhas inadequadas e reações adversas. Fatores como idade, genética e condições preexistentes influenciam a resposta do organismo, podendo levar a intoxicações e até riscos à vida.</p>
-
-								<p>A intoxicação medicamentosa ocorre quando a dose do fármaco ultrapassa a janela terapêutica, faixa de doses que produzem efeito terapêutico sem toxicidade. A janela terapêutica é quantificada pelo índice terapêutico (IT), que indica a margem de segurança de um fármaco. Quanto menor o IT, maior o risco de intoxicação.</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<!-- Box Cor -->
-								<div class="box-cor aos-init aos-animate" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="600">
-									<div class="box-cor__base">
-										<div class="base-header">
-											<h4>Exemplo</h4>
-										</div>
-										<div class="base-body">
-											<p>A heparina, anticoagulante com baixo IT, pode causar sangramento significativo mesmo com doses próximas à terapêutica. Por isso, pacientes em uso de heparina necessitam de monitoramento rigoroso do tempo de tromboplastina parcial ativada (TTPa) a cada 8 a 12 horas, a fim de manter o fármaco dentro de concentrações eficazes e seguranças. </p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<p>A intoxicação medicamentosa é caraterizada como um problema de saúde pública, agravado pela falta de regulamentação de publicidades, ausência de programas educativos e fácil acesso a medicamentos sem prescrição. No Brasil, idosos são mais afetados por polifarmácia, que aumenta as chances de interações e reações adversas. Em crianças, predominam os casos acidentais devido ao fácil acesso a medicamentos sem a devida segurança. </p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Destaque Parallax -->
-					<div class="container-fluid px-0 mb-5">
-						<div class="destaque-parallax my-0">
-							<div class="container aos-animate aos-init" data-aos="fade" data-aos-easing="ease-out" data-aos-duration="800">
-								<div class="row justify-content-center">
-									<div class="col-12 col-md-10 col-lg-8">
-										<p>O Brasil é o 5º maior consumidor de medicamentos, com 35% das vendas sendo de automedicação. </p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<p>Além de intoxicação, a automedicação, no caso dos antibióticos, contribui significativamente para o surgimento de bactérias multirresistentes, um problema de saúde pública crescente. O uso inadequado acelera a resistência microbiana, dificultando o tratamento de infecções e aumentando a morbilidade e mortalidade. </p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-10 col-lg-8 mb-5">
-								<!-- Saiba Mais Toggle -->
-								<div class="saiba-mais aos-init aos-animate" data-aos="fade-left" data-aos-easing="ease-out" data-aos-duration="600">
-									<div class="saiba-mais__header">
-										<button class="fio-button button-md fio-button-primary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true">touch_app</span> Saiba
-											mais</button>
+										<button class="fio-button button-md fio-button-primary collapsed" type="collapsed" data-bs-toggle="collapse" data-bs-target="#saiba-mais1" aria-expanded="false" aria-controls="saiba-mais1"><span class="icone material-symbols-rounded" aria-hidden="true">touch_app</span> Saiba mais</button>
 									</div>
 									<div class="saiba-mais__content collapse" id="saiba-mais1">
 										<!-- Lista Não-Ordenada -->
 										<div class="list">
 											<ul class="list-group">
-												<li class="list-group-item aos-init aos-animate" list-style="video" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200"><a href='https://www.youtube.com/watch?v=KfPt_rzKCpI' target='_blank' rel='noopener noreferrer'>Assista ao vídeo</a> sobre a Resistência microbiana desencadeada pelo uso indiscriminado de antibióticos. </li>
+												<li class="list-group-item aos-init aos-animate" list-style="page" data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1200">Leia o artigo que trata de uma <a href='https://www.scielo.br/j/csc/a/DNJdCvGmLY5Kt3QyFWkMPvG/?lang=pt&utm_source=chatgpt.com' target='_blank' rel='noopener noreferrer'>revisão sistemática sobre biomonitoramento humano em adultos residentes próximos a áreas industriais</a>. O estudo analisou 28 pesquisas e identificou concentrações elevadas de metais, com destaque para arsênio e mercúrio, indicando potenciais riscos à saúde das populações expostas.</li>
 											</ul>
 										</div>
 									</div>
@@ -292,10 +253,10 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos">
 								<li class="apoio">
-									<img class="img-fluid logo5 d-block d-md-block" src="../../media/images/marcas/logo-governo-mg.svg" alt="Logo do Governo de Minas Gerais" height=""/>
+									<img class="img-fluid logo5 d-block d-md-block" src="../../media/images/marcas/logo-governo-mg.svg" alt="Logo do Governo de Minas Gerais" height="" />
 								</li>
 								<li class="d-block d-md-block">
-									<img class="img-fluid logo6 d-block d-md-block" src="../../media/images/marcas/logo-opas.svg" alt="Logo da OPAS" height=""/>
+									<img class="img-fluid logo6 d-block d-md-block" src="../../media/images/marcas/logo-opas.svg" alt="Logo da OPAS" height="" />
 								</li>
 							</ul>
 						</div>
@@ -305,7 +266,7 @@
 						<div class="col-12 col-md-auto">
 							<ul class="logos principais align-self-end">
 								<li class="d-block d-md-block">
-									<img class="img-fluid logo5 d-block d-md-block" src="../../media/images/marcas/logo-ioc.svg" alt="Logo do Instituto Oswaldo Cruz" height=""/>
+									<img class="img-fluid logo5 d-block d-md-block" src="../../media/images/marcas/logo-ioc.svg" alt="Logo do Instituto Oswaldo Cruz" height="" />
 								</li>
 
 								<li class="d-block d-md-block realizacao">
@@ -313,16 +274,16 @@
 								</li>
 
 								<li class="d-block d-md-block">
-									<img class="img-fluid logo3 d-block d-md-block" src="../../media/images/marcas/logo-fiocruz-2.svg" alt="Logo da Fiocruz" height=""/>
-								</li>
-	
-								<li class="d-block d-md-block">
-									<img class="img-fluid logo4 d-block d-md-block" src="../../media/images/marcas/logo-sus-35.svg" alt="Logo do Sistema Único de Saúde (SUS)" height=""/>
+									<img class="img-fluid logo3 d-block d-md-block" src="../../media/images/marcas/logo-fiocruz-2.svg" alt="Logo da Fiocruz" height="" />
 								</li>
 
-	
 								<li class="d-block d-md-block">
-									<img class="img-fluid logo7 d-block d-md-block" src="../../media/images/marcas/logo-ms-gov-federal-2.svg" alt="Logo do Ministério da Saúde e do Governo Federal" height=""/>
+									<img class="img-fluid logo4 d-block d-md-block" src="../../media/images/marcas/logo-sus-35.svg" alt="Logo do Sistema Único de Saúde (SUS)" height="" />
+								</li>
+
+
+								<li class="d-block d-md-block">
+									<img class="img-fluid logo7 d-block d-md-block" src="../../media/images/marcas/logo-ms-gov-federal-2.svg" alt="Logo do Ministério da Saúde e do Governo Federal" height="" />
 								</li>
 							</ul>
 						</div>
