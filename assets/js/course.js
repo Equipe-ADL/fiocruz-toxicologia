@@ -7,7 +7,7 @@ const course = {
 				// { type: "link", icon: "welcome", title: "Boas-vindas ao módulo", path: "/modulo1/apresentacao.html" },
 				{
 					type: "accordion",
-					title: "Aula 1 | Construção histórica conceitos, componentes, ações e organização da Vigilância em Saúde",
+					title: "Aula 1 | Vigilância em Saúde: trajetórias globais e o percurso brasileiro",
 					items: [
 						{ type: "link", icon: "lesson", title: "Sobre esta aula", path: "/modulo1/aula1/sobre-aula.html" },
 						{ type: "link", icon: "lesson", title: "Tópico 1: Introdução", path: "/modulo1/aula1/topico1.html" },
