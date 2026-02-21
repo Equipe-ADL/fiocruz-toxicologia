@@ -86,6 +86,12 @@
 	background-size: 1.25rem;
 	transition: transform 0.2s ease-in-out;
 }
+
+.image-dropdown .image-button-label em,
+.image-dropdown .image-button-label strong  {
+	display:contents;
+}
+
 .image-dropdown .image-content {
     background-color: var(--fio-sys-color-primary-medium-contrast);
     border-color: var(--fio-sys-color-primary-dark-contrast);
