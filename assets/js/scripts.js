@@ -196,7 +196,7 @@ const modalInfos = {
 						<p class="mb-1">Isabela Schincariol</p>
 						<p class="small text-muted"><em>Assessora de comunicação</em></p>
 					
-						<p class="mb-1">Roberta Saboya</p>
+						<p class="mb-1">Alessandra Guedes</p>
 						<p class="small text-muted"><em>Designer Educacional</em></p>
 					
 						<span class="h6 mb-3 d-block">Design de Interface</span>
@@ -212,23 +212,14 @@ const modalInfos = {
 					
 						
 						<span class="h6 mb-3 d-block">Recursos Audiovisuais</span>
-						
-						<p class="mb-1">Cynthia Macedo Dias</p>
-						<p class="small text-muted"><em>Locução</em></p>
-
-						<p class="mb-1">Francisco de Assis Menezes Vignolo Lucas</p>
-						<p class="small text-muted"><em>Animação, videografismo, edição, sonorização e locução</em></p>
-
-						<p class="mb-1">Hugo Rodrigues Marins</p>
-						<p class="small text-muted"><em>Mixagem e edição de som</em></p>
+					
+						<p class="mb-1">Bruno Athaydes</p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
 
 						<p class="mb-1">Teo Venerando</p>
-						<p class="small text-muted"><em>Edição audiovisual</em></p>
+						<p class="small text-muted"><em>Editor audiovisual</em></p>
 
 						<span class="h6 mb-3 d-block">Recursos Educacionais</span>
-
-						<p class="mb-1">Maria Clara Pontes</p>
-						<p class="small text-muted"><em>Desenhista instrucional</em></p>
 
 						<p class="mb-1">Carmélia Brito</p>
 						<p class="small text-muted"><em>Bibliotecária</em></p>
@@ -255,84 +246,115 @@ const modalInfos = {
 
 						<p class="mb-1">Fábio Carneiro</p>
 						<p class="small text-muted"><em>Designer gráfico e web designer</em></p>
-
-						<p class="mb-1">Flávia Garcia de Carvalho</p>
-						<p class="small text-muted"><em>Direção de arte</em></p>
-
-						<p class="mb-1">Francisco de Assis Menezes Vignolo Lucas</p>
-						<p class="small text-muted"><em>Ilustração</em></p>
 					</div>
 
-					<span class="h5 mb-3 d-block">Coordenação do projeto</span>
+					<span class="h5 mb-3 d-block">Coordenação Acadêmica</span>
 					
 					<div class="mb-5">
-						<p class="mb-1">Maurício Monken</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
+						<p class="mb-1">Enrico Mendes Saggioro</p>
+						<p class="small text-muted"><em>Instituto Oswaldo Cruz (IOC) - Fiocruz</em></p>
 
-						<p class="mb-1">Fernanda de Oliveira Bottino Ribeiro</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Carlos Eduardo Colpo Batistella</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
-
-						
-						<span class="h6 mb-3 d-block">Conteudistas</span>
-						<p class="mb-1">Anamaria D'Andrea Corbo</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Bianca Borges da Silva Leandro</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Camila Furlanetti Borges</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Carlos Eduardo Colpo Batistella</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
-
-						<p class="mb-1">Cynthia Macedo Dias</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Edilene Menezes Pereira</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Fernanda de Oliveira Bottino Ribeiro</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Ingrid D'avilla Freire Pereira</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">João Roberto Cavalcante</p>
-						<p class="small text-muted"><em>Pesquisador do Centro Brasil de Saúde Global</em></p>
-
-						<p class="mb-1">José Mauro da Conceição Pinto</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
-
-						<p class="mb-1">Marcia Cavalcanti Raposo Lopes</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV</em></p>
-
-						<p class="mb-1">Maurício Monken</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
-
-						<p class="mb-1">Pedro Henrique Mattos Ferreira</p>
-						<p class="small text-muted"><em>Assessor técnico do Ministério da Saúde</em></p>
-
-						<p class="mb-1">Reinaldo de Araujo Dantas Lopes</p>
-						<p class="small text-muted"><em>Professor-pesquisador da EPSJV</em></p>
+						<p class="mb-1">Tatiana Mingote Ferreira de Ázara</p>
+						<p class="small text-muted"><em>Instituto René Rachou (IRR) – Fiocruz Minas</em></p>
 					</div>
+
+					<span class="h5 mb-3 d-block">Apoio institucional SES/MG</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Romeu Zema</p>
+						<p class="small text-muted"><em>Governador do estado de Minas Gerais</em></p>
+
+						<p class="mb-1">Matheus Simões</p>
+						<p class="small text-muted"><em>Vice-Governador do estado de Minas Gerais</em></p>
+
+						<p class="mb-1">Fábio Baccheretti Vitor</p>
+						<p class="small text-muted"><em>Secretário de Estado de Saúde</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Subsecretaria de Vigilância em Saúde (SUBVS)</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Eduardo Campos Prosdocimi</p>
+						<p class="small text-muted"><em>Sub-Secretário</em></p>
+
+						<p class="mb-1">Debora Moreira Costa</p>
+						<p class="small text-muted"><em>Coordenação</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Núcleo de Cooperação com Organismos Nacionais e Internacionais (CONI/SUBVS)</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Karina Maia Lage</p>
+						<p class="small text-muted"><em>Coordenação</em></p>
+
+						<p class="mb-1">Lais da Silva Melo</p>
+						<p class="mb-1">Samira Diniz Resende</p>
+						<p class="mb-1">Viviane Lucia Carneiro</p>
+						<p class="small text-muted"><em>Especialistas em Políticas de Gestão e Saúde</em></p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Superintendência de Vigilância Epidemiológica</span>
+
+					<div class="mb-5">
+						<p class="mb-1">Aline Lara Cavalcante Oliva</p>
+					</div>
+
+					<span class="h5 mb-3 d-block">Conteudistas</span>
 					
-					<span class="h6 mb-3 d-block">Apoio em Tecnologia Educacional</span>
-						<p class="mb-1">Tarcisio Pereira de Souza</p>
-						<p class="small text-muted"><em>Tecnologista da EPSJV</em></p>
+					<div class="mb-5">
+						<p class="mb-1">André Peres Barbosa de Castro</p>
+						<p class="small text-muted"><em>Vigilância em Saúde: trajetórias globais e o percurso brasileiro</em></p>
 
-					<span class="h6 mb-3 d-block">Revisão Técnica</span>
-						<p class="mb-1">Martha Peçanha Sharapin</p>
-						<p class="small text-muted"><em>Professora-pesquisadora da EPSJV </em></p>
+						<p class="mb-1">Barbara Bresani Salvi</p>
+						<p class="mb-1">Ricardo Gadelha de Abreu</p>
+						<p class="small text-muted"><em>Política Nacional de Vigilância em Saúde e Planejamento</em></p>
 
-						<p class="mb-1">Mayara Secco Torres da Silva </p>
-						<p class="small text-muted"><em>Pesquisadora do INI</em></p>
+						<p class="mb-1">Jaqueline Martins</p>
+						<p class="mb-1">Kauara Brito Campos</p>
+						<p class="small text-muted"><em>Sistema Nacional de Vigilância em Saúde</em></p>
 
-						<p class="mb-1">Matheus Oliveira Bastos</p>
-						<p class="small text-muted"><em>Pesquisador do INI</em></p>
+						<p class="mb-1">Marcio Henrique de Oliveira Garcia</p>
+						<p class="mb-1">Raquel Proença de Oliveira</p>
+						<p class="small text-muted"><em>Emergências em Saúde Pública</em></p>
+
+						<p class="mb-1">Sidney Fernandes Sales Júnior </p>
+						<p class="small text-muted mb-0"><em>Toxicologia básica de contaminantes inorgânicos e orgânicos</em></p>
+						<p class="small text-muted"><em>Toxicocinética e toxicodinâmica dos agentes tóxicos</em></p>
+
+						<p class="mb-1">Lorena Oliveira Souza Soares</p>
+						<p class="small text-muted"><em>Toxicocinética e toxicodinâmica dos agentes tóxicos</em></p>
+
+						<p class="mb-1">Julia Pinheiro de Souza Cruz Serra Lima</p>
+						<p class="mb-1">Laura de Jesus dos Santos</p>
+						<p class="small text-muted"><em>Toxicologia dos medicamentos e tabagismo</em></p>
+
+						<p class="mb-1">Barbara Costa Pereira</p>
+						<p class="mb-1">Ludmila da Silva Figueira Barone</p>
+						<p class="small text-muted"><em>Toxicologia dos alimentos e dos agrotóxicos</em></p>
+
+						<p class="mb-1">Leandro Vargas Barreto de Carvalho</p>
+						<p class="small text-muted"><em>Toxicologia Ocupacional</em></p>
+
+						<p class="mb-1">Rachel Ann Hauser Davis</p>
+						<p class="small text-muted mb-0"><em>Toxicologia aplicados aos metais</em></p>
+						<p class="small text-muted"><em>Exposição por metais e os determinantes sociais de saúde</em></p>
+
+						<p class="mb-1">Thais Braga Gomes Araujo</p>
+						<p class="small text-muted"><em>Abordagem inicial ao paciente potencialmente intoxicado e exames físicos para identificação de sinais e sintomas clínicos</em></p>
+
+						<p class="mb-1">Viviane Parreira</p>
+						<p class="mb-1">Raphael Mendonça Guimarães</p>
+						<p class="small text-muted"><em>Interpretação de testes laboratoriais e de imagem para avaliação de intoxicação</em></p>
+
+						<p class="mb-1">Andréa Sobral de Almeida </p>
+						<p class="small text-muted"><em>Vigilância epidemiológica e gestão da informação</em></p>
+
+						<p class="mb-1">Guilherme de Souza Meireles</p>
+						<p class="small text-muted"><em>Exposição por metais e os determinantes sociais de saúde</em></p>
+
+						<p class="mb-1">Frederico Peres da Costa</p>
+						<p class="small text-muted"><em>Comunicação de risco à saúde</em></p>
+					</div>
 				</div>
 			</div>
 		`,
