@@ -149,10 +149,21 @@
 	padding: calc(var(--fio-sys-size-padding-xl)*2);
 }
 
-.destaque-parallax p,
-.destaque-parallax li {
+@media (max-width: 572px){
+	.destaque-parallax {
+		padding: var(--fio-sys-size-padding-lg);
+	}
+}
+
+.destaque-parallax p, 
+.destaque-parallax li, 
+.destaque-parallax .list .list-group .list-group-item {
 	color: var(--_destaque-color);
 	font-size: var(--fio-sys-typography-size-1);
+}
+
+.destaque-parallax .list .list-group .list-group-item::before {
+	color:var(--fio-ref-color-primary-40);
 }
 
 
@@ -166,7 +177,21 @@
 	background-color: var(--fio-ref-color-primary-40);
 }
 
+.destaque-parallax a.fio-button-primary {
+	background-color:var(--_button-color-primary);
+}
+
+.destaque-parallax a.fio-button-primary:hover {
+	background-color:var(--_background-color--hover) !important;
+	color:var(--_text-color--hover) !important;
+}
+
 .destaque-parallax a:hover {
 	background-color: var(--fio-sys-color-primary-dark)!important;
+}
+
+.destaque-parallax .card p {
+	color:var(--fio-sys-color-primary-dark);
+	font-size: var(--fio-sys-typography-size-0);
 }
 

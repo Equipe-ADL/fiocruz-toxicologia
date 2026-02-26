@@ -208,5 +208,11 @@ const course = {
 				// { type: "link", icon: "closing", title: "Encerramento do módulo", path: "/modulo3/encerramento.html" }
 			],
 		},
+		{
+			type: "link",
+			title: "Encerramento do curso",
+			icon: "closing",
+			path: "/encerramento.html"
+		}
 	],
 };

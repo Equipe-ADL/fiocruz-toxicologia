@@ -194,9 +194,26 @@
 	color: #fff;
 	border: none;
 }
-#sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group .list-group-item::before {
+#sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group .list-group-item::before,
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item::before {
 	font-family: "Material Symbols Rounded";
 }
+
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item.module-link {
+    background: transparent;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+	border-radius: 8px;
+    font-family: var(--fio-sys-typography-family-primary-bold);
+}
+
+#sidebar .sidebar__section .sidebar__section-accordion a.list-group-item.active {
+	background-color: var(--_sidebar-module-btn--active);
+    color: var(--fio-sys-color-neutral-white);
+    line-height: var(--_sidebar-line-height);
+}
+
 #sidebar .sidebar__section .sidebar__section-accordion .accordion-body.list-group .list-group-item:hover {
 	background-color: var(--_sidebar-link-item--hover);
 	border-radius: 8px;

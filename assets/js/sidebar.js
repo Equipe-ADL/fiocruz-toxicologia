@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const iconClass = item.icon ? `icon-${item.icon}` : "";
           return `
             <a href="${getBasePath() + item.path}" 
-   class="list-group-item link-item ${iconClass} ${getCurrentPath() === getBasePath() + item.path ? "active" : ""}">
+  class="list-group-item link-item ${iconClass} ${getCurrentPath() === getBasePath() + item.path ? "active" : ""}">
   ${item.title}
 </a>
           `;
@@ -89,9 +89,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 </button>
               </h2>
               <div id="${accordionId}" 
-                   class="accordion-collapse collapse ${isActive ? "show" : ""
+                  class="accordion-collapse collapse ${isActive ? "show" : ""
             }"
-                   ${typeLevel === "lesson"
+                  ${typeLevel === "lesson"
               ? `data-bs-parent="#${parentId}"`
               : ""
             }>
@@ -137,6 +137,23 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="accordion" id="sidebarAccordion">
               ${course.modules
         .map((module, moduleIndex) => {
+          //const moduleId = `module-${moduleIndex}`;
+          //const isActive = hasActiveChild(module.items);
+          // 👉 CASO 1: módulo é LINK (ex: Encerramento do curso)
+          if (module.type === "link") {
+            const iconClass = module.icon ? `icon-${module.icon}` : "";
+            const fullPath = getBasePath() + module.path;
+
+            return `
+              <a href="${fullPath}"
+                class="list-group-item link-item module-link ${iconClass}
+                ${getCurrentPath() === fullPath ? "active" : ""}">
+                ${module.title}
+              </a>
+            `;
+          }
+
+          // 👉 CASO 2: módulo é ACCORDION (com items)
           const moduleId = `module-${moduleIndex}`;
           const isActive = hasActiveChild(module.items);
 
@@ -152,11 +169,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         </button>
                       </h2>
                       <div id="${moduleId}" 
-                           class="accordion-collapse collapse ${isActive ? "show" : ""
+                          class="accordion-collapse collapse ${isActive ? "show" : ""
             }" 
-                           data-bs-parent="#sidebarAccordion">
+                          data-bs-parent="#sidebarAccordion">
                         <div class="accordion-body list-group accordion" 
-                             id="${moduleId}-lessons">
+                            id="${moduleId}-lessons">
                           ${renderItems(
               module.items,
               `${moduleId}-lessons`,
