@@ -111,7 +111,7 @@ const course = {
 					type: "accordion",
 					title: "Aula 5 | Toxicologia Ocupacional",
 					items: [
-						{ type: "link", icon: "lesson", title: "Sobre estas aula", path: "/modulo2/aula5/sobre-aula.html" },
+						{ type: "link", icon: "lesson", title: "Sobre esta aula", path: "/modulo2/aula5/sobre-aula.html" },
 						{ type: "link", icon: "lesson", title: "Tópico 1: Toxicologia e ambientes de trabalho", path: "/modulo2/aula5/topico1.html" },
 						{ type: "link", icon: "lesson", title: "Tópico 2: Monitoramento da exposição ocupacional", path: "/modulo2/aula5/topico2.html" },
 						{ type: "link", icon: "lesson", title: "Tópico 3: Monitoramento ambiental (MA)", path: "/modulo2/aula5/topico3.html" },
